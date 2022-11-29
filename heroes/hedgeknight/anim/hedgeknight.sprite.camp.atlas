@@ -1,0 +1,55 @@
+
+hedgeknight.sprite.camp.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 161, 812
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+HedgeKnightCamp/Ebene_31_Kopie_3
+  rotate: false
+  xy: 1, 1
+  size: 370, 625
+  orig: 370, 625
+  offset: 0, 0
+  index: -1
+HedgeKnightCamp/Ebene_6
+  rotate: false
+  xy: 1, 628
+  size: 226, 182
+  orig: 226, 182
+  offset: 0, 0
+  index: -1
+HedgeKnightCamp/Ebene_2
+  rotate: false
+  xy: 520, 812
+  size: 143, 146
+  orig: 143, 146
+  offset: 0, 0
+  index: -1
+HedgeKnightCamp/Ebene_4
+  rotate: false
+  xy: 161, 877
+  size: 46, 127
+  orig: 46, 127
+  offset: 0, 0
+  index: -1
+HedgeKnightCamp/Ebene_5
+  rotate: false
+  xy: 209, 877
+  size: 36, 120
+  orig: 36, 120
+  offset: 0, 0
+  index: -1
+HedgeKnightCamp/Ebene_3
+  rotate: false
+  xy: 1, 812
+  size: 158, 186
+  orig: 158, 186
+  offset: 0, 0
+  index: -1

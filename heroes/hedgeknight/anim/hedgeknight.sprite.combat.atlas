@@ -1,0 +1,237 @@
+
+hedgeknight.sprite.combat.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 923
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_57
+  rotate: false
+  xy: 903, 1
+  size: 116, 202
+  orig: 116, 202
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_197
+  rotate: false
+  xy: 529, 123
+  size: 74, 50
+  orig: 74, 50
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_55
+  rotate: false
+  xy: 296, 516
+  size: 99, 152
+  orig: 99, 152
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_54
+  rotate: false
+  xy: 783, 1
+  size: 118, 201
+  orig: 118, 201
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_198
+  rotate: false
+  xy: 581, 591
+  size: 76, 62
+  orig: 76, 62
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_35
+  rotate: false
+  xy: 936, 205
+  size: 85, 149
+  orig: 85, 149
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_51
+  rotate: false
+  xy: 576, 868
+  size: 186, 141
+  orig: 186, 141
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_101
+  rotate: false
+  xy: 783, 205
+  size: 151, 154
+  orig: 151, 154
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_103
+  rotate: false
+  xy: 783, 361
+  size: 126, 147
+  orig: 126, 147
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_195
+  rotate: false
+  xy: 783, 538
+  size: 131, 126
+  orig: 131, 126
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_196
+  rotate: false
+  xy: 417, 380
+  size: 114, 126
+  orig: 114, 126
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_47
+  rotate: false
+  xy: 397, 516
+  size: 108, 134
+  orig: 108, 134
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_38
+  rotate: false
+  xy: 1, 699
+  size: 212, 222
+  orig: 212, 222
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_191
+  rotate: false
+  xy: 420, 699
+  size: 154, 247
+  orig: 154, 247
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_135
+  rotate: false
+  xy: 576, 699
+  size: 205, 167
+  orig: 205, 167
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_194
+  rotate: false
+  xy: 215, 699
+  size: 203, 194
+  orig: 203, 194
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_37
+  rotate: false
+  xy: 360, 948
+  size: 202, 75
+  orig: 202, 75
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_41
+  rotate: false
+  xy: 911, 361
+  size: 103, 175
+  orig: 103, 175
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_137
+  rotate: false
+  xy: 724, 1
+  size: 36, 120
+  orig: 36, 120
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_42
+  rotate: false
+  xy: 783, 777
+  size: 115, 89
+  orig: 115, 89
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_43
+  rotate: false
+  xy: 659, 591
+  size: 63, 70
+  orig: 63, 70
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_44
+  rotate: false
+  xy: 764, 868
+  size: 195, 132
+  orig: 195, 132
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_136
+  rotate: false
+  xy: 961, 864
+  size: 42, 130
+  orig: 42, 130
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatlargerlayer/Ebene_31_Kopie_3
+  rotate: false
+  xy: 1, 1
+  size: 293, 696
+  orig: 293, 696
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_46
+  rotate: false
+  xy: 783, 666
+  size: 147, 109
+  orig: 147, 109
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_10
+  rotate: false
+  xy: 507, 508
+  size: 98, 81
+  orig: 98, 81
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_48
+  rotate: false
+  xy: 916, 538
+  size: 93, 119
+  orig: 93, 119
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_49
+  rotate: false
+  xy: 507, 591
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_50
+  rotate: false
+  xy: 296, 380
+  size: 119, 134
+  orig: 119, 134
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_40
+  rotate: false
+  xy: 932, 659
+  size: 82, 73
+  orig: 82, 73
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatFinished/Ebene_39
+  rotate: false
+  xy: 900, 777
+  size: 102, 85
+  orig: 102, 85
+  offset: 0, 0
+  index: -1
+HedgeKnightCombatlargerlayer/Ebene_108
+  rotate: false
+  xy: 296, 1
+  size: 231, 377
+  orig: 231, 377
+  offset: 0, 0
+  index: -1

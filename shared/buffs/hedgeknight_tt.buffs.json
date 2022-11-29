@@ -1,0 +1,20 @@
+{
+   "buffs":
+   [
+   
+   {
+        "id" : "hedge_tooltip_skill_rule",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "",
+        "amount" : 0,
+        "remove_if_not_active" : false,
+        "rule_type" : "skill",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : "sas_tooltip"
+        }
+    }
+   
+	]
+}

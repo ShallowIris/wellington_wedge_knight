@@ -1,0 +1,13 @@
+
+hedgeknight.sprite.rising_cut.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HedgeKnightRisingCutFinished/Ebene_2
+  rotate: false
+  xy: 1, 1
+  size: 588, 543
+  orig: 588, 543
+  offset: 0, 0
+  index: -1

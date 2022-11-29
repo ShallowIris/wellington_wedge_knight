@@ -1,0 +1,41 @@
+
+hedgeknight.sprite.attack_wild_s.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 434, 772
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+HedgeKnightWilderSwing/Ebene_12
+  rotate: false
+  xy: 223, 772
+  size: 209, 212
+  orig: 209, 212
+  offset: 0, 0
+  index: -1
+HedgeKnightWilderSwing/Ebene_1
+  rotate: false
+  xy: 1, 1
+  size: 690, 458
+  orig: 690, 458
+  offset: 0, 0
+  index: -1
+HedgeKnightWilderSwing/Ebene_13
+  rotate: false
+  xy: 1, 772
+  size: 220, 215
+  orig: 220, 215
+  offset: 0, 0
+  index: -1
+HedgeKnightWilderSwing/Ebene_2
+  rotate: false
+  xy: 1, 461
+  size: 427, 309
+  orig: 427, 309
+  offset: 0, 0
+  index: -1

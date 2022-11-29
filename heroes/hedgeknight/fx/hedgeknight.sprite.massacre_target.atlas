@@ -1,0 +1,48 @@
+
+hedgeknight.sprite.massacre_target.png
+size: 256,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+massacre_target_fx/Ebene_2
+  rotate: false
+  xy: 1, 182
+  size: 123, 132
+  orig: 123, 132
+  offset: 0, 0
+  index: -1
+massacre_target_fx/Ebene_3
+  rotate: false
+  xy: 1, 1
+  size: 219, 179
+  orig: 219, 179
+  offset: 0, 0
+  index: -1
+massacre_target_fx/Ebene_4
+  rotate: false
+  xy: 126, 182
+  size: 127, 120
+  orig: 127, 120
+  offset: 0, 0
+  index: -1
+massacre_target_fx/Ebene 8 Kopie_0
+  rotate: false
+  xy: 1, 316
+  size: 110, 67
+  orig: 110, 67
+  offset: 0, 0
+  index: -1
+massacre_target_fx/Ebene_8_Kopie
+  rotate: false
+  xy: 126, 304
+  size: 79, 105
+  orig: 79, 105
+  offset: 0, 0
+  index: -1
+massacre_target_fx/Ebene_9_Kopie
+  rotate: false
+  xy: 1, 385
+  size: 53, 45
+  orig: 53, 45
+  offset: 0, 0
+  index: -1

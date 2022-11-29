@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+
+    <!-- Shared Tooltips -->
+	<entry id="str_skill_mode_info_hedgeknight_filler1"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+	<entry id="str_skill_mode_info_hedgeknight_filler2"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+
+    <!-- Quirks -->
+	
+    <!-- Narration Subtitles -->
+    <entry id="str_vo_town_recruit_hedgeknight_0"><![CDATA[A blundering mountain of hatred and rage.]]></entry>
+
+    <!-- Town Events -->
+
+    <!-- Estate Trainer Descriptions (Guild/Blacksmith/Camping) -->
+    <entry id="action_verbose_body_guild_hedgeknight"><![CDATA[Honor. Glory. The Hedge Knight suffers no such delusions. What makes a knight is killing, and years of bloodying his blade have made him an expert in the field. Free from the shackles of chivalry, the Hedge Knight is called upon for tasks his liege may deem "dishonorable". Disrupting the enemy lines with powerful blows, he grants his allies ample opportunity to strike and easily dispatches any stragglers in his wake. Woe to any who wound him enough to garner his attention.]]></entry>
+    <entry id="action_verbose_body_blacksmith_hedgeknight"><![CDATA[A mountain of steel and muscle, the Hedge Knight is a fearsome sight to behold in battle, and for many he was their last. Ironclad from head to foot, the ground he treads will give before he does. Shunning the vanity of the longsword, the Hedge Knight prefers instead the pragmatism of the battleaxe.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_hedgeknight"><![CDATA[Though years of bloodshed for his lord have made him a loyal and dependable tool of butchery, he is nonetheless unfit to live at court. Used to the life of a hedge-dwelling lone wolf, he is not one for speeches. Nevertheless, the troops require inspiration, and fear is just as good a tool as any other.]]></entry>
+
+    <!-- Blacksmith Equipment -->
+    <entry id="hedgeknight_weapon_0"><![CDATA[Splintered Hatchet]]></entry>
+    <entry id="hedgeknight_weapon_1"><![CDATA[Woodsman's Axe]]></entry>
+    <entry id="hedgeknight_weapon_2"><![CDATA[Fighting Axe]]></entry>
+    <entry id="hedgeknight_weapon_3"><![CDATA[Brigand's Axe]]></entry>
+    <entry id="hedgeknight_weapon_4"><![CDATA["The Mansplitter"]]></entry>
+    <entry id="upgrade_tree_name_hedgeknight.weapon"><![CDATA[Battleaxe]]></entry>
+    <entry id="hedgeknight_armour_0"><![CDATA[Broken Brigandine]]></entry>
+    <entry id="hedgeknight_armour_1"><![CDATA[Sturdy Brigandine]]></entry>
+    <entry id="hedgeknight_armour_2"><![CDATA[Steadfast Brigandine]]></entry>
+    <entry id="hedgeknight_armour_3"><![CDATA[Indomitable Brigandine]]></entry>
+    <entry id="hedgeknight_armour_4"><![CDATA["The Mountain"]]></entry>
+    <entry id="upgrade_tree_name_hedgeknight.armour"><![CDATA[Brigandine]]></entry>
+
+    <!-- Skills -->
+    <entry id="hero_class_name_hedgeknight"><![CDATA[Hedge Knight]]></entry>
+    <entry id="combat_skill_name_hedgeknight_splitman"><![CDATA[Split Man]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.splitman"><![CDATA[Split Man]]></entry>
+	<entry id="combat_skill_name_hedgeknight_roundswing"><![CDATA[Round Swing]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.roundswing"><![CDATA[Round Swing]]></entry>
+	<entry id="combat_skill_name_hedgeknight_make_way"><![CDATA[Make Way!]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.make_way"><![CDATA[Make Way!]]></entry>
+	<entry id="combat_skill_name_hedgeknight_indomitable"><![CDATA[Indomitable]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.indomitable"><![CDATA[Indomitable]]></entry>
+	<entry id="combat_skill_name_hedgeknight_pummel"><![CDATA[Pummel]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.pummel"><![CDATA[Pummel]]></entry>
+	<entry id="combat_skill_name_hedgeknight_splitshield"><![CDATA[Split Shield]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.splitshield"><![CDATA[Split Shield]]></entry>
+	<entry id="combat_skill_name_hedgeknight_dismember"><![CDATA[Massacre]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.dismember"><![CDATA[Massacre]]></entry>
+	<entry id="combat_skill_name_hedge_wild_swing"><![CDATA[Wild Swing]]></entry>
+
+    <!-- Camp Skills -->
+    <entry id="camping_skill_name_hedgeknight_lesson"><![CDATA[HARSH LESSON]]></entry>
+    <entry id="camping_skill_name_hedgeknight_executioner"><![CDATA[EXECUTIONER]]></entry>
+    <entry id="camping_skill_name_hedgeknight_fray"><![CDATA[INTO THE FRAY]]></entry>
+    <entry id="camping_skill_name_hedgeknight_revel_slaughter"><![CDATA[REVEL IN SLAUGHTER]]></entry>
+    <entry id="hedgeknight+str_bark_encourage"><![CDATA[Cheer up! Or else.]]></entry>
+    <entry id="hedgeknight+str_bark_encourage"><![CDATA[Aye, I've slept in more hedges than beds. Laugh all you want.]]></entry>
+    <entry id="hedgeknight+str_bark_first_aid"><![CDATA[Stop whinging, I'll soon have you patched up.]]></entry>
+    <entry id="hedgeknight+str_bark_first_aid"><![CDATA[Oh shut it, you'll live.]]></entry>
+    <entry id="hedgeknight+str_bark_pep_talk"><![CDATA[You're not the worst lot I've served with.]]></entry>
+    <entry id="hedgeknight+str_bark_pep_talk"><![CDATA[Maybe I'll make you my squire? How's that?]]></entry>
+    <entry id="str_bark_hedgeknight_lesson"><![CDATA[A proper beating will teach you to keep your guard up.]]></entry>
+    <entry id="str_bark_hedgeknight_lesson"><![CDATA[No, not like that you fool!]]></entry>
+    <entry id="str_bark_hedgeknight_lesson"><![CDATA[We'll be here all night if you don't man up!]]></entry>
+    <entry id="str_bark_hedgeknight_executioner"><![CDATA[I always go for the knees first, makes the follow-up easier.]]></entry>
+    <entry id="str_bark_hedgeknight_executioner"><![CDATA[A proper hemorrhaging does wonders.]]></entry>
+    <entry id="str_bark_hedgeknight_executioner"><![CDATA[One skull fracture is all it takes.]]></entry>
+    <entry id="str_bark_hedgeknight_fray"><![CDATA[You'll go low, I'll go high.]]></entry>
+    <entry id="str_bark_hedgeknight_fray"><![CDATA[They won't know what hit em.]]></entry>
+    <entry id="str_bark_hedgeknight_fray"><![CDATA[The faster we break their line, the sooner we can break the rest of them! Haha!]]></entry>
+    <entry id="str_bark_hedgeknight_revel_slaughter"><![CDATA[See this here ear? Took that from a snitch!]]></entry>
+    <entry id="str_bark_hedgeknight_revel_slaughter"><![CDATA[So, anyone else collecting trophies?]]></entry>
+    <entry id="str_bark_hedgeknight_revel_slaughter"><![CDATA[Morbid, yes, but these keepsakes make quite the impression.]]></entry>
+
+    <!-- Trinkets -->
+    <entry id="str_inventory_title_trinkethedgeknight_helmet_trinket"><![CDATA[Simon Strap]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_handaxe_trinket"><![CDATA[Handaxe]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_armor_trinket"><![CDATA[Dented Plackart]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_pole_axe_trinket_1"><![CDATA[Pollaxe]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_chaos_axe_trinket_1"><![CDATA[Chaos Axe]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_cc_trinket_1"><![CDATA[‎Old Company Standard]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_cc_trinket_2"><![CDATA[Bloodied Gauntlet]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_com_trinket"><![CDATA[Shattered Skull-Splitter]]></entry>
+	<entry id="str_inventory_set_title_hedgeknight_cc_set"><![CDATA["Bloodshed. My only ally."]]></entry>
+
+    <!-- Party names -->
+
+    <!-- Fan Favourite Barks -->
+    <entry id="hedgeknight+React_To_Kill_By_Fan_Favourite"><![CDATA[Hah! Split in twain like a log!]]></entry>
+	<entry id="hedgeknight+React_To_Kill_By_Fan_Favourite"><![CDATA[Bwahahaha!]]></entry>
+	<entry id="hedgeknight+React_To_Kill_By_Fan_Favourite"><![CDATA[Yes! Kill them dead!]]></entry>
+	<entry id="hedgeknight+React_To_Kill_By_Fan_Favourite"><![CDATA[Look at the muscle on you!]]></entry>
+	<entry id="hedgeknight+React_To_Kill_By_Fan_Favourite"><![CDATA[Was hoping you'd leave that one for me, hah!]]></entry>
+	<entry id="hedgeknight+React_To_Kill_By_Fan_Favourite"><![CDATA[Who can stand before our might?]]></entry>
+
+
+    <!-- Apostate's Apocryphal Texts -->
+    <entry id="hedgeknight+Apo_Apoc_Texts"><![CDATA[Good read, eh?]]></entry>
+	<entry id="hedgeknight+Apo_Apoc_Texts"><![CDATA[Bit o' off-brand preaching, yes?]]></entry>
+	<entry id="hedgeknight+Apo_Apoc_Texts"><![CDATA[Now this I like.]]></entry>
+
+    <!-- Town Barks -->
+    <entry id="hedgeknight+str_bar_committed"><![CDATA[Who do I have ta' gut for a drink?]]></entry>
+    <entry id="hedgeknight+str_bar_committed"><![CDATA[Aaaah... Now who's ready to have their face smashed in?]]></entry>
+    <entry id="hedgeknight+str_gambling_committed"><![CDATA[You cheat again and I'll be playing dice with your fingerbones!]]></entry>
+    <entry id="hedgeknight+str_gambling_committed"><![CDATA[Pah, I'd have prefered a brawl!]]></entry>
+    <entry id="hedgeknight+str_brothel_committed"><![CDATA[A "safe word"? What's that?]]></entry>
+    <entry id="hedgeknight+str_brothel_committed"><![CDATA[I don't usually get wrestled to the ground this easily.]]></entry>
+    <entry id="hedgeknight+str_treatment_committed"><![CDATA[You'll need something stronger than those straps to hold me.]]></entry>
+    <entry id="hedgeknight+str_treatment_committed"><![CDATA[Do not try my patience, or you'll be needing a doctor yourself]]></entry>
+    <entry id="hedgeknight+str_disease_treatment_committed"><![CDATA[Just a fleshwound, I can patch it up myself.]]></entry>
+    <entry id="hedgeknight+str_disease_treatment_committed"><![CDATA[I expect a return to form, woe to you if you fail me.]]></entry>
+    <entry id="hedgeknight+str_meditation_committed"><![CDATA[(gentle snoring)]]></entry>
+    <entry id="hedgeknight+str_meditation_committed"><![CDATA[A bit of boredom never hurts.]]></entry>
+    <entry id="hedgeknight+str_prayer_committed"><![CDATA[Health to us, and crippling sickness to our foes.]]></entry>
+    <entry id="hedgeknight+str_prayer_committed"><![CDATA[What were the words again?]]></entry>
+    <entry id="hedgeknight+str_flagellation_committed"><![CDATA[I shall calm myself in carnage]]></entry>
+    <entry id="hedgeknight+str_flagellation_committed"><![CDATA[A scarred body is a healthy body!]]></entry>
+    <entry id="hedgeknight+str_flagellation_committed"><![CDATA[What's one more wound?]]></entry>
+    <entry id="hedgeknight+str_roster_list_low_stress_bark"><![CDATA[Into the fray!]]></entry>
+    <entry id="hedgeknight+str_roster_list_medium_stress_bark"><![CDATA[That last bout was exhilarating!]]></entry>
+    <entry id="hedgeknight+str_roster_list_high_stress_bark"><![CDATA[Ah... I admit I could use a drink.]]></entry>
+
+    <!-- Crit Barks -->
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[Another one for the ox cart!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[No Mercy!]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[Right in the kisser!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[Today is a fine day for slaughter!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[Any other bleeders wanna test their luck?]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[Kill them where they stand!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[I'll grind you into the mud!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[Split in twain!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[What easy targets you make!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[Your corpse will feed the ground!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[Hah! Another for the cart!]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[Hah! More than you bargained for?]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[Know your place, cur!]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[You bleed like stuck pigs!]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[Hahahahaaa!]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[Bleed, wretch!]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[(spits)]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[Blood is my paint, and the land is my canvas!]]></entry>
+
+    <!-- Death's Door Barks -->
+    <entry id="hedgeknight+str_bark_deathsdoor"><![CDATA[Like the bite of a flea!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoor"><![CDATA[Come! Finish me if you dare!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoor"><![CDATA[Argh, alright, come on then!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoor"><![CDATA[Didn't feel a thing. *gasp*]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoor"><![CDATA[Tis but a scratch! *cough*]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoor"><![CDATA[Come on, give it your best shot!]]></entry>
+	<entry id="hedgeknight+str_bark_deathsdoor"><![CDATA[Hit me! HIT ME!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive"><![CDATA[I'm still standing! Do it proper!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive"><![CDATA[You'll have to try harder than that!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive"><![CDATA[Like the bite of a flea!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive"><![CDATA[Hah! My turn!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive"><![CDATA[Care for another shot? You won't get one!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoor_ally"><![CDATA[Eyes forward, we have a job to do.]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoor_ally"><![CDATA[You have some fight in you yet!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive_ally"><![CDATA[And I was just about to start looting you.]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive_ally"><![CDATA[Haha, looks to be an equal share after all.]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive_ally"><![CDATA[What, you're still standing?]]></entry>
+	<entry id="hedgeknight+str_bark_deathsdoorsurvive_ally"><![CDATA[Good to have you back.]]></entry>
+
+    <!-- Misc Barks -->
+    <entry id="hedgeknight+str_combat_knockback"><![CDATA[That your best?]]></entry>
+    <entry id="hedgeknight+str_combat_knockback"><![CDATA[Won't stop me from gutting ye!]]></entry>
+    <entry id="hedgeknight+str_combat_knockback"><![CDATA[Putting distance between us. Smart.]]></entry>
+    <entry id="hedgeknight+str_combat_wastingtime"><![CDATA[I tire of these wretches.]]></entry>
+    <entry id="hedgeknight+str_combat_wastingtime"><![CDATA[Gut them, loot them and move on.]]></entry>
+    <entry id="hedgeknight+str_bark_startmoving"><![CDATA[Let's find us some victims.]]></entry>
+    <entry id="hedgeknight+str_bark_startmoving"><![CDATA[Right, onto the next one.]]></entry>
+    <entry id="hedgeknight+str_bark_startmoving"><![CDATA[Onward.]]></entry>
+    <entry id="hedgeknight+str_bark_stopmoving"><![CDATA[Halt, curs!]]></entry>
+    <entry id="hedgeknight+str_bark_stopmoving"><![CDATA[Give me a moment, my armor is chafing.]]></entry>
+    <entry id="hedgeknight+str_bark_backingup"><![CDATA[Step on my foot again and it'll be the last step you take.]]></entry>
+    <entry id="hedgeknight+str_bark_backingup"><![CDATA[Lay a hand on me again and you lose the hand.]]></entry>
+    <entry id="hedgeknight+str_bark_poisondot"><![CDATA[A slow death? A nuisance at best.]]></entry>
+    <entry id="hedgeknight+str_bark_poisondot"><![CDATA[Dirty tricks will just have you eating dirt yourself!]]></entry>
+    <entry id="hedgeknight+str_bark_poisondot"><![CDATA[Poison? A peasant's tool.]]></entry>
+    <entry id="hedgeknight+str_bark_poisondot"><![CDATA[You'll be choking on that venom soon enough!]]></entry>
+    <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[Yes, now I'm awake!]]></entry>
+    <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[Blood? My blood?]]></entry>
+    <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[Argh, a mere fleshwound!]]></entry>
+    <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[This blood shall not be the last!]]></entry>
+    <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[I'll bleed you dry in turn!]]></entry>
+    <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[I got more than a few drops to spar.!]]></entry>
+
+    <!-- Receiving Damage Barks -->
+    <entry id="hedgeknight+str_bark_bigwound"><![CDATA[Come, strike me down if you can!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound"><![CDATA[Do your worst!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound"><![CDATA[(growls) I'll gut you like a dog!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound"><![CDATA[I've had worse!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound"><![CDATA[Tis but a scratch!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound"><![CDATA[Pain? I'll give you pain!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound"><![CDATA[I'm not finished with you yet!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound_ally"><![CDATA[Pull yourself together!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound_ally"><![CDATA[Need a hand?]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound_ally"><![CDATA[Does it hurt? Good.]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound_ally"><![CDATA[Need someone to stitch your leg back on?]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound_ally"><![CDATA[No!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound_ally"><![CDATA[Steady yourself, it'd be dull without ye!]]></entry>
+
+    <!-- Stress Barks -->
+    <entry id="hedgeknight+str_bark_increasingstress"><![CDATA[What am I doing...]]></entry>
+    <entry id="hedgeknight+str_bark_increasingstress"><![CDATA[C-Can't breathe.]]></entry>
+    <entry id="hedgeknight+str_bark_increasingstress"><![CDATA[(breathes heavily)]]></entry>
+    <entry id="hedgeknight+str_bark_increasingstress"><![CDATA[T-To the death!]]></entry>
+    <entry id="hedgeknight+str_bark_increasingstress"><![CDATA[Bloody bleeders!]]></entry>
+    <entry id="hedgeknight+str_bark_increasingstress"><![CDATA[Fark, we're done for!]]></entry>
+    <entry id="hedgeknight+str_bark_increasingstress"><![CDATA[N-No... Not yet...]]></entry>
+
+    <!-- Enemy Attack Barks -->
+    <entry id="hedgeknight+str_monster_user_selected_targets_kill_pill"><![CDATA[As good an end as any other. (spits)]]></entry>
+    <entry id="hedgeknight+str_monster_attack_unholy_curse"><![CDATA[Trampled by my own on the battlefield!]]></entry>
+    <entry id="hedgeknight+str_monster_attack_unholy_curse"><![CDATA[I shan't meekly wither away!]]></entry>
+    <entry id="hedgeknight+str_monster_attack_prophet_mark"><![CDATA[What are you gonna do, old man? Bleed on me?]]></entry>
+    <entry id="hedgeknight+str_monster_attack_prophet_mark"><![CDATA[Come on then, you old wretch!]]></entry>
+
+
+    <!-- Affliction -->
+    <entry id="str_affliction_name_hedgeknight_barbaric"><![CDATA[Barbaric]]></entry>
+    <entry id="str_afflicted_hedgeknight_barbaric"><![CDATA[I yield to none!]]></entry>
+    <entry id="str_afflicted_hedgeknight_barbaric"><![CDATA[RAAAAAAAAH!]]></entry>
+    <entry id="str_roster_list_hedgeknight_barbaric_bark"><![CDATA[Let me at them!]]></entry>
+    <entry id="str_roster_list_hedgeknight_barbaric_bark"><![CDATA[I'll tear them limb from limb!]]></entry>
+    <entry id="str_heart_attack_hedgeknight_barbaric"><![CDATA[I'LL CRUSH YOUR SKULLS, YOU HEAR ME?! I'LL CR...]]></entry>
+
+    <entry id="str_bark_stress_hedgeknight_barbaric"><![CDATA[You know you're going home on an ox cart, right?]]></entry>
+    <entry id="str_bark_stress_hedgeknight_barbaric"><![CDATA[You daft serfs just get in the way!]]></entry>
+    <entry id="str_bark_stress_hedgeknight_barbaric"><![CDATA[You sorry lot fight like pregnant cows!]]></entry>
+    <entry id="str_bark_stress_hedgeknight_barbaric"><![CDATA[Hah! To the finish then!]]></entry>
+
+    <entry id="str_bark_stress_camp_hedgeknight_barbaric"><![CDATA[You know you're going home on an ox cart, right?]]></entry>
+    <entry id="str_bark_stress_camp_hedgeknight_barbaric"><![CDATA[You daft serfs just get in the way!]]></entry>
+    <entry id="str_bark_stress_camp_hedgeknight_barbaric"><![CDATA[You sorry lot fight like pregnant cows!]]></entry>
+    <entry id="str_bark_stress_camp_hedgeknight_barbaric"><![CDATA[Hah! To the finish then!]]></entry>
+
+    <entry id="str_random_command_hedgeknight_barbaric"><![CDATA[I DO WHAT I WANT!]]></entry>
+    <entry id="str_random_command_hedgeknight_barbaric"><![CDATA[I heed not the words of lords!]]></entry>
+    <entry id="str_random_command_hedgeknight_barbaric"><![CDATA[Of course, milord! Want some raspberries with that too?]]></entry>
+    <entry id="str_random_command_hedgeknight_barbaric"><![CDATA[Shove it.]]></entry>
+    <entry id="str_random_command_hedgeknight_barbaric"><![CDATA[Am I the only one who knows how to fight around here?!]]></entry>
+
+    <entry id="str_attack_friendly_hedgeknight_barbaric"><![CDATA[Make way!]]></entry>
+    <entry id="str_attack_friendly_hedgeknight_barbaric"><![CDATA[Every man for himself!]]></entry>
+    <entry id="str_attack_friendly_hedgeknight_barbaric"><![CDATA[Two for flinchin'!]]></entry>
+    <entry id="str_attack_friendly_hedgeknight_barbaric"><![CDATA[I'll bite yer legs off!]]></entry>
+	
+	<entry id="str_mark_self_hedgeknight_barbaric"><![CDATA[Hit me! COME ON!!]]></entry>
+	<entry id="str_mark_self_hedgeknight_barbaric"><![CDATA[HAHAHA! GIVE IT YOUR BEST SHOT!!]]></entry>
+	
+	<entry id="str_heal_self_hedgeknight_barbaric"><![CDATA[Let me show you weak-willed maggots how it's done!]]></entry>
+	<entry id="str_heal_self_hedgeknight_barbaric"><![CDATA[You're all unfit to claim my head!]]></entry>
+
+    <entry id="str_buff_random_party_member_hedgeknight_barbaric"><![CDATA[Carve em up!]]></entry>
+	<entry id="str_buff_random_party_member_hedgeknight_barbaric"><![CDATA[Smash em in!]]></entry>
+	<entry id="str_buff_random_party_member_hedgeknight_barbaric"><![CDATA[Stick em or I stick you!]]></entry>
+	<entry id="str_buff_random_party_member_hedgeknight_barbaric"><![CDATA[Kill them where they stand!]]></entry>
+
+    <entry id="str_block_move_hedgeknight_barbaric"><![CDATA[Touch me again and you lose the hand!]]></entry>
+    <entry id="str_block_move_hedgeknight_barbaric"><![CDATA[Stand and fight, dastard!]]></entry>
+    <entry id="str_block_move_hedgeknight_barbaric"><![CDATA[You will hold or you will die!]]></entry>
+
+    <entry id="str_block_combat_retreat_hedgeknight_barbaric"><![CDATA[Victory or death!]]></entry>
+    <entry id="str_block_combat_retreat_hedgeknight_barbaric"><![CDATA[Hold the line or die trying!]]></entry>
+    <entry id="str_block_combat_retreat_hedgeknight_barbaric"><![CDATA[There's no glory in a retreat!]]></entry>
+
+    <entry id="str_comment_self_hit_hedgeknight_barbaric"><![CDATA[Again! AGAIN!]]></entry>
+    <entry id="str_comment_self_hit_hedgeknight_barbaric"><![CDATA[Pain? I'll give you pain!]]></entry>
+    <entry id="str_comment_self_hit_hedgeknight_barbaric"><![CDATA[Finally a proper bout!]]></entry>
+    <entry id="str_comment_self_hit_hedgeknight_barbaric"><![CDATA[I'll tear you limb from limb!]]></entry>
+    <entry id="str_comment_self_hit_hedgeknight_barbaric"><![CDATA[I'll break your nose, and then the rest of you!]]></entry>
+
+    <entry id="str_comment_ally_attack_missed_hedgeknight_barbaric"><![CDATA[I know you're daft, but are you blind too?!]]></entry>
+	<entry id="str_comment_ally_attack_missed_hedgeknight_barbaric"><![CDATA[Did they not cover winning in basic training?]]></entry>
+	<entry id="str_comment_ally_attack_missed_hedgeknight_barbaric"><![CDATA[I've known serfs who swung better than you!]]></entry>
+	<entry id="str_comment_ally_attack_missed_hedgeknight_barbaric"><![CDATA[Best let the real men handle this.]]></entry>
+
+  </language>
+</root>

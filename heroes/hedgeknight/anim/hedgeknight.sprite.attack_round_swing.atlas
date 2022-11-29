@@ -1,0 +1,55 @@
+
+hedgeknight.sprite.attack_round_swing.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 865
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+HedgeKnightDismember/Ebene_3
+  rotate: false
+  xy: 368, 518
+  size: 230, 269
+  orig: 230, 269
+  offset: 0, 0
+  index: -1
+HedgeKnightDismember/Ebene_17
+  rotate: false
+  xy: 572, 789
+  size: 205, 171
+  orig: 205, 171
+  offset: 0, 0
+  index: -1
+HedgeKnightDismember/Ebene_19
+  rotate: false
+  xy: 368, 789
+  size: 202, 212
+  orig: 202, 212
+  offset: 0, 0
+  index: -1
+HedgeKnightDismember/Ebene_5_Kopie
+  rotate: false
+  xy: 1, 518
+  size: 365, 345
+  orig: 365, 345
+  offset: 0, 0
+  index: -1
+HedgeKnightDismember/Ebene_18
+  rotate: false
+  xy: 440, 1
+  size: 170, 248
+  orig: 170, 248
+  offset: 0, 0
+  index: -1
+HedgeKnightDismember/Ebene_33_Kopie
+  rotate: false
+  xy: 1, 1
+  size: 437, 515
+  orig: 437, 515
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+
+hedgeknight.sprite.investigate.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 844
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+HedgeKnightInvestigateFinished/Ebene_6
+  rotate: false
+  xy: 206, 602
+  size: 133, 240
+  orig: 133, 240
+  offset: 0, 0
+  index: -1
+HedgeKnightInvestigateFinished/Ebene_5
+  rotate: false
+  xy: 1, 1
+  size: 473, 599
+  orig: 473, 599
+  offset: 0, 0
+  index: -1
+HedgeKnightInvestigateFinished/Ebene_7
+  rotate: false
+  xy: 1, 602
+  size: 203, 204
+  orig: 203, 204
+  offset: 0, 0
+  index: -1

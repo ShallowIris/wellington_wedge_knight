@@ -1,0 +1,192 @@
+resistances: .stun 40% .poison 20% .bleed 25% .disease 30% .move 45% .debuff 40% .death_blow 67% .trap 10%
+crit: .effects "hedgeknight_on_crit"
+
+hp_reaction: .hp_ratio 0.40 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.39 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.38 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.37 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.36 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.35 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.34 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.33 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.32 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.31 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.30 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.29 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.28 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.27 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.26 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.25 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.24 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.23 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.22 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.21 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.20 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.19 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.18 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.17 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.16 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.15 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.14 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.13 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.12 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.11 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.10 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.09 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.08 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.07 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.06 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.05 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.04 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.03 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.02 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.01 .is_under true .effects "hedgeknight_clear_riposte" "hedgeknight_wounded_riposte" "hedgeknight_indomitable_dmg_lowhp"
+hp_reaction: .hp_ratio 0.40 .is_under false .effects "hedgeknight_clear_riposte"
+
+hp_reaction: .hp_ratio 0.99 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.99 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.97 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.96 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.95 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.94 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.93 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.92 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.91 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.90 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.89 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.88 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.87 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.86 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.85 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.84 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.83 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.82 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.81 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.80 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.79 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.78 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.77 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.76 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.75 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.74 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.73 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.72 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.71 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.70 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.69 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.68 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.67 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.66 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.65 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.64 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.63 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.62 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.61 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.60 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.59 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.58 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.57 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.56 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.55 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.54 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.53 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.52 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.51 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.50 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.49 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.48 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.47 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.46 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.45 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.44 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.43 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.42 .is_under true .effects "hedgeknight_indomitable_dmg"
+hp_reaction: .hp_ratio 0.41 .is_under true .effects "hedgeknight_indomitable_dmg"
+
+
+weapon: .name "hedgeknight_weapon_0" .atk 0% .dmg 6 12 .crit 2% .spd 0
+weapon: .name "hedgeknight_weapon_1" .atk 0% .dmg 7 14 .crit 3% .spd 0 .upgradeRequirementCode 0
+weapon: .name "hedgeknight_weapon_2" .atk 0% .dmg 8 16 .crit 4% .spd 1 .upgradeRequirementCode 1
+weapon: .name "hedgeknight_weapon_3" .atk 0% .dmg 9 17 .crit 5% .spd 1 .upgradeRequirementCode 2
+weapon: .name "hedgeknight_weapon_4" .atk 0% .dmg 10 19 .crit 6% .spd 2 .upgradeRequirementCode 3
+armour: .name "hedgeknight_armour_0" .def 0% .prot 0 .hp 31 .spd 0
+armour: .name "hedgeknight_armour_1" .def 5% .prot 0 .hp 37 .spd 0 .upgradeRequirementCode 0
+armour: .name "hedgeknight_armour_2" .def 10% .prot 0 .hp 43 .spd 0 .upgradeRequirementCode 1
+armour: .name "hedgeknight_armour_3" .def 15% .prot 0 .hp 49 .spd 0 .upgradeRequirementCode 2
+armour: .name "hedgeknight_armour_4" .def 20% .prot 0 .hp 55 .spd 0 .upgradeRequirementCode 3
+
+
+combat_skill: .id "splitman" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .generation_guaranteed true 
+combat_skill: .id "splitman" .level 0 .valid_modes hedgeknight_splitman_tt1 hedgeknight_splitman_tt2
+combat_skill: .id "splitman" .level 0 .valid_modes normal .normal_effects "hedgeknight_splitman_dmghuman_1" "hedgeknight_splitman_crit_1"  
+combat_skill: .id "splitman" .level 0 .valid_modes indomitable .indomitable_effects "hedgeknight_splitman_dmghuman_1" "hedgeknight_splitman_crit_1"  
+
+combat_skill: .id "splitman" .level 1 .type "melee" .atk 90% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True  .normal_effects "hedgeknight_splitman_dmghuman_2" "hedgeknight_splitman_crit_2"  .valid_modes normal indomitable
+combat_skill: .id "splitman" .level 2 .type "melee" .atk 95% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True  .normal_effects "hedgeknight_splitman_dmghuman_3" "hedgeknight_splitman_crit_3"  .valid_modes normal indomitable
+combat_skill: .id "splitman" .level 3 .type "melee" .atk 100% .dmg 0% .crit 5% .launch 21 .target 12 .is_crit_valid True  .normal_effects "hedgeknight_splitman_dmghuman_4" "hedgeknight_splitman_crit_4"  .valid_modes normal indomitable
+combat_skill: .id "splitman" .level 4 .type "melee" .atk 105% .dmg 0% .crit 6% .launch 21 .target 12 .is_crit_valid True  .normal_effects "hedgeknight_splitman_dmghuman_5" "hedgeknight_splitman_crit_5"  .valid_modes normal indomitable
+
+
+combat_skill: .id "roundswing" .level 0 .type "melee" .atk 85% .dmg -40% .crit -4% .launch 21 .target ~12 .is_crit_valid True .valid_modes normal indomitable .effect "hedgeknight_roundswing_crit_wounded" "hedgeknight_roundswing_armor_piercing_wounded_1" 
+combat_skill: .id "roundswing" .level 1 .type "melee" .atk 90% .dmg -40% .crit -3% .launch 21 .target ~12 .is_crit_valid True .valid_modes normal indomitable .effect "hedgeknight_roundswing_crit_wounded" "hedgeknight_roundswing_armor_piercing_wounded_1" 
+combat_skill: .id "roundswing" .level 2 .type "melee" .atk 95% .dmg -40% .crit -2% .launch 21 .target ~12 .is_crit_valid True .valid_modes normal indomitable .effect "hedgeknight_roundswing_crit_wounded" "hedgeknight_roundswing_armor_piercing_wounded_1" 
+combat_skill: .id "roundswing" .level 3 .type "melee" .atk 100% .dmg -40% .crit -1% .launch 21 .target ~12 .is_crit_valid True .valid_modes normal indomitable .effect "hedgeknight_roundswing_crit_wounded" "hedgeknight_roundswing_armor_piercing_wounded_1" 
+combat_skill: .id "roundswing" .level 4 .type "melee" .atk 105% .dmg -40% .crit 0% .launch 21 .target ~12 .is_crit_valid True .valid_modes normal indomitable .effect "hedgeknight_roundswing_crit_wounded" "hedgeknight_roundswing_armor_piercing_wounded_1" 
+
+
+combat_skill: .id "splitshield" .level 0 .type "melee" .atk 85% .dmg 0% .crit 6.5% .launch 12 .target 12 .is_crit_valid True  .effect "hedgeknight_splitshield_crit_1" "hedgeknight_splitshield_disableguard" "hedgeknight_splitshield_protdebuff_1"  .valid_modes normal indomitable
+combat_skill: .id "splitshield" .level 1 .type "melee" .atk 90% .dmg 0% .crit 7.5% .launch 12 .target 12 .is_crit_valid True  .effect "hedgeknight_splitshield_crit_1" "hedgeknight_splitshield_disableguard" "hedgeknight_splitshield_protdebuff_2"  .valid_modes normal indomitable
+combat_skill: .id "splitshield" .level 2 .type "melee" .atk 95% .dmg 0% .crit 8.5% .launch 12 .target 12 .is_crit_valid True  .effect "hedgeknight_splitshield_crit_1" "hedgeknight_splitshield_disableguard" "hedgeknight_splitshield_protdebuff_3"  .valid_modes normal indomitable
+combat_skill: .id "splitshield" .level 3 .type "melee" .atk 100% .dmg 0% .crit 9.5% .launch 12 .target 12 .is_crit_valid True  .effect "hedgeknight_splitshield_crit_1" "hedgeknight_splitshield_disableguard" "hedgeknight_splitshield_protdebuff_4"  .valid_modes normal indomitable
+combat_skill: .id "splitshield" .level 4 .type "melee" .atk 105% .dmg 0% .crit 10.5% .launch 12 .target 12 .is_crit_valid True  .effect "hedgeknight_splitshield_crit_1" "hedgeknight_splitshield_disableguard" "hedgeknight_splitshield_protdebuff_5"  .valid_modes normal indomitable
+
+
+combat_skill: .id "pummel" .level 0 .type "melee" .atk 90% .dmg -50% .crit 0% .launch 12 .target 12 .is_crit_valid True .can_be_riposted false .effect "hedgeknight_pummel_stun_1"  .valid_modes normal indomitable
+combat_skill: .id "pummel" .level 1 .type "melee" .atk 90% .dmg -50% .crit 0% .launch 12 .target 12 .is_crit_valid True .can_be_riposted false .effect "hedgeknight_pummel_stun_2"  .valid_modes normal indomitable
+combat_skill: .id "pummel" .level 2 .type "melee" .atk 90% .dmg -50% .crit 0% .launch 12 .target 12 .is_crit_valid True .can_be_riposted false .effect "hedgeknight_pummel_stun_3"  .valid_modes normal indomitable
+combat_skill: .id "pummel" .level 3 .type "melee" .atk 90% .dmg -50% .crit 0% .launch 12 .target 12 .is_crit_valid True .can_be_riposted false .effect "hedgeknight_pummel_stun_4"  .valid_modes normal indomitable
+combat_skill: .id "pummel" .level 4 .type "melee" .atk 90% .dmg -50% .crit 0% .launch 12 .target 12 .is_crit_valid True .can_be_riposted false .effect "hedgeknight_pummel_stun_5"  .valid_modes normal indomitable
+
+
+combat_skill: .id "dismember" .level 0 .type "melee" .launch 12 .atk 85% .dmg -55% .target ~23  .valid_modes normal indomitable .effect "hedgeknight_dismember_dmg_1" "hedgeknight_dismember_bleed_1"
+combat_skill: .id "dismember" .level 1 .type "melee" .launch 12 .atk 90% .dmg -55% .target ~23  .valid_modes normal indomitable .effect "hedgeknight_dismember_dmg_2" "hedgeknight_dismember_bleed_2"
+combat_skill: .id "dismember" .level 2 .type "melee" .launch 12 .atk 95% .dmg -55% .target ~23  .valid_modes normal indomitable .effect "hedgeknight_dismember_dmg_3" "hedgeknight_dismember_bleed_3"
+combat_skill: .id "dismember" .level 3 .type "melee" .launch 12 .atk 100% .dmg -55% .target ~23  .valid_modes normal indomitable .effect "hedgeknight_dismember_dmg_4" "hedgeknight_dismember_bleed_4"
+combat_skill: .id "dismember" .level 4 .type "melee" .launch 12 .atk 105% .dmg -55% .target ~23  .valid_modes normal indomitable .effect "hedgeknight_dismember_dmg_5" "hedgeknight_dismember_bleed_5"
+
+
+combat_skill: .id "make_way" .level 0 .type "melee" .atk 90% .dmg -40% .crit 6.5% .launch 4 .target ~12 .move 0 2 .is_crit_valid True  .effect "hedgeknight_charge_stun_1" "hedgeknight_charge_shuffle_1" "hedgeknight_charge_stun_large_effect" "hedgeknight_charge_spd_1" .valid_modes normal indomitable
+combat_skill: .id "make_way" .level 1 .type "melee" .atk 95% .dmg -40% .crit 7.5% .launch 4 .target ~12 .move 0 2 .is_crit_valid True  .effect "hedgeknight_charge_stun_2" "hedgeknight_charge_shuffle_2" "hedgeknight_charge_stun_large_effect" "hedgeknight_charge_spd_2" .valid_modes normal indomitable
+combat_skill: .id "make_way" .level 2 .type "melee" .atk 100% .dmg -40% .crit 8.5% .launch 4 .target ~12 .move 0 2 .is_crit_valid True  .effect "hedgeknight_charge_stun_3" "hedgeknight_charge_shuffle_3" "hedgeknight_charge_stun_large_effect" "hedgeknight_charge_spd_3" .valid_modes normal indomitable
+combat_skill: .id "make_way" .level 3 .type "melee" .atk 105% .dmg -40% .crit 9.5% .launch 4 .target ~12 .move 0 2 .is_crit_valid True  .effect "hedgeknight_charge_stun_4" "hedgeknight_charge_shuffle_4" "hedgeknight_charge_stun_large_effect" "hedgeknight_charge_spd_4" .valid_modes normal indomitable
+combat_skill: .id "make_way" .level 4 .type "melee" .atk 110% .dmg -40% .crit 10.5% .launch 4 .target ~12 .move 0 2 .is_crit_valid True  .effect "hedgeknight_charge_stun_5" "hedgeknight_charge_shuffle_5" "hedgeknight_charge_stun_large_effect" "hedgeknight_charge_spd_5" .valid_modes normal indomitable
+
+combat_skill: .id "indomitable" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 21 .target  .is_crit_valid True  .is_stall_invalidating false .valid_modes normal indomitable  .effect "hedgeknight_switch_mode_indomitable" "hedgeknight_indomitable_stun_res_1" "hedgeknight_indomitable_debuff_res_1" "hedgeknight_indomitable_dodge_1" "hedgeknight_indomitable_heal_1"
+combat_skill: .id "indomitable" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 21 .target  .is_crit_valid True  .is_stall_invalidating false .valid_modes normal indomitable  .effect "hedgeknight_switch_mode_indomitable" "hedgeknight_indomitable_stun_res_2" "hedgeknight_indomitable_debuff_res_2" "hedgeknight_indomitable_dodge_1" "hedgeknight_indomitable_heal_1"
+combat_skill: .id "indomitable" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 21 .target  .is_crit_valid True  .is_stall_invalidating false .valid_modes normal indomitable  .effect "hedgeknight_switch_mode_indomitable" "hedgeknight_indomitable_stun_res_3" "hedgeknight_indomitable_debuff_res_3" "hedgeknight_indomitable_dodge_1" "hedgeknight_indomitable_heal_3"
+combat_skill: .id "indomitable" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 21 .target  .is_crit_valid True  .is_stall_invalidating false .valid_modes normal indomitable  .effect "hedgeknight_switch_mode_indomitable" "hedgeknight_indomitable_stun_res_4" "hedgeknight_indomitable_debuff_res_4" "hedgeknight_indomitable_dodge_1" "hedgeknight_indomitable_heal_3"
+combat_skill: .id "indomitable" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 21 .target  .is_crit_valid True  .is_stall_invalidating false .valid_modes normal indomitable  .effect "hedgeknight_switch_mode_indomitable" "hedgeknight_indomitable_stun_res_5" "hedgeknight_indomitable_debuff_res_5" "hedgeknight_indomitable_dodge_1" "hedgeknight_indomitable_heal_5"
+
+
+combat_move_skill: .id "hedge_wild_swing" .level 0 .type "melee" .atk 75% .dmg -15% .move 0 1 .launch 4321 .target 123 .ignore_guard .ignore_stealth .valid_modes normal indomitable .effect "hedgeknight_wildswing_randomtarget"
+
+
+riposte_skill: .id "hedgeknight_riposte" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 1234 .target 1234 .is_crit_valid true
+
+
+tag: .id "heavy"
+tag: .id "non-religious"
+tag: .id "training_ring"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 1
+id_index: .index 29072001
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+overstressed_modifier: .override_trait_type_ids hedgeknight_barbaric     .override_trait_type_chances 1
+quirk_modifier: .incompatible_class_ids irrepressible mercurial hippocratic bad_healer fast_healer stout gift_of_the_healer
+
+mode: .id hedgeknight_splitman_tt1 .is_raid_default false
+mode: .id hedgeknight_splitman_tt2 .is_raid_default false
+mode: .id normal .is_raid_default true
+mode: .id indomitable .is_raid_default true .battle_complete_combat_skill_id indomitable
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0

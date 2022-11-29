@@ -1,0 +1,13 @@
+
+hedgeknight.sprite.dismember.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HedgeKnightDismember/even_more_red
+  rotate: false
+  xy: 1, 1
+  size: 323, 770
+  orig: 323, 770
+  offset: 0, 0
+  index: -1

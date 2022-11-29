@@ -1,0 +1,26 @@
+commonfx: .deathfx death_medium
+
+weapon: .name "hedgeknight_weapon_0" .icon "eqp_weapon_0.png"
+weapon: .name "hedgeknight_weapon_1" .icon "eqp_weapon_1.png"
+weapon: .name "hedgeknight_weapon_2" .icon "eqp_weapon_2.png"
+weapon: .name "hedgeknight_weapon_3" .icon "eqp_weapon_3.png"
+weapon: .name "hedgeknight_weapon_4" .icon "eqp_weapon_4.png"
+
+armour: .name "hedgeknight_armour_0" .icon "eqp_armour_0.png"
+armour: .name "hedgeknight_armour_1" .icon "eqp_armour_1.png"
+armour: .name "hedgeknight_armour_2" .icon "eqp_armour_2.png"
+armour: .name "hedgeknight_armour_3" .icon "eqp_armour_3.png"
+armour: .name "hedgeknight_armour_4" .icon "eqp_armour_4.png"
+
+combat_skill: .id "splitman" .icon "one" .anim "attack_split_shield" .fx "split_man" .targchestfx "blood_splatter"
+combat_skill: .id "roundswing" .icon "two" .anim "attack_round_swing" .fx "round_swing" .targchestfx "blood_splatter"
+combat_skill: .id "splitshield" .icon "three" .anim "attack_split_shield" .targchestfx "split_shield_target" .can_display_performer_selection_after_turn false
+combat_skill: .id "pummel" .icon "four" .anim "attack_bash"
+combat_skill: .id "dismember" .icon "five" .anim "attack_round_swing" .fx "round_swing" .targchestfx "massacre_target"
+combat_skill: .id "make_way" .icon "six" .anim "attack_bash" .fx "bash" 
+combat_skill: .id "indomitable" .icon "seven" .anim "attack_yell" .fx "yell"
+				
+combat_move_skill: .id "move" .icon "move" .anim "attack_wild_s" .fx "wild_swing"
+riposte_skill: .id "hedgeknight_riposte" .anim "attack_split_shield" .fx "split_man" .targchestfx "blood_splatter"
+
+act_out_display: .attack_friendly_anim "attack_split_shield" .attack_friendly_fx "split_man" .attack_friendly_targchestfx "blood_splatter" .attack_friendly_sfx "/char/ally/hedgeknight_splitman"

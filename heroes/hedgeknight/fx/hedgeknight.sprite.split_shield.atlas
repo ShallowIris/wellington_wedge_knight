@@ -1,0 +1,13 @@
+
+hedgeknight.sprite.split_shield.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HedgeKnightSplitMan/fx
+  rotate: false
+  xy: 1, 1
+  size: 328, 645
+  orig: 328, 645
+  offset: 0, 0
+  index: -1

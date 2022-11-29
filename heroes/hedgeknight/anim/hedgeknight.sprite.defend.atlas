@@ -1,0 +1,55 @@
+
+hedgeknight.sprite.defend.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 957
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+HedgeKnightDefendFinished/Ebene_15
+  rotate: false
+  xy: 1, 1
+  size: 572, 613
+  orig: 572, 613
+  offset: 0, 0
+  index: -1
+HedgeKnightDefendFinished/Ebene_20
+  rotate: false
+  xy: 1, 805
+  size: 204, 150
+  orig: 204, 150
+  offset: 0, 0
+  index: -1
+HedgeKnightDefendFinished/Ebene_17
+  rotate: false
+  xy: 210, 616
+  size: 148, 245
+  orig: 148, 245
+  offset: 0, 0
+  index: -1
+HedgeKnightDefendFinished/Ebene_16
+  rotate: false
+  xy: 1, 616
+  size: 207, 187
+  orig: 207, 187
+  offset: 0, 0
+  index: -1
+HedgeKnightDefendFinished/Ebene_19
+  rotate: false
+  xy: 360, 750
+  size: 36, 120
+  orig: 36, 120
+  offset: 0, 0
+  index: -1
+HedgeKnightDefendFinished/Ebene_18
+  rotate: false
+  xy: 360, 616
+  size: 46, 132
+  orig: 46, 132
+  offset: 0, 0
+  index: -1

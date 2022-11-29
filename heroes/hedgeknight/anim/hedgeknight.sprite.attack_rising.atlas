@@ -1,0 +1,34 @@
+
+hedgeknight.sprite.attack_rising.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 922
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+HedgeKnightRisingCutFinished/Ebene_3
+  rotate: false
+  xy: 215, 680
+  size: 133, 240
+  orig: 133, 240
+  offset: 0, 0
+  index: -1
+HedgeKnightRisingCutFinished/Ebene_1
+  rotate: false
+  xy: 1, 1
+  size: 630, 677
+  orig: 630, 677
+  offset: 0, 0
+  index: -1
+HedgeKnightRisingCutFinished/Ebene_4
+  rotate: false
+  xy: 1, 680
+  size: 212, 204
+  orig: 212, 204
+  offset: 0, 0
+  index: -1

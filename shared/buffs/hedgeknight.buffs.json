@@ -1,0 +1,741 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "hedgeknight_charge_stun_large",
+         "stat_type" : "stun_chance",
+		 "stat_sub_type" : "",
+         "amount" : 0.6,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterSize",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "hedgeknight_splitshield_crit_1",
+         "stat_type" : "combat_stat_add",
+		 "stat_sub_type" : "crit_chance",
+         "amount" : 3.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "hedgeknight_splitshield_disableguard",
+         "stat_type" : "guard_blocked",
+		 "stat_sub_type" : "",
+		 "amount" : 0.1,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "hedgeknight_on_crit_dmgl",
+         "stat_type" : "combat_stat_multiply",
+		 "stat_sub_type" : "damage_low",
+		 "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+	  },
+      {
+         "id" : "hedgeknight_on_crit_dmgh",
+         "stat_type" : "combat_stat_multiply",
+		 "stat_sub_type" : "damage_high",
+		 "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+	  },
+      {
+         "id" : "hedgeknight_indomitable_dmgh",
+         "stat_type" : "combat_stat_multiply",
+		 "stat_sub_type" : "damage_high",
+		 "amount" : 0.15,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "indomitable"
+         }
+	  },
+      {
+         "id" : "hedgeknight_indomitable_dmgl",
+         "stat_type" : "combat_stat_multiply",
+		 "stat_sub_type" : "damage_low",
+		 "amount" : 0.15,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "indomitable"
+         }
+	  },
+      {
+         "id" : "hedgeknight_indomitable_dmgh_lowhp",
+         "stat_type" : "combat_stat_multiply",
+		 "stat_sub_type" : "damage_high",
+		 "amount" : 0.2,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "indomitable"
+         }
+	  },
+      {
+         "id" : "hedgeknight_indomitable_dmgl_lowhp",
+         "stat_type" : "combat_stat_multiply",
+		 "stat_sub_type" : "damage_low",
+		 "amount" : 0.2,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "indomitable"
+         }
+	  },
+	  {
+         "id" : "hedgeknight_indomitable_debuff_res_1",
+         "stat_type" : "resistance",
+		 "stat_sub_type" : "debuff",
+		 "amount" : 0.2,
+		 "duration" : "1",
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "hedgeknight_indomitable_debuff_res_2",
+         "stat_type" : "resistance",
+		 "stat_sub_type" : "debuff",
+		 "amount" : 0.225,
+		 "duration" : "1",
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "hedgeknight_indomitable_debuff_res_3",
+         "stat_type" : "resistance",
+		 "stat_sub_type" : "debuff",
+		 "amount" : 0.25,
+		 "duration" : "1",
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "hedgeknight_indomitable_debuff_res_4",
+         "stat_type" : "resistance",
+		 "stat_sub_type" : "debuff",
+		 "amount" : 0.275,
+		 "duration" : "1",
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "hedgeknight_indomitable_debuff_res_5",
+         "stat_type" : "resistance",
+		 "stat_sub_type" : "debuff",
+		 "amount" : 0.3,
+		 "duration" : "1",
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "hedgeknight_indomitable_debuff_stun_1",
+         "stat_type" : "resistance",
+		 "stat_sub_type" : "stun",
+		 "amount" : 0.2,
+		 "duration" : "1",
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "hedgeknight_indomitable_debuff_stun_2",
+         "stat_type" : "resistance",
+		 "stat_sub_type" : "stun",
+		 "amount" : 0.225,
+		 "duration" : "1",
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "hedgeknight_indomitable_stun_res_3",
+         "stat_type" : "resistance",
+		 "stat_sub_type" : "stun",
+		 "amount" : 0.25,
+		 "duration" : "1",
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "hedgeknight_indomitable_stun_res_4",
+         "stat_type" : "resistance",
+		 "stat_sub_type" : "stun",
+		 "amount" : 0.275,
+		 "duration" : "1",
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "hedgeknight_indomitable_stun_res_5",
+         "stat_type" : "resistance",
+		 "stat_sub_type" : "stun",
+		 "amount" : 0.3,
+		 "duration" : "1",
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "hedgeknight_splitman_crit_wounded_1",
+         "stat_type" : "combat_stat_add",
+		 "stat_sub_type" : "crit_chance",
+		 "amount" : 0.05,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : "b"
+         }
+	  },
+	  {
+         "id" : "hedgeknight_splitman_crit_bleeding_1",
+         "stat_type" : "combat_stat_add",
+		 "stat_sub_type" : "crit_chance",
+		 "amount" : 0.05,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : "bleeding"
+         }
+	  },
+      {
+         "id" : "hedgeknight_splitman_crit_wounded_2",
+         "stat_type" : "combat_stat_add",
+		 "stat_sub_type" : "crit_chance",
+		 "amount" : 0.06,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : "b"
+         }
+	  },
+	  {
+         "id" : "hedgeknight_splitman_crit_bleeding_2",
+         "stat_type" : "combat_stat_add",
+		 "stat_sub_type" : "crit_chance",
+		 "amount" : 0.06,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : "bleeding"
+         }
+	  },
+      {
+         "id" : "hedgeknight_splitman_crit_wounded_3",
+         "stat_type" : "combat_stat_add",
+		 "stat_sub_type" : "crit_chance",
+		 "amount" : 0.07,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : "b"
+         }
+	  },
+	  {
+         "id" : "hedgeknight_splitman_crit_bleeding_3",
+         "stat_type" : "combat_stat_add",
+		 "stat_sub_type" : "crit_chance",
+		 "amount" : 0.07,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : "bleeding"
+         }
+	  },
+      {
+         "id" : "hedgeknight_splitman_crit_wounded_4",
+         "stat_type" : "combat_stat_add",
+		 "stat_sub_type" : "crit_chance",
+		 "amount" : 0.08,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : "b"
+         }
+	  },
+	  {
+         "id" : "hedgeknight_splitman_crit_bleeding_4",
+         "stat_type" : "combat_stat_add",
+		 "stat_sub_type" : "crit_chance",
+		 "amount" : 0.08,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : "bleeding"
+         }
+	  },
+      {
+         "id" : "hedgeknight_splitman_crit_wounded_5",
+         "stat_type" : "combat_stat_add",
+		 "stat_sub_type" : "crit_chance",
+		 "amount" : 0.09,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : "b"
+         }
+	  },
+	  {
+         "id" : "hedgeknight_splitman_crit_bleeding_5",
+         "stat_type" : "combat_stat_add",
+		 "stat_sub_type" : "crit_chance",
+		 "amount" : 0.09,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : "bleeding"
+         }
+	  },
+      {
+         "id" : "hedgeknight_roundswing_crit_wounded",
+         "stat_type" : "combat_stat_add",
+		 "stat_sub_type" : "crit_chance",
+		 "amount" : 3.0,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : ""
+         }
+	  },
+      {
+         "id" : "hedgeknight_dismember_dmg_1",
+         "stat_type" : "damage_received_percent",
+		 "stat_sub_type" : "",
+		 "amount" : 0.15,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.6,
+            "string" : "bleeding"
+         }
+	  },
+      {
+         "id" : "hedgeknight_dismember_dmg_2",
+         "stat_type" : "damage_received_percent",
+		 "stat_sub_type" : "",
+		 "amount" : 0.175,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.6,
+            "string" : "bleeding"
+         }
+	  },
+      {
+         "id" : "hedgeknight_dismember_dmg_3",
+         "stat_type" : "damage_received_percent",
+		 "stat_sub_type" : "",
+		 "amount" : 0.2,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.6,
+            "string" : "bleeding"
+         }
+	  },
+      {
+         "id" : "hedgeknight_dismember_dmg_4",
+         "stat_type" : "damage_received_percent",
+		 "stat_sub_type" : "",
+		 "amount" : 0.225,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.6,
+            "string" : "bleeding"
+         }
+	  },
+      {
+         "id" : "hedgeknight_dismember_dmg_5",
+         "stat_type" : "damage_received_percent",
+		 "stat_sub_type" : "",
+		 "amount" : 0.25,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.6,
+            "string" : "bleeding"
+         }
+	  },
+      {
+         "id" : "hedgeknight_roundswing_armorpiercing_wounded_1",
+         "stat_type" : "ignore_protection",
+		 "stat_sub_type" : "",
+		 "amount" : 1.0,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "hedgeknight_camping_stressheal_oncrit",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "hero_crit",
+         "amount" : 0.35,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "hedgeknight_camping_dmghfirstturn",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "firstroundonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hedgeknight_camping_dmglfirstturn",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "firstroundonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hedgeknight_camping_spdfirstturn",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 4,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "firstroundonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hedgeknight_camping_spd",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 2,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hedgeknight_camping_dmghp",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hedgeknight_camping_dmgmark",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "hedgeknight_camping_dmgbleed",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	  {
+         "id" : "hedgeknight_camping_dmgstun",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "hedgeknight_affliction_dmg_low",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hedgeknight_affliction_dmg_high",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hedgeknight_affliction_spd",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hedgeknight_affliction_dodge_debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hedgeknight_affliction_dodge_debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hedgeknight_affliction_prot_debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hedgeknight_wildswing_randomtarget",
+         "stat_type" : "random_target_attack_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+   ]
+}

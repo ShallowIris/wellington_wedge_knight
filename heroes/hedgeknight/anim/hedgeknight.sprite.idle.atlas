@@ -1,0 +1,223 @@
+
+hedgeknight.sprite.idle.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HedgeKnightIdlelargerlayer (1)/Ebene_4
+  rotate: false
+  xy: 218, 607
+  size: 99, 257
+  orig: 99, 257
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1, 950
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_2
+  rotate: false
+  xy: 218, 371
+  size: 207, 234
+  orig: 207, 234
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_62
+  rotate: false
+  xy: 868, 970
+  size: 81, 51
+  orig: 81, 51
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_55
+  rotate: false
+  xy: 855, 763
+  size: 83, 145
+  orig: 83, 145
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_63
+  rotate: false
+  xy: 784, 508
+  size: 73, 50
+  orig: 73, 50
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_54
+  rotate: false
+  xy: 760, 763
+  size: 93, 142
+  orig: 93, 142
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_5
+  rotate: false
+  xy: 726, 919
+  size: 140, 99
+  orig: 140, 99
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_52
+  rotate: false
+  xy: 360, 866
+  size: 152, 142
+  orig: 152, 142
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_47
+  rotate: false
+  xy: 726, 619
+  size: 98, 142
+  orig: 98, 142
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_9
+  rotate: false
+  xy: 664, 768
+  size: 94, 149
+  orig: 94, 149
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_13
+  rotate: false
+  xy: 552, 768
+  size: 85, 93
+  orig: 85, 93
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_53
+  rotate: false
+  xy: 940, 374
+  size: 79, 114
+  orig: 79, 114
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_36
+  rotate: false
+  xy: 868, 910
+  size: 89, 58
+  orig: 89, 58
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_31_Kopie_3
+  rotate: false
+  xy: 1, 1
+  size: 656, 368
+  orig: 656, 368
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_16
+  rotate: false
+  xy: 436, 731
+  size: 114, 130
+  orig: 114, 130
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_74
+  rotate: false
+  xy: 514, 866
+  size: 148, 134
+  orig: 148, 134
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_75
+  rotate: false
+  xy: 319, 607
+  size: 92, 121
+  orig: 92, 121
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_22_Kopie
+  rotate: false
+  xy: 1, 371
+  size: 215, 242
+  orig: 215, 242
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_68
+  rotate: false
+  xy: 629, 374
+  size: 153, 243
+  orig: 153, 243
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_61
+  rotate: false
+  xy: 427, 564
+  size: 197, 165
+  orig: 197, 165
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_65
+  rotate: false
+  xy: 427, 371
+  size: 200, 191
+  orig: 200, 191
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_22
+  rotate: false
+  xy: 119, 866
+  size: 208, 71
+  orig: 208, 71
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_24
+  rotate: false
+  xy: 1, 615
+  size: 172, 134
+  orig: 172, 134
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_26
+  rotate: false
+  xy: 1, 751
+  size: 116, 197
+  orig: 116, 197
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_37
+  rotate: false
+  xy: 119, 751
+  size: 77, 78
+  orig: 77, 78
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_30
+  rotate: false
+  xy: 626, 619
+  size: 98, 147
+  orig: 98, 147
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_32
+  rotate: false
+  xy: 319, 731
+  size: 115, 129
+  orig: 115, 129
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_34
+  rotate: false
+  xy: 659, 1
+  size: 238, 371
+  orig: 238, 371
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_56
+  rotate: false
+  xy: 784, 374
+  size: 46, 132
+  orig: 46, 132
+  offset: 0, 0
+  index: -1
+HedgeKnightIdlelargerlayer (1)/Ebene_57
+  rotate: false
+  xy: 175, 615
+  size: 36, 120
+  orig: 36, 120
+  offset: 0, 0
+  index: -1

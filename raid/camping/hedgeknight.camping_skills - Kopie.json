@@ -1,0 +1,405 @@
+{
+	"configuration" :
+	{
+		"class_specific_number_of_classes_threshold" :  4
+	},
+
+	"skills" :
+	[
+		{
+			"id" : "encourage",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type": "stress_heal_amount",
+					"sub_type" : "",
+					"amount" :  15
+				}
+			],
+			"hero_classes" : ["hedgeknight", "hedgeknight_normal", "hedgeknight_indomitable"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{
+			"id" : "first_aid",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type": "health_heal_max_health_percent",
+					"sub_type" : "",
+					"amount" :  0.15
+				},
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type": "remove_bleeding",
+					"sub_type" : "",
+					"amount" :  0
+				},
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+					"type": "remove_poison",
+					"sub_type" : "",
+					"amount" :  0
+				}
+			],
+			"hero_classes" : ["hedgeknight", "hedgeknight_normal", "hedgeknight_indomitable"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{
+			"id" : "pep_talk",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingStressResistBuff",
+					"amount" :  -0.15
+				}
+			],
+			"hero_classes" : ["hedgeknight", "hedgeknight_normal", "hedgeknight_indomitable"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{
+			"id" : "hedgeknight_lesson",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 2,
+			"effects" :
+			[
+				
+				
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type": "buff",
+					"sub_type": "campingDMGLowBuff",
+					"amount": 0.15
+				},
+				
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type": "buff",
+					"sub_type": "campingDMGHighBuff",
+					"amount": 0.15
+				},
+				
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.75 },
+					"type": "buff",
+					"sub_type": "campingCritBuff",
+					"amount": 0.07
+				},
+				
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type": "stress_damage_amount",
+					"sub_type": "",
+					"amount": 12
+				},
+				
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.75 },
+					"type": "health_damage_max_health_percent",
+					"sub_type": "",
+					"amount": 0.15
+				},
+				
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.5 },
+					"type": "health_damage_max_health_percent",
+					"sub_type": "",
+					"amount": 0.25
+				}
+			],
+			"hero_classes" : ["hedgeknight", "hedgeknight_normal", "hedgeknight_indomitable"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{
+			"id" : "hedgeknight_executioner",
+			"level" : 0,
+			"cost" : 3,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection": "self",
+					"requirements": [],
+					"chance": { "code" : "a", "amount": 1.0 },
+					"type": "buff",
+					"sub_type": "hedgeknight_camping_dmgbleed",
+					"amount": 0.15
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance": { "code" : "a", "amount": 1.0 },
+					"type": "buff",
+					"sub_type": "hedgeknight_camping_dmgstun",
+					"amount": 0.15
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance": { "code" : "a", "amount": 1.0 },
+					"type": "buff",
+					"sub_type": "hedgeknight_camping_dmghp",
+					"amount": 0.15
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance": { "code" : "a", "amount": 1.0 },
+					"type": "buff",
+					"sub_type": "hedgeknight_camping_dmgmark",
+					"amount": 0.15
+				}
+			],
+			"hero_classes" : ["hedgeknight", "hedgeknight_normal", "hedgeknight_indomitable"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{
+			"id" : "hedgeknight_fray",
+			"level" : 0,
+			"cost" : 3,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type": "buff",
+					"sub_type" : "hedgeknight_camping_dmglfirstturn",
+					"amount" :  0.15
+				},
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "hedgeknight_camping_dmghfirstturn",
+					"amount" :  0.15
+				},
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "hedgeknight_camping_spdfirstturn",
+					"amount" :  0.15
+				},
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "hedgeknight_camping_spd",
+					"amount" :  0.15
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type": "buff",
+					"sub_type" : "hedgeknight_camping_dmglfirstturn",
+					"amount" :  0.15
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "hedgeknight_camping_dmghfirstturn",
+					"amount" :  0.15
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "hedgeknight_camping_spdfirstturn",
+					"amount" :  0.15
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "hedgeknight_camping_spd",
+					"amount" :  0.15
+				}
+			],
+			"hero_classes" : ["hedgeknight", "hedgeknight_normal", "hedgeknight_indomitable"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{
+			"id" : "hedgeknight_revel_slaughter",
+			"level" : 0,
+			"cost" : 3,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "stress_heal_amount",
+					"sub_type" : "",
+					"amount" :  10
+				},
+				
+				{
+					"selection" : "self",
+					"requirements" : ["afflicted"],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type" : "stress_heal_amount",
+					"sub_type" : "",
+					"amount" :  15
+				},
+				
+				{
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+					"type" : "stress_damage_amount",
+					"sub_type" : "",
+					"amount" :  7
+				},
+				
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "hedgeknight_camping_stressheal_oncrit",
+					"amount" :  0.50
+				}
+				
+			],
+			"hero_classes" : ["hedgeknight", "hedgeknight_normal", "hedgeknight_indomitable"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		}
+	]
+}

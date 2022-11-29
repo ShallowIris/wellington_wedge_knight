@@ -1,0 +1,13 @@
+
+hedgeknight.sprite.round_cut.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HedgeKnightRisingCut/even_more_red
+  rotate: false
+  xy: 1, 1
+  size: 586, 596
+  orig: 586, 596
+  offset: 0, 0
+  index: -1

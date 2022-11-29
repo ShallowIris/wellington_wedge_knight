@@ -1,0 +1,27 @@
+
+hedgeknight.sprite.afflicted.png
+size: 2048,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+background
+  rotate: false
+  xy: 1, 1
+  size: 1341, 1127
+  orig: 1341, 1127
+  offset: 0, 0
+  index: -1
+HedgeKnightAfflictionFinished/Ebene_4
+  rotate: false
+  xy: 1, 1130
+  size: 903, 1190
+  orig: 903, 1190
+  offset: 0, 0
+  index: -1
+crown
+  rotate: false
+  xy: 1344, 1
+  size: 369, 293
+  orig: 369, 293
+  offset: 0, 0
+  index: -1
