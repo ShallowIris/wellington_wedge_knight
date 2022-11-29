@@ -295,6 +295,7 @@
 		 "amount" : 0.06,
 		 "duration" : 1,
          "remove_if_not_active" : false,
+         "has_description": false,
          "rule_type" : "target_hpbelow",
          "is_false_rule" : false,
          "rule_data" : {
@@ -323,6 +324,7 @@
 		 "amount" : 0.07,
 		 "duration" : 1,
          "remove_if_not_active" : false,
+         "has_description": false,
          "rule_type" : "target_hpbelow",
          "is_false_rule" : false,
          "rule_data" : {
@@ -351,6 +353,7 @@
 		 "amount" : 0.08,
 		 "duration" : 1,
          "remove_if_not_active" : false,
+         "has_description": false,
          "rule_type" : "target_hpbelow",
          "is_false_rule" : false,
          "rule_data" : {
@@ -379,6 +382,7 @@
 		 "amount" : 0.09,
 		 "duration" : 1,
          "remove_if_not_active" : false,
+         "has_description": false,
          "rule_type" : "target_hpbelow",
          "is_false_rule" : false,
          "rule_data" : {
