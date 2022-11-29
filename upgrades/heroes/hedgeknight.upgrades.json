@@ -120,7 +120,7 @@
          ]
       },
       {
-         "id" : "hedgeknight.splitman",
+         "id" : "hedgeknight.hedge_splitman",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -144,7 +144,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.splitman", "requirement_code" : "0" },
+                  { "tree_id" : "hedgeknight.hedge_splitman", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -157,7 +157,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.splitman", "requirement_code" : "1" },
+                  { "tree_id" : "hedgeknight.hedge_splitman", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -170,7 +170,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.splitman", "requirement_code" : "2" },
+                  { "tree_id" : "hedgeknight.hedge_splitman", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -183,7 +183,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.splitman", "requirement_code" : "3" },
+                  { "tree_id" : "hedgeknight.hedge_splitman", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -191,7 +191,7 @@
          ]
       },
       {
-         "id" : "hedgeknight.roundswing",
+         "id" : "hedgeknight.hedge_roundswing",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -215,7 +215,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.roundswing", "requirement_code" : "0" },
+                  { "tree_id" : "hedgeknight.hedge_roundswing", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -228,7 +228,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.roundswing", "requirement_code" : "1" },
+                  { "tree_id" : "hedgeknight.hedge_roundswing", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -241,7 +241,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.roundswing", "requirement_code" : "2" },
+                  { "tree_id" : "hedgeknight.hedge_roundswing", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -254,7 +254,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.roundswing", "requirement_code" : "3" },
+                  { "tree_id" : "hedgeknight.hedge_roundswing", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -262,7 +262,7 @@
          ]
       },
       {
-         "id" : "hedgeknight.indomitable",
+         "id" : "hedgeknight.hedge_indomitable",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -286,7 +286,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.indomitable", "requirement_code" : "0" },
+                  { "tree_id" : "hedgeknight.hedge_indomitable", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -299,7 +299,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.indomitable", "requirement_code" : "1" },
+                  { "tree_id" : "hedgeknight.hedge_indomitable", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -312,7 +312,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.indomitable", "requirement_code" : "2" },
+                  { "tree_id" : "hedgeknight.hedge_indomitable", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -325,7 +325,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.indomitable", "requirement_code" : "3" },
+                  { "tree_id" : "hedgeknight.hedge_indomitable", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -333,7 +333,7 @@
          ]
       },
       {
-         "id" : "hedgeknight.splitshield",
+         "id" : "hedgeknight.hedge_splitshield",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -357,7 +357,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.splitshield", "requirement_code" : "0" },
+                  { "tree_id" : "hedgeknight.hedge_splitshield", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -370,7 +370,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.splitshield", "requirement_code" : "1" },
+                  { "tree_id" : "hedgeknight.hedge_splitshield", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -383,7 +383,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.splitshield", "requirement_code" : "2" },
+                  { "tree_id" : "hedgeknight.hedge_splitshield", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -396,7 +396,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.splitshield", "requirement_code" : "3" },
+                  { "tree_id" : "hedgeknight.hedge_splitshield", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -404,7 +404,7 @@
          ]
       },
       {
-         "id" : "hedgeknight.pummel",
+         "id" : "hedgeknight.hedge_pummel",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -428,7 +428,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.pummel", "requirement_code" : "0" },
+                  { "tree_id" : "hedgeknight.hedge_pummel", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -441,7 +441,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.pummel", "requirement_code" : "1" },
+                  { "tree_id" : "hedgeknight.hedge_pummel", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -454,7 +454,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.pummel", "requirement_code" : "2" },
+                  { "tree_id" : "hedgeknight.hedge_pummel", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -467,7 +467,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.pummel", "requirement_code" : "3" },
+                  { "tree_id" : "hedgeknight.hedge_pummel", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -475,7 +475,7 @@
          ]
       },
       {
-         "id" : "hedgeknight.dismember",
+         "id" : "hedgeknight.hedge_dismember",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -499,7 +499,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.dismember", "requirement_code" : "0" },
+                  { "tree_id" : "hedgeknight.hedge_dismember", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -512,7 +512,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.dismember", "requirement_code" : "1" },
+                  { "tree_id" : "hedgeknight.hedge_dismember", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -525,7 +525,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.dismember", "requirement_code" : "2" },
+                  { "tree_id" : "hedgeknight.hedge_dismember", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -538,7 +538,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.dismember", "requirement_code" : "3" },
+                  { "tree_id" : "hedgeknight.hedge_dismember", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -546,7 +546,7 @@
          ]
       },
       {
-         "id" : "hedgeknight.make_way",
+         "id" : "hedgeknight.hedge_make_way",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -570,7 +570,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.make_way", "requirement_code" : "0" },
+                  { "tree_id" : "hedgeknight.hedge_make_way", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -583,7 +583,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.make_way", "requirement_code" : "1" },
+                  { "tree_id" : "hedgeknight.hedge_make_way", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -596,7 +596,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.make_way", "requirement_code" : "2" },
+                  { "tree_id" : "hedgeknight.hedge_make_way", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -609,7 +609,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "hedgeknight.make_way", "requirement_code" : "3" },
+                  { "tree_id" : "hedgeknight.hedge_make_way", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5

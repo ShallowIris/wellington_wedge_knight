@@ -4,11 +4,18 @@
 
 
 //split man
-effect: .name "hedgeknight_splitman_dmghuman_1" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 15%	.damage_high_multiply 15%	.on_hit true .on_miss false
-effect: .name "hedgeknight_splitman_dmghuman_2" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
-effect: .name "hedgeknight_splitman_dmghuman_3" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
-effect: .name "hedgeknight_splitman_dmghuman_4" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 30%	.damage_high_multiply 30%	.on_hit true .on_miss false
-effect: .name "hedgeknight_splitman_dmghuman_5" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 35%	.damage_high_multiply 35%	.on_hit true .on_miss false
+
+effect: .name "hedgeknight_splitman_tt3_1" .target "performer" .skill_instant true .buff_ids "hedgeknight_splitman_tt3_1" .on_hit true .on_miss true 
+effect: .name "hedgeknight_splitman_tt3_2" .target "performer" .skill_instant true .buff_ids "hedgeknight_splitman_tt3_2" .on_hit true .on_miss true 
+effect: .name "hedgeknight_splitman_tt3_3" .target "performer" .skill_instant true .buff_ids "hedgeknight_splitman_tt3_3" .on_hit true .on_miss true 
+effect: .name "hedgeknight_splitman_tt3_4" .target "performer" .skill_instant true .buff_ids "hedgeknight_splitman_tt3_4" .on_hit true .on_miss true 
+effect: .name "hedgeknight_splitman_tt3_5" .target "performer" .skill_instant true .buff_ids "hedgeknight_splitman_tt3_5" .on_hit true .on_miss true 
+
+effect: .name "hedgeknight_splitman_dmghuman_1" .target "performer" .chance 100% .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 15%	.damage_high_multiply 15%	.on_hit true .on_miss false
+effect: .name "hedgeknight_splitman_dmghuman_2" .target "performer" .chance 100% .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "hedgeknight_splitman_dmghuman_3" .target "performer" .chance 100% .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
+effect: .name "hedgeknight_splitman_dmghuman_4" .target "performer" .chance 100% .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 30%	.damage_high_multiply 30%	.on_hit true .on_miss false
+effect: .name "hedgeknight_splitman_dmghuman_5" .target "performer" .chance 100% .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 35%	.damage_high_multiply 35%	.on_hit true .on_miss false
 
 effect: .name "hedgeknight_splitman_crit_1" .skill_instant true .target "performer" .on_hit true .on_miss true .buff_ids "hedgeknight_splitman_crit_bleeding_1" "hedgeknight_splitman_crit_wounded_1" 
 effect: .name "hedgeknight_splitman_crit_2" .skill_instant true .target "performer" .on_hit true .on_miss true .buff_ids "hedgeknight_splitman_crit_bleeding_2" "hedgeknight_splitman_crit_wounded_2" 
@@ -18,20 +25,33 @@ effect: .name "hedgeknight_splitman_crit_5" .skill_instant true .target "perform
 
 //round swing
 effect: .name "hedgeknight_roundswing_crit_wounded" .target "performer" .on_hit true .on_miss true .skill_instant true .buff_ids "hedgeknight_roundswing_crit_wounded" .apply_once true
-effect: .name "hedgeknight_roundswing_armor_piercing_wounded_1" .target "performer" .on_hit true .on_miss true .skill_instant true .buff_ids "hedgeknight_roundswing_armorpiercing_wounded_1" .apply_once true
+effect: .name "hedgeknight_roundswing_armor_piercing_wounded_1" .target "performer" .on_hit true .on_miss true .skill_instant true .buff_ids "hedgeknight_roundswing_armorpiercing_wounded_1" .apply_once true .has_description false
+effect: .name "hedgeknight_roundswing_tt_1" .target "performer" .skill_instant true .buff_ids "hedgeknight_roundswing_tt_1" .on_hit true .on_miss true 
+effect: .name "hedgeknight_roundswing_skillselection_tt_1" .target "performer" .skill_instant true .buff_ids "hedgeknight_roundswing_skillselection_tt_1" .on_hit true .on_miss true 
 
 //dismember
-effect: .name "hedgeknight_dismember_bleed_1" .target "target" .curio_result_type "negative" .chance 95%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "hedgeknight_dismember_bleed_2" .target "target" .curio_result_type "negative" .chance 105%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "hedgeknight_dismember_bleed_3" .target "target" .curio_result_type "negative" .chance 115%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "hedgeknight_dismember_bleed_4" .target "target" .curio_result_type "negative" .chance 125%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "hedgeknight_dismember_bleed_5" .target "target" .curio_result_type "negative" .chance 135%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "hedgeknight_dismember_bleed_1" .target "target" .chance 95%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "hedgeknight_dismember_bleed_2" .target "target" .chance 105%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "hedgeknight_dismember_bleed_3" .target "target" .chance 115%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "hedgeknight_dismember_bleed_4" .target "target" .chance 125%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "hedgeknight_dismember_bleed_5" .target "target" .chance 135%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .has_description false
 
-effect: .name "hedgeknight_dismember_dmg_1" .target "target" .curio_result_type "negative" .chance 95%  .buff_ids "hedgeknight_dismember_dmg_1" .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "hedgeknight_dismember_dmg_2" .target "target" .curio_result_type "negative" .chance 105%  .buff_ids "hedgeknight_dismember_dmg_2" .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "hedgeknight_dismember_dmg_3" .target "target" .curio_result_type "negative" .chance 115%  .buff_ids "hedgeknight_dismember_dmg_3" .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "hedgeknight_dismember_dmg_4" .target "target" .curio_result_type "negative" .chance 125%  .buff_ids "hedgeknight_dismember_dmg_4" .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "hedgeknight_dismember_dmg_5" .target "target" .curio_result_type "negative" .chance 135%  .buff_ids "hedgeknight_dismember_dmg_5" .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "hedgeknight_dismember_tt_1_1" .target "performer" .skill_instant true .buff_ids "hedgeknight_dismember_tt_1_1" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
+effect: .name "hedgeknight_dismember_tt_1_2" .target "performer" .skill_instant true .buff_ids "hedgeknight_dismember_tt_1_2" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
+effect: .name "hedgeknight_dismember_tt_1_3" .target "performer" .skill_instant true .buff_ids "hedgeknight_dismember_tt_1_3" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
+effect: .name "hedgeknight_dismember_tt_1_4" .target "performer" .skill_instant true .buff_ids "hedgeknight_dismember_tt_1_4" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
+effect: .name "hedgeknight_dismember_tt_1_5" .target "performer" .skill_instant true .buff_ids "hedgeknight_dismember_tt_1_5" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
+effect: .name "hedgeknight_dismember_tt_2_1" .target "performer" .skill_instant true .buff_ids "hedgeknight_dismember_tt_2_1" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
+effect: .name "hedgeknight_dismember_tt_2_2" .target "performer" .skill_instant true .buff_ids "hedgeknight_dismember_tt_2_2" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
+effect: .name "hedgeknight_dismember_tt_2_3" .target "performer" .skill_instant true .buff_ids "hedgeknight_dismember_tt_2_3" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
+effect: .name "hedgeknight_dismember_tt_2_4" .target "performer" .skill_instant true .buff_ids "hedgeknight_dismember_tt_2_4" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
+effect: .name "hedgeknight_dismember_tt_2_5" .target "performer" .skill_instant true .buff_ids "hedgeknight_dismember_tt_2_5" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
+
+effect: .name "hedgeknight_dismember_dmg_1" .target "target" .chance 95%  .buff_ids "hedgeknight_dismember_dmg_1" .duration 3	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "hedgeknight_dismember_dmg_2" .target "target" .chance 105%  .buff_ids "hedgeknight_dismember_dmg_2" .duration 3	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "hedgeknight_dismember_dmg_3" .target "target" .chance 115%  .buff_ids "hedgeknight_dismember_dmg_3" .duration 3	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "hedgeknight_dismember_dmg_4" .target "target" .chance 125%  .buff_ids "hedgeknight_dismember_dmg_4" .duration 3	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "hedgeknight_dismember_dmg_5" .target "target" .chance 135%  .buff_ids "hedgeknight_dismember_dmg_5" .duration 3	.on_hit true .on_miss false .can_apply_on_death true .has_description false
 
 //indomitable
 effect: .name "hedgeknight_indomitable_dmg" .target "performer" .buff_ids "hedgeknight_indomitable_dmgh" "hedgeknight_indomitable_dmgl" .on_hit true .on_miss true
@@ -53,10 +73,11 @@ effect: .name "hedgeknight_indomitable_stun_res_3" .target "performer" .buff_ids
 effect: .name "hedgeknight_indomitable_stun_res_4" .target "performer" .buff_ids "hedgeknight_indomitable_stun_res_4" .on_hit true .on_miss true 
 effect: .name "hedgeknight_indomitable_stun_res_5" .target "performer" .buff_ids "hedgeknight_indomitable_stun_res_5" .on_hit true .on_miss true 
 
-effect: .name "hedgeknight_indomitable_dodge_1" .target "performer" .combat_stat_buff 1 .defense_rating_add -0.25 .on_hit true .on_miss true .duration 1 .duration_type combat_end
+effect: .name "hedgeknight_indomitable_dodge_1" .target "performer" .combat_stat_buff 1 .defense_rating_add -0.25 .on_hit true .on_miss true .duration 1 .duration_type combat_end .has_description false
+effect: .name "hedgeknight_indomitable_dodge_tt" .target "performer" .buff_ids "hedgeknight_indomitable_dodge_tt" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
 
-effect: .name "hedgeknight_switch_mode_indomitable" .target "performer" .set_mode indomitable .chance 100% .on_hit true .on_miss false .queue false
-effect: .name "hedgeknight_switch_mode_normal" .target "performer" .set_mode normal .chance 100% .on_hit true .on_miss false .queue false
+effect: .name "hedgeknight_switch_mode_indomitable" .target "performer" .set_mode hedge_indom .chance 100% .on_hit true .on_miss false .queue false
+effect: .name "hedgeknight_switch_mode_normal" .target "performer" .set_mode hedge_normal .chance 100% .on_hit true .on_miss false .queue false
 
 effect: .name "hedgeknight_indom_stress_self" .target "performer" .on_hit true .on_miss true .stress 3 .chance 100% .queue true //needs in mode
 
@@ -79,14 +100,22 @@ effect: .name "hedgeknight_charge_spd_4" .target "performer" .combat_stat_buff 1
 effect: .name "hedgeknight_charge_spd_5" .target "performer" .combat_stat_buff 1 .speed_rating 3.0 .on_hit true .on_miss true
 
 //splitshield
+effect: .name "Hedge Split Shield Clear Guard Target" .target "target" .clearguarding 1 .clearguarded 1 .on_hit true .on_miss false .has_description false
 effect: .name "hedgeknight_splitshield_crit_1" .target "performer" .buff_ids "hedgeknight_splitshield_crit_1" .skill_instant true .on_hit true .on_miss false
-effect: .name "hedgeknight_splitshield_disableguard" .clearguarding .target "target" .chance 300% .buff_ids "hedgeknight_splitshield_disableguard" .queue .on_hit true .on_miss false
 effect: .name "hedgeknight_splitshield_protdebuff_1" .target "target" .combat_stat_buff 1 .chance 100% .protection_rating_add -20%  .on_hit true .on_miss false
 effect: .name "hedgeknight_splitshield_protdebuff_2" .target "target" .combat_stat_buff 1 .chance 110% .protection_rating_add -22.5%  .on_hit true .on_miss false
 effect: .name "hedgeknight_splitshield_protdebuff_3" .target "target" .combat_stat_buff 1 .chance 120% .protection_rating_add -25%  .on_hit true .on_miss false
 effect: .name "hedgeknight_splitshield_protdebuff_4" .target "target" .combat_stat_buff 1 .chance 130% .protection_rating_add -27.5%  .on_hit true .on_miss false
 effect: .name "hedgeknight_splitshield_protdebuff_5" .target "target" .combat_stat_buff 1 .chance 140% .protection_rating_add -30%  .on_hit true .on_miss false
-
+effect: .name "hedgeknight_splitshield_skillselection_tt_1" .target "performer" .skill_instant true .buff_ids "hedgeknight_splitshield_skillselection_tt_1" .on_hit true .on_miss true
+effect: .name "hedge_splitshield_tt_1" .target "performer" .skill_instant true .buff_ids "hedgeknight_splitshield_tt_1" .on_hit true .on_miss true
+effect: .name "hedge_splitshield_tt_2" .target "performer" .skill_instant true .buff_ids "hedgeknight_splitshield_tt_2" .on_hit true .on_miss true
+effect: .name "hedge_splitshield_tt_3" .target "performer" .skill_instant true .buff_ids "hedgeknight_splitshield_tt_3" .on_hit true .on_miss true
+effect: .name "hedge_splitshield_tt_4_1" .target "performer" .skill_instant true .buff_ids "hedgeknight_splitshield_tt_4_1" .on_hit true .on_miss true
+effect: .name "hedge_splitshield_tt_4_2" .target "performer" .skill_instant true .buff_ids "hedgeknight_splitshield_tt_4_2" .on_hit true .on_miss true
+effect: .name "hedge_splitshield_tt_4_3" .target "performer" .skill_instant true .buff_ids "hedgeknight_splitshield_tt_4_3" .on_hit true .on_miss true
+effect: .name "hedge_splitshield_tt_4_4" .target "performer" .skill_instant true .buff_ids "hedgeknight_splitshield_tt_4_4" .on_hit true .on_miss true
+effect: .name "hedge_splitshield_tt_4_5" .target "performer" .skill_instant true .buff_ids "hedgeknight_splitshield_tt_4_5" .on_hit true .on_miss true
 
 //wild swing
 effect: .name "hedgeknight_wildswing_randomtarget" .target "performer" .buff_ids "hedgeknight_wildswing_randomtarget" .skill_instant true .on_hit true .on_miss false
@@ -97,6 +126,7 @@ effect: .name "hedgeknight_pummel_stun_2" .target "target" .chance 110% .stun 1 
 effect: .name "hedgeknight_pummel_stun_3" .target "target" .chance 120% .stun 1 .on_hit true .on_miss false .queue true .on_hit true .on_miss false
 effect: .name "hedgeknight_pummel_stun_4" .target "target" .chance 130% .stun 1 .on_hit true .on_miss false .queue true .on_hit true .on_miss false
 effect: .name "hedgeknight_pummel_stun_5" .target "target" .chance 140% .stun 1 .on_hit true .on_miss false .queue true .on_hit true .on_miss false
+effect: .name "hedgeknight_pummel_ignore_riposte_tt" .target "performer" .skill_instant true .buff_ids "hedgeknight_pummel_ignore_riposte_tt" .on_hit true .on_miss true
 
 //crit buff
 effect: .name "hedgeknight_on_crit" .target "performer" .buff_source_type bsrc_crit .buff_ids "hedgeknight_on_crit_dmgl" "hedgeknight_on_crit_dmgh"  .duration 2	.on_hit true .on_miss false .apply_once true
@@ -106,4 +136,4 @@ effect: .name "hedgeknight_wounded_riposte" .target "performer" .chance 100% .ri
 effect: .name "hedgeknight_clear_riposte" .target "performer" .chance 100% .clear_riposte 1 .on_hit true .on_miss true
 
 
-effect: .name "hedgeknight_barbaric_party_buff" .target "target" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 15%	.damage_high_multiply 15% .stress 3	.on_hit true .on_miss true .queue true
+effect: .name "hedgeknight_barbaric_party_buff" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 15%	.damage_high_multiply 15% .stress 3	.on_hit true .on_miss true .queue true

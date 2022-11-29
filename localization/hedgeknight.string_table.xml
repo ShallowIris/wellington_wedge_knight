@@ -2,10 +2,6 @@
 <root>
   <language id="english">
 
-    <!-- Shared Tooltips -->
-	<entry id="str_skill_mode_info_hedgeknight_filler1"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
-	<entry id="str_skill_mode_info_hedgeknight_filler2"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
-
     <!-- Quirks -->
 	
     <!-- Narration Subtitles -->
@@ -34,20 +30,20 @@
 
     <!-- Skills -->
     <entry id="hero_class_name_hedgeknight"><![CDATA[Hedge Knight]]></entry>
-    <entry id="combat_skill_name_hedgeknight_splitman"><![CDATA[Split Man]]></entry>
-	<entry id="upgrade_tree_name_hedgeknight.splitman"><![CDATA[Split Man]]></entry>
-	<entry id="combat_skill_name_hedgeknight_roundswing"><![CDATA[Round Swing]]></entry>
-	<entry id="upgrade_tree_name_hedgeknight.roundswing"><![CDATA[Round Swing]]></entry>
-	<entry id="combat_skill_name_hedgeknight_make_way"><![CDATA[Make Way!]]></entry>
-	<entry id="upgrade_tree_name_hedgeknight.make_way"><![CDATA[Make Way!]]></entry>
-	<entry id="combat_skill_name_hedgeknight_indomitable"><![CDATA[Indomitable]]></entry>
-	<entry id="upgrade_tree_name_hedgeknight.indomitable"><![CDATA[Indomitable]]></entry>
-	<entry id="combat_skill_name_hedgeknight_pummel"><![CDATA[Pummel]]></entry>
-	<entry id="upgrade_tree_name_hedgeknight.pummel"><![CDATA[Pummel]]></entry>
-	<entry id="combat_skill_name_hedgeknight_splitshield"><![CDATA[Split Shield]]></entry>
-	<entry id="upgrade_tree_name_hedgeknight.splitshield"><![CDATA[Split Shield]]></entry>
-	<entry id="combat_skill_name_hedgeknight_dismember"><![CDATA[Massacre]]></entry>
-	<entry id="upgrade_tree_name_hedgeknight.dismember"><![CDATA[Massacre]]></entry>
+    <entry id="combat_skill_name_hedgeknight_hedge_splitman"><![CDATA[Split Man]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.hedge_splitman"><![CDATA[Split Man]]></entry>
+	<entry id="combat_skill_name_hedgeknight_hedge_roundswing"><![CDATA[Round Swing]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.hedge_roundswing"><![CDATA[Round Swing]]></entry>
+	<entry id="combat_skill_name_hedgeknight_hedge_make_way"><![CDATA[Make Way!]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.hedge_make_way"><![CDATA[Make Way!]]></entry>
+	<entry id="combat_skill_name_hedgeknight_hedge_indomitable"><![CDATA[Indomitable]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.hedge_indomitable"><![CDATA[Indomitable]]></entry>
+	<entry id="combat_skill_name_hedgeknight_hedge_pummel"><![CDATA[Pummel]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.hedge_pummel"><![CDATA[Pummel]]></entry>
+	<entry id="combat_skill_name_hedgeknight_hedge_splitshield"><![CDATA[Split Shield]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.hedge_splitshield"><![CDATA[Split Shield]]></entry>
+	<entry id="combat_skill_name_hedgeknight_hedge_dismember"><![CDATA[Massacre]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.hedge_dismember"><![CDATA[Massacre]]></entry>
 	<entry id="combat_skill_name_hedge_wild_swing"><![CDATA[Wild Swing]]></entry>
 
     <!-- Camp Skills -->
@@ -84,6 +80,55 @@
     <entry id="str_inventory_title_trinkethedgeknight_cc_trinket_2"><![CDATA[Bloodied Gauntlet]]></entry>
     <entry id="str_inventory_title_trinkethedgeknight_com_trinket"><![CDATA[Shattered Skull-Splitter]]></entry>
 	<entry id="str_inventory_set_title_hedgeknight_cc_set"><![CDATA["Bloodshed. My only ally."]]></entry>
+
+    <!-- Tooltips -->
+    
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?buff}%s vs HP below {?hpthreshold}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_is_guarding"><![CDATA[%s vs {colour_start|guard}Guarding{colour_end}]]></entry>
+    <entry id="str_skill_mode_info_hedge_splitshield_tt_1"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_hedge_splitshield_tt_2"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_hedge_splitshield_tt_3"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_hedge_splitshield_tt_4"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+
+    <entry id="str_skill_mode_info_hedge_normal"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_hedge_indom"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+
+    <entry id="actor_mode_name_hedge_indom"><![CDATA[Indomitable]]></entry>
+    
+    <entry id="buff_stat_tooltip_quirk_tag_evolution_duration_hedgeknight_splitman_tt3"><![CDATA[   %+d%% CRIT vs HP below 40%%{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_roundswing_tt_1"><![CDATA[    Armor Piercing vs HP below 40%%  {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_1"><![CDATA[Breaks Guard]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_2"><![CDATA[+200%% CRIT vs {colour_start|guard}Guarding{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_4_1"><![CDATA[-20%% PROT {colour_start|skill_unselectable}(100%% base){colour_end}{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_4_2"><![CDATA[-22.5%% PROT {colour_start|skill_unselectable}(110%% base){colour_end}{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_4_3"><![CDATA[-25%% PROT {colour_start|skill_unselectable}(120%% base){colour_end}{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_4_4"><![CDATA[-27.5%% PROT {colour_start|skill_unselectable}(130%% base){colour_end}{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_4_5"><![CDATA[-30%% PROT {colour_start|skill_unselectable}(140%% base){colour_end}{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_skillselection_tt_1"><![CDATA[Breaks Guard]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_pummel_ignore_riposte_tt"><![CDATA[   Can't Be Riposted {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_1_1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(95%% base){colour_end}
+1 pts/rd for 3 rds]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_1_2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(105%% base){colour_end}
+1 pts/rd for 3 rds]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_1_3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(115%% base){colour_end}
+2 pts/rd for 3 rds]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_1_4"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(125%% base){colour_end}
+2 pts/rd for 3 rds]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_1_5"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(135%% base){colour_end}
+3 pts/rd for 3 rds]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_2_1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} 
+  +15%% DMG Taken while {colour_start|bleed}Bleeding{colour_end} {colour_start|skill_unselectable}(95%% base){colour_end} {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_2_2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} 
+ +17.5%% DMG Taken while {colour_start|bleed}Bleeding{colour_end} {colour_start|skill_unselectable}(105%% base){colour_end}{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_2_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} 
+  +20%% DMG Taken while {colour_start|bleed}Bleeding{colour_end} {colour_start|skill_unselectable}(115%% base){colour_end} {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_2_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} 
+ +22.5%% DMG Taken while {colour_start|bleed}Bleeding{colour_end} {colour_start|skill_unselectable}(125%% base){colour_end}{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_2_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} 
+  +25%% DMG Taken while {colour_start|bleed}Bleeding{colour_end} {colour_start|skill_unselectable}(135%% base){colour_end} {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_indomitable_dodge_tt"><![CDATA[-25 DODGE
+    {colour_start|skill_unselectable}(Debuff Lasts Until Combat End){colour_end} {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 
     <!-- Party names -->
 

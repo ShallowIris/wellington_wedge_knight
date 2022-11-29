@@ -2,19 +2,356 @@
    "buffs":
    [
    
-   {
-        "id" : "hedge_tooltip_skill_rule",
+    {
+        "id" : "hedgeknight_splitman_tt3_1",
+        "stat_type" : "quirk_tag_evolution_duration",
+        "stat_sub_type" : "hedgeknight_splitman_tt3",
+        "amount" : 5,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+        "float" : 0,
+        "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_splitman_tt3_2",
+        "stat_type" : "quirk_tag_evolution_duration",
+        "stat_sub_type" : "hedgeknight_splitman_tt3",
+        "amount" : 6,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+        "float" : 0,
+        "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_splitman_tt3_3",
+        "stat_type" : "quirk_tag_evolution_duration",
+        "stat_sub_type" : "hedgeknight_splitman_tt3",
+        "amount" : 7,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+        "float" : 0,
+        "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_splitman_tt3_4",
+        "stat_type" : "quirk_tag_evolution_duration",
+        "stat_sub_type" : "hedgeknight_splitman_tt3",
+        "amount" : 8,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+        "float" : 0,
+        "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_splitman_tt3_5",
+        "stat_type" : "quirk_tag_evolution_duration",
+        "stat_sub_type" : "hedgeknight_splitman_tt3",
+        "amount" : 9,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+        "float" : 0,
+        "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_roundswing_tt_1",
         "stat_type" : "upgrade_discount",
-        "stat_sub_type" : "",
+        "stat_sub_type" : "hedgeknight_roundswing_tt_1",
         "amount" : 0,
         "remove_if_not_active" : false,
-        "rule_type" : "skill",
+        "rule_type" : "always",
         "is_false_rule" : false,
         "rule_data" : {
             "float" : 0,
-            "string" : "sas_tooltip"
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_splitshield_skillselection_tt_1",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_splitshield_skillselection_tt_1",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_splitshield_tt_1",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_splitshield_tt_1",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_splitshield_tt_2",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_splitshield_tt_2",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_splitshield_tt_3",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_splitshield_tt_3",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_splitshield_tt_4_1",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_splitshield_tt_4_1",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_splitshield_tt_4_2",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_splitshield_tt_4_2",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_splitshield_tt_4_3",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_splitshield_tt_4_3",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_splitshield_tt_4_4",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_splitshield_tt_4_4",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_splitshield_tt_4_5",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_splitshield_tt_4_5",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_pummel_ignore_riposte_tt",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_pummel_ignore_riposte_tt",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_dismember_tt_1_1",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_dismember_tt_1_1",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_dismember_tt_1_2",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_dismember_tt_1_2",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_dismember_tt_1_3",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_dismember_tt_1_3",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_dismember_tt_1_4",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_dismember_tt_1_4",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_dismember_tt_1_5",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_dismember_tt_1_5",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_dismember_tt_2_1",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_dismember_tt_2_1",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_dismember_tt_2_2",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_dismember_tt_2_2",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_dismember_tt_2_3",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_dismember_tt_2_3",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_dismember_tt_2_4",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_dismember_tt_2_4",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_dismember_tt_2_5",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_dismember_tt_2_5",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedgeknight_indomitable_dodge_tt",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_indomitable_dodge_tt",
+        "amount" : -1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
         }
     }
-   
-	]
+    ]
 }

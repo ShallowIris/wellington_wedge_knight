@@ -18,21 +18,7 @@
          "id" : "hedgeknight_splitshield_crit_1",
          "stat_type" : "combat_stat_add",
 		 "stat_sub_type" : "crit_chance",
-         "amount" : 3.0,
-         "remove_if_not_active" : false,
-         "rule_type" : "target_is_guarding",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-      {
-         "id" : "hedgeknight_splitshield_disableguard",
-         "stat_type" : "guard_blocked",
-		 "stat_sub_type" : "",
-		 "amount" : 0.1,
-         "duration" : 3,
+         "amount" : 2.0,
          "remove_if_not_active" : false,
          "rule_type" : "target_is_guarding",
          "is_false_rule" : false,
@@ -78,7 +64,7 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "indomitable"
+            "string" : "hedge_indom"
          }
 	  },
       {
@@ -92,7 +78,7 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "indomitable"
+            "string" : "hedge_indom"
          }
 	  },
       {
@@ -106,7 +92,7 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "indomitable"
+            "string" : "hedge_indom"
          }
 	  },
       {
@@ -120,7 +106,7 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "indomitable"
+            "string" : "hedge_indom"
          }
 	  },
 	  {
@@ -199,7 +185,7 @@
          }
 	  },
 	  {
-         "id" : "hedgeknight_indomitable_debuff_stun_1",
+         "id" : "hedgeknight_indomitable_stun_res_1",
          "stat_type" : "resistance",
 		 "stat_sub_type" : "stun",
 		 "amount" : 0.2,
@@ -214,7 +200,7 @@
          }
 	  },
 	  {
-         "id" : "hedgeknight_indomitable_debuff_stun_2",
+         "id" : "hedgeknight_indomitable_stun_res_2",
          "stat_type" : "resistance",
 		 "stat_sub_type" : "stun",
 		 "amount" : 0.225,
@@ -280,11 +266,12 @@
 		 "amount" : 0.05,
 		 "duration" : 1,
          "remove_if_not_active" : false,
+         "has_description": false,
          "rule_type" : "target_hpbelow",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0.4,
-            "string" : "b"
+            "string" : ""
          }
 	  },
 	  {
@@ -297,7 +284,7 @@
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.4,
+            "float" : 0,
             "string" : "bleeding"
          }
 	  },
@@ -312,7 +299,7 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0.4,
-            "string" : "b"
+            "string" : ""
          }
 	  },
 	  {
@@ -325,7 +312,7 @@
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.4,
+            "float" : 0,
             "string" : "bleeding"
          }
 	  },
@@ -340,7 +327,7 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0.4,
-            "string" : "b"
+            "string" : ""
          }
 	  },
 	  {
@@ -353,7 +340,7 @@
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.4,
+            "float" : 0,
             "string" : "bleeding"
          }
 	  },
@@ -368,7 +355,7 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0.4,
-            "string" : "b"
+            "string" : ""
          }
 	  },
 	  {
@@ -381,7 +368,7 @@
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.4,
+            "float" : 0,
             "string" : "bleeding"
          }
 	  },
@@ -396,7 +383,7 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0.4,
-            "string" : "b"
+            "string" : ""
          }
 	  },
 	  {
@@ -409,7 +396,7 @@
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.4,
+            "float" : 0,
             "string" : "bleeding"
          }
 	  },
@@ -417,7 +404,7 @@
          "id" : "hedgeknight_roundswing_crit_wounded",
          "stat_type" : "combat_stat_add",
 		 "stat_sub_type" : "crit_chance",
-		 "amount" : 3.0,
+		 "amount" : 2.0,
 		 "duration" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "target_hpbelow",
@@ -434,10 +421,10 @@
 		 "amount" : 0.15,
 		 "duration" : 1,
          "remove_if_not_active" : true,
-         "rule_type" : "actorStatus",
+         "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.6,
+            "float" : 0,
             "string" : "bleeding"
          }
 	  },
@@ -448,10 +435,10 @@
 		 "amount" : 0.175,
 		 "duration" : 1,
          "remove_if_not_active" : true,
-         "rule_type" : "actorStatus",
+         "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.6,
+            "float" : 0,
             "string" : "bleeding"
          }
 	  },
@@ -462,10 +449,10 @@
 		 "amount" : 0.2,
 		 "duration" : 1,
          "remove_if_not_active" : true,
-         "rule_type" : "actorStatus",
+         "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.6,
+            "float" : 0,
             "string" : "bleeding"
          }
 	  },
@@ -476,10 +463,10 @@
 		 "amount" : 0.225,
 		 "duration" : 1,
          "remove_if_not_active" : true,
-         "rule_type" : "actorStatus",
+         "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.6,
+            "float" : 0,
             "string" : "bleeding"
          }
 	  },
@@ -490,10 +477,10 @@
 		 "amount" : 0.25,
 		 "duration" : 1,
          "remove_if_not_active" : true,
-         "rule_type" : "actorStatus",
+         "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.6,
+            "float" : 0,
             "string" : "bleeding"
          }
 	  },
