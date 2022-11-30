@@ -1,0 +1,22 @@
+{
+	"entries":
+	[
+		{
+			"id" : "vmt_wh_very_rare",
+			"buffs" : 
+			[	
+				"TRINKET_vmt_wh_disable_daze"
+			],
+			"hero_class_requirements":
+			[
+				"vmt_wh"
+			],
+			"rarity" : "very_rare",
+			"price" : 25000,
+			"limit" : 2,
+			"attack_skill_additional_effects": [ "WH To EH"	],
+			"friendly_skill_additional_effects": [ "WH To EH" ],
+			"origin_dungeon" : ""
+		}
+	]
+}
