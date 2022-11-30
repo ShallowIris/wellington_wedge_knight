@@ -44,7 +44,7 @@
 	<entry id="upgrade_tree_name_hedgeknight.hedge_splitshield"><![CDATA[Split Shield]]></entry>
 	<entry id="combat_skill_name_hedgeknight_hedge_dismember"><![CDATA[Massacre]]></entry>
 	<entry id="upgrade_tree_name_hedgeknight.hedge_dismember"><![CDATA[Massacre]]></entry>
-	<entry id="combat_skill_name_hedge_wild_swing"><![CDATA[Wild Swing]]></entry>
+	<entry id="combat_skill_name_hedgeknight_hedge_wild_swing"><![CDATA[Wild Swing]]></entry>
 
     <!-- Camp Skills -->
     <entry id="camping_skill_name_hedgeknight_lesson"><![CDATA[HARSH LESSON]]></entry>
@@ -85,6 +85,7 @@
     
     <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?buff}%s vs HP below {?hpthreshold}%d%%]]></entry>
     <entry id="buff_rule_tooltip_target_is_guarding"><![CDATA[%s vs {colour_start|guard}Guarding{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On Attack: Random target %d%%.]]></entry>
     <entry id="str_skill_mode_info_hedge_splitshield_tt_1"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
     <entry id="str_skill_mode_info_hedge_splitshield_tt_2"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
     <entry id="str_skill_mode_info_hedge_splitshield_tt_3"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
