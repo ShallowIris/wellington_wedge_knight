@@ -73,7 +73,7 @@ effect: .name "hedgeknight_indomitable_stun_res_3" .target "performer" .buff_ids
 effect: .name "hedgeknight_indomitable_stun_res_4" .target "performer" .buff_ids "hedgeknight_indomitable_stun_res_4" .on_hit true .on_miss true 
 effect: .name "hedgeknight_indomitable_stun_res_5" .target "performer" .buff_ids "hedgeknight_indomitable_stun_res_5" .on_hit true .on_miss true 
 
-effect: .name "hedgeknight_indomitable_dodge_1" .target "performer" .combat_stat_buff 1 .defense_rating_add -0.25 .on_hit true .on_miss true .duration 1 .duration_type combat_end .has_description false
+effect: .name "hedgeknight_indomitable_dodge_1" .target "performer" .combat_stat_buff 1 .defense_rating_add -0.25 .on_hit true .on_miss true .duration 1 .buff_duration_type combat_end .has_description false
 effect: .name "hedgeknight_indomitable_dodge_tt" .target "performer" .buff_ids "hedgeknight_indomitable_dodge_tt" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
 
 effect: .name "hedgeknight_switch_mode_indomitable" .target "performer" .set_mode hedge_indom .chance 100% .on_hit true .on_miss false .queue false

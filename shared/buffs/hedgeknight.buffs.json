@@ -114,7 +114,7 @@
          "stat_type" : "resistance",
 		 "stat_sub_type" : "debuff",
 		 "amount" : 0.2,
-		 "duration" : "1",
+		 "duration" : 1,
 		 "duration_type" : "combat_end",
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -129,7 +129,7 @@
          "stat_type" : "resistance",
 		 "stat_sub_type" : "debuff",
 		 "amount" : 0.225,
-		 "duration" : "1",
+		 "duration" : 1,
 		 "duration_type" : "combat_end",
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -144,7 +144,7 @@
          "stat_type" : "resistance",
 		 "stat_sub_type" : "debuff",
 		 "amount" : 0.25,
-		 "duration" : "1",
+		 "duration" : 1,
 		 "duration_type" : "combat_end",
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -159,7 +159,7 @@
          "stat_type" : "resistance",
 		 "stat_sub_type" : "debuff",
 		 "amount" : 0.275,
-		 "duration" : "1",
+		 "duration" : 1,
 		 "duration_type" : "combat_end",
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -174,7 +174,7 @@
          "stat_type" : "resistance",
 		 "stat_sub_type" : "debuff",
 		 "amount" : 0.3,
-		 "duration" : "1",
+		 "duration" : 1,
 		 "duration_type" : "combat_end",
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -189,7 +189,7 @@
          "stat_type" : "resistance",
 		 "stat_sub_type" : "stun",
 		 "amount" : 0.2,
-		 "duration" : "1",
+		 "duration" : 1,
 		 "duration_type" : "combat_end",
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -204,7 +204,7 @@
          "stat_type" : "resistance",
 		 "stat_sub_type" : "stun",
 		 "amount" : 0.225,
-		 "duration" : "1",
+		 "duration" : 1,
 		 "duration_type" : "combat_end",
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -219,7 +219,7 @@
          "stat_type" : "resistance",
 		 "stat_sub_type" : "stun",
 		 "amount" : 0.25,
-		 "duration" : "1",
+		 "duration" : 1,
 		 "duration_type" : "combat_end",
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -234,7 +234,7 @@
          "stat_type" : "resistance",
 		 "stat_sub_type" : "stun",
 		 "amount" : 0.275,
-		 "duration" : "1",
+		 "duration" : 1,
 		 "duration_type" : "combat_end",
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -249,7 +249,7 @@
          "stat_type" : "resistance",
 		 "stat_sub_type" : "stun",
 		 "amount" : 0.3,
-		 "duration" : "1",
+		 "duration" : 1,
 		 "duration_type" : "combat_end",
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -424,7 +424,7 @@
 		 "stat_sub_type" : "",
 		 "amount" : 0.15,
 		 "duration" : 1,
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
@@ -438,7 +438,7 @@
 		 "stat_sub_type" : "",
 		 "amount" : 0.175,
 		 "duration" : 1,
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
@@ -452,7 +452,7 @@
 		 "stat_sub_type" : "",
 		 "amount" : 0.2,
 		 "duration" : 1,
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
@@ -466,7 +466,7 @@
 		 "stat_sub_type" : "",
 		 "amount" : 0.225,
 		 "duration" : 1,
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
@@ -480,7 +480,7 @@
 		 "stat_sub_type" : "",
 		 "amount" : 0.25,
 		 "duration" : 1,
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
@@ -578,7 +578,7 @@
          }
       },
 	  {
-         "id" : "hedgeknight_camping_dmghp",
+         "id" : "hedgeknight_camping_dmgHhp",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 0.15,
@@ -593,7 +593,7 @@
          }
       },
 	  {
-         "id" : "hedgeknight_camping_dmgmark",
+         "id" : "hedgeknight_camping_dmgHmark",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 0.15,
@@ -608,7 +608,7 @@
          }
       },
 	  {
-         "id" : "hedgeknight_camping_dmgbleed",
+         "id" : "hedgeknight_camping_dmgHbleed",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 0.15,
@@ -623,7 +623,7 @@
          }
       },
 	  {
-         "id" : "hedgeknight_camping_dmgstun",
+         "id" : "hedgeknight_camping_dmgHstun",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : 0.15,
@@ -637,6 +637,66 @@
             "string" : "stunned"
          }
       },
+      {
+          "id" : "hedgeknight_camping_dmgLhp",
+          "stat_type" : "combat_stat_multiply",
+          "stat_sub_type" : "damage_low",
+          "amount" : 0.15,
+          "duration_type" : "combat_end",
+          "duration" : 4,
+          "remove_if_not_active" : false,
+          "rule_type" : "target_hpbelow",
+          "is_false_rule" : false,
+          "rule_data" : {
+             "float" : 0.4,
+             "string" : ""
+          }
+       },
+      {
+          "id" : "hedgeknight_camping_dmgLmark",
+          "stat_type" : "combat_stat_multiply",
+          "stat_sub_type" : "damage_low",
+          "amount" : 0.15,
+          "duration_type" : "combat_end",
+          "duration" : 4,
+          "remove_if_not_active" : false,
+          "rule_type" : "actorStatus",
+          "is_false_rule" : false,
+          "rule_data" : {
+             "float" : 0,
+             "string" : "tagged"
+          }
+       },
+      {
+          "id" : "hedgeknight_camping_dmgLbleed",
+          "stat_type" : "combat_stat_multiply",
+          "stat_sub_type" : "damage_low",
+          "amount" : 0.15,
+          "duration_type" : "combat_end",
+          "duration" : 4,
+          "remove_if_not_active" : false,
+          "rule_type" : "actorStatus",
+          "is_false_rule" : false,
+          "rule_data" : {
+             "float" : 0,
+             "string" : "bleeding"
+          }
+       },
+      {
+          "id" : "hedgeknight_camping_dmgLstun",
+          "stat_type" : "combat_stat_multiply",
+          "stat_sub_type" : "damage_low",
+          "amount" : 0.15,
+          "duration_type" : "combat_end",
+          "duration" : 4,
+          "remove_if_not_active" : false,
+          "rule_type" : "actorStatus",
+          "is_false_rule" : false,
+          "rule_data" : {
+             "float" : 0,
+             "string" : "stunned"
+          }
+       },
 	  {
          "id" : "hedgeknight_affliction_dmg_low",
          "stat_type" : "combat_stat_multiply",

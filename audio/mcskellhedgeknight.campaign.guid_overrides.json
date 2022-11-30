@@ -3,8 +3,8 @@
     [
 		{"event_id": "event:/char/ally/hedgeknight_hedgeknight_riposte_hedge_normal",                   "guid_override":"{883b391a-2e22-4445-95ac-8f8fe040560c}"},
 		{"event_id": "event:/char/ally/hedgeknight_hedgeknight_riposte_hedge_indom",                   "guid_override":"{883b391a-2e22-4445-95ac-8f8fe040560c}"},
-		{"event_id": "event:/char/ally/hedgeknight_hedgeknight_riposte_hedge_normal_miss",                   "guid_override":"{2f0c226b-9282-428b-bfd3-c93588756734}"},
-		{"event_id": "event:/char/ally/hedgeknight_hedgeknight_riposte_hedge_indom_miss",                   "guid_override":"{2f0c226b-9282-428b-bfd3-c93588756734}"},
+		{"event_id": "event:/char/ally/hedgeknight_hedgeknight_riposte_miss_hedge_normal",                   "guid_override":"{2f0c226b-9282-428b-bfd3-c93588756734}"},
+		{"event_id": "event:/char/ally/hedgeknight_hedgeknight_riposte_miss_hedge_indom",                   "guid_override":"{2f0c226b-9282-428b-bfd3-c93588756734}"},
 	
 		{"event_id": "event:/char/ally/hedgeknight_splitman",                   "guid_override":"{883b391a-2e22-4445-95ac-8f8fe040560c}"},
 	
@@ -24,22 +24,28 @@
 		{"event_id": "event:/char/ally/hedge_wild_swing_hedge_normal",                   "guid_override":"{9cda1562-6b64-488b-aa2d-feb624e07dec}"},
 		{"event_id": "event:/char/ally/hedge_wild_swing_miss_hedge_normal",                   "guid_override":"{5e77fd09-7701-48f8-a3db-00ccad256516}"},
 		
-        {"event_id": "event:/char/ally/hedgeknight_splitman_hedge_indom",                   "guid_override":"{883b391a-2e22-4445-95ac-8f8fe040560c}"},
-		{"event_id": "event:/char/ally/hedgeknight_splitman_miss_hedge_indom",                   "guid_override":"{2f0c226b-9282-428b-bfd3-c93588756734}"},
-		{"event_id": "event:/char/ally/hedgeknight_roundswing_hedge_indom",                   "guid_override":"{669bb23e-0a8f-4aa7-85c2-f057a0b76056}"},
-		{"event_id": "event:/char/ally/hedgeknight_roundswing_miss_hedge_indom",                   "guid_override":"{90d711f3-4947-4dc2-a563-3afb7747f4bb}"},
-		{"event_id": "event:/char/ally/hedgeknight_splitshield_hedge_indom",                   "guid_override":"{dfd4a46a-8a19-434c-ab8d-824f965bd229}"},
-		{"event_id": "event:/char/ally/hedgeknight_splitshield_miss_hedge_indom",                   "guid_override":"{d3fb0558-28ad-4671-a964-038adf92fc37}"},
-		{"event_id": "event:/char/ally/hedgeknight_pummel_hedge_indom",                   "guid_override":"{9f8c790d-5149-4dbe-91a7-d5c80e1baff3}"},
-		{"event_id": "event:/char/ally/hedgeknight_pummel_miss_hedge_indom",                   "guid_override":"{4f850ecd-1484-4788-afc9-b1b1d7e5b71c}"},
-		{"event_id": "event:/char/ally/hedgeknight_dismember_hedge_indom",                   "guid_override":"{03f60247-e04d-4570-9f96-b6235bc2d238}"},
-		{"event_id": "event:/char/ally/hedgeknight_dismember_miss_hedge_indom",                   "guid_override":"{90d711f3-4947-4dc2-a563-3afb7747f4bb}"},
-		{"event_id": "event:/char/ally/hedgeknight_make_way_hedge_indom",                   "guid_override":"{02e7f131-ef06-496a-b75e-a08b431b0bfa}"},
-		{"event_id": "event:/char/ally/hedgeknight_make_way_miss_hedge_indom",                   "guid_override":"{d9530ec4-458e-49cc-bfcc-014d797fbaac}"},
-		{"event_id": "event:/char/ally/hedgeknight_hedge_indom_hedge_indom",                   "guid_override":"{5bbced79-2ecc-4c11-82d3-2e6bda91b436}"},
+        {"event_id": "event:/char/ally/hedgeknight_hedge_splitman_hedge_indom",                   "guid_override":"{883b391a-2e22-4445-95ac-8f8fe040560c}"},
+		{"event_id": "event:/char/ally/hedgeknight_hedge_splitman_miss_hedge_indom",                   "guid_override":"{2f0c226b-9282-428b-bfd3-c93588756734}"},
+		{"event_id": "event:/char/ally/hedgeknight_hedge_roundswing_hedge_indom",                   "guid_override":"{669bb23e-0a8f-4aa7-85c2-f057a0b76056}"},
+		{"event_id": "event:/char/ally/hedgeknight_hedge_roundswing_miss_hedge_indom",                   "guid_override":"{90d711f3-4947-4dc2-a563-3afb7747f4bb}"},
+		{"event_id": "event:/char/ally/hedgeknight_hedge_splitshield_hedge_indom",                   "guid_override":"{dfd4a46a-8a19-434c-ab8d-824f965bd229}"},
+		{"event_id": "event:/char/ally/hedgeknight_hedge_splitshield_miss_hedge_indom",                   "guid_override":"{d3fb0558-28ad-4671-a964-038adf92fc37}"},
+		{"event_id": "event:/char/ally/hedgeknight_hedge_pummel_hedge_indom",                   "guid_override":"{9f8c790d-5149-4dbe-91a7-d5c80e1baff3}"},
+		{"event_id": "event:/char/ally/hedgeknight_hedge_pummel_miss_hedge_indom",                   "guid_override":"{4f850ecd-1484-4788-afc9-b1b1d7e5b71c}"},
+		{"event_id": "event:/char/ally/hedgeknight_hedge_dismember_hedge_indom",                   "guid_override":"{03f60247-e04d-4570-9f96-b6235bc2d238}"},
+		{"event_id": "event:/char/ally/hedgeknight_hedge_dismember_miss_hedge_indom",                   "guid_override":"{90d711f3-4947-4dc2-a563-3afb7747f4bb}"},
+		{"event_id": "event:/char/ally/hedgeknight_hedge_make_way_hedge_indom",                   "guid_override":"{02e7f131-ef06-496a-b75e-a08b431b0bfa}"},
+		{"event_id": "event:/char/ally/hedgeknight_hedge_make_way_miss_hedge_indom",                   "guid_override":"{d9530ec4-458e-49cc-bfcc-014d797fbaac}"},
+		{"event_id": "event:/char/ally/hedgeknight_hedge_indomitable_hedge_indom",                   "guid_override":"{5bbced79-2ecc-4c11-82d3-2e6bda91b436}"},
 		{"event_id": "event:/_hedge_normal",                   "guid_override":"{9cda1562-6b64-488b-aa2d-feb624e07dec}"},
 		{"event_id": "event:/_hedge_normal_miss",                   "guid_override":"{5e77fd09-7701-48f8-a3db-00ccad256516}"},
 		{"event_id": "event:/_hedge_indom",                   "guid_override":"{9cda1562-6b64-488b-aa2d-feb624e07dec}"},
-		{"event_id": "event:/_hedge_indom_miss",                   "guid_override":"{5e77fd09-7701-48f8-a3db-00ccad256516}"}
+		{"event_id": "event:/_hedge_indom_miss",                   "guid_override":"{5e77fd09-7701-48f8-a3db-00ccad256516}"},
+
+		{"event_id": "event:/camp/skill/hedgeknight_lesson",                   "guid_override":"{44d6bf62-58ac-4511-aa65-85088b59a3c9}"},
+		{"event_id": "event:/camp/skill/hedgeknight_executioner",                   "guid_override":"{ae32a8ba-cee2-4224-9e6c-903e3b9e02b9}"},
+		{"event_id": "event:/camp/skill/hedgeknight_fray",                   "guid_override":"{3d5d6a22-8176-41c6-9357-c8005e90ab41}"},
+		{"event_id": "event:/camp/skill/hedgeknight_revel_slaughter",                   "guid_override":"{f6aad4c9-a75d-4d78-b624-f007d1f94b29}"}
+
 	]
 }
