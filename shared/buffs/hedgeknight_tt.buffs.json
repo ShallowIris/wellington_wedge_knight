@@ -352,6 +352,84 @@
             "float" : 0,
             "string" : ""
         }
+    },
+    {
+        "id" : "hedgeknight_TRINKET_very_rare_riposte_TT",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedgeknight_TRINKET_very_rare_riposte_TT",
+        "amount" : -1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "TRINKET_hedge_CC_self_bleed_TT",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "TRINKET_hedge_CC_self_bleed_TT",
+        "amount" : -1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "TRINKET_hedge_ship_DMGH_TT",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "TRINKET_hedge_ship_DMGH_TT",
+        "amount" : -1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "TRINKET_hedge_ship_DMGL_TT",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "TRINKET_hedge_ship_DMGL_TT",
+        "amount" : -1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "TRINKET_hedge_comet_clear_riposte_TT",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "TRINKET_hedge_comet_clear_riposte_TT",
+        "amount" : -1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "SET_HEDGE_PERMA_RIPOSTE_TT",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "SET_HEDGE_PERMA_RIPOSTE_TT",
+        "amount" : -1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
     }
     ]
 }

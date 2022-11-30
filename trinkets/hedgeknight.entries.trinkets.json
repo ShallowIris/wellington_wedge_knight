@@ -2,21 +2,196 @@
 	"entries":
 	[
 		{
-			"id" : "vmt_wh_very_rare",
+			"id" : "hedgeknight_helmet_trinket",
 			"buffs" : 
 			[	
-				"TRINKET_vmt_wh_disable_daze"
+				"TRINKET_hedge_common_CRIT_RECEIVED_B",
+				"SPD-1"
 			],
 			"hero_class_requirements":
 			[
-				"vmt_wh"
+				"hedgeknight"
+			],
+			"rarity" : "common",
+			"price" : 7500,
+			"limit" : 2,
+			"origin_dungeon" : ""
+		},
+		{
+			"id" : "hedgeknight_handaxe_trinket",
+			"buffs" : [],
+			"hero_class_requirements":
+			[
+				"hedgeknight"
+			],
+			"rarity" : "common",
+			"price" : 7500,
+			"limit" : 2,
+			"origin_dungeon" : "",
+			"attack_skill_additional_effects": [ "hedgeknight_TRINKET_common_bleed" ]
+		},
+		{
+			"id" : "hedgeknight_armor_trinket",
+			"buffs" : 
+			[
+				"PROT20",
+				"MAXHP-15"
+			],
+			"hero_class_requirements":
+			[
+				"hedgeknight"
+			],
+			"rarity" : "uncommon",
+			"price" : 10000,
+			"limit" : 2,
+			"origin_dungeon" : ""
+		},
+		{
+			"id" : "hedgeknight_pole_axe_trinket_1",
+			"buffs" : 
+			[
+				"TRINKET_hedge_rare_wildswing_random_B",
+				"TRINKET_hedge_rare_ACC_B",
+				"TRINKET_hedge_rare_DMGH_D",
+				"TRINKET_hedge_rare_DMGL_D"
+			],
+			"hero_class_requirements":
+			[
+				"hedgeknight"
+			],
+			"rarity" : "rare",
+			"price" : 15000,
+			"limit" : 2,
+			"origin_dungeon" : ""
+		},
+		{
+			"id" : "hedgeknight_chaos_axe_trinket_1",
+			"buffs" : 
+			[
+				"TRINKET_hedge_very_rare_afflicted_DMGH_B",
+				"TRINKET_hedge_very_rare_afflicted_DMGL_B",
+				"TRINKET_hedge_very_rare_STRESSHEAL_D"
+			],
+			"hero_class_requirements":
+			[
+				"hedgeknight"
 			],
 			"rarity" : "very_rare",
 			"price" : 25000,
 			"limit" : 2,
-			"attack_skill_additional_effects": [ "WH To EH"	],
-			"friendly_skill_additional_effects": [ "WH To EH" ],
-			"origin_dungeon" : ""
+			"origin_dungeon" : "",
+			"kill_performer_additional_effects": 
+			[ 
+				"hedgeknight_TRINKET_very_rare_riposte",
+				"hedgeknight_TRINKET_very_rare_riposte_TT"
+			]
+		},
+		{
+			"id" : "hedgeknight_cc_trinket_1",
+			"buffs" : 
+			[
+				"TRINKET_hedge_CC_STRESSHEAL_ONCRIT_D",
+				"TRINKET_hedge_CC_STRESSDMG_D"
+			],
+			"hero_class_requirements":
+			[
+				"hedgeknight"
+			],
+			"set_id" : "hedgeknight_CC_set",
+			"rarity" : "crimson_court",
+			"price" : 50000,
+			"limit" : 1,
+			"origin_dungeon" : "",
+			"attack_crit_additional_effects": 
+			[
+				"hedgeknight_TRINKET_CC_party_buff"
+			]
+		},
+		{
+			"id" : "hedgeknight_cc_trinket_2",
+			"buffs" : 
+			[
+				"STUNSKILL15",
+				"TRINKET_hedge_CC_melee_DMGH_B",
+				"TRINKET_hedge_CC_melee_DMGL_B",
+				"TRINKET_hedge_CC_random_D",
+				"TRINKET_hedge_CC_self_bleed_TT"
+			],
+			"hero_class_requirements":
+			[
+				"hedgeknight"
+			],
+			"set_id" : "hedgeknight_CC_set",
+			"rarity" : "crimson_court",
+			"price" : 50000,
+			"limit" : 1,
+			"origin_dungeon" : "",
+			"friendly_skill_additional_effects": 
+			[ 
+				"hedgeknight_TRINKET_CC_self_bleed"
+			]
+		},
+		{
+			"id" : "hedgeknight_sunward_trinket",
+			"buffs" : 
+			[
+				"TRINKET_hedge_ship_DMGH_B",
+				"TRINKET_hedge_ship_DMGL_D",
+				"TRINKET_hedge_ship_DMGH_TT",
+				"TRINKET_hedge_ship_DMGL_TT",
+				"TRINKET_hedge_ship_CRIT_D"
+			],
+			"hero_class_requirements":
+			[
+				"hedgeknight"
+			],
+			"rarity" : "sakura",
+			"price" : 30000,
+			"limit" : 1,
+			"origin_dungeon" : "ship"
+		},
+		{
+			"id" : "hedgeknight_crystal_trinket",
+			"buffs" : 
+			[
+				"TRINKET_hedge_comet_HPabove_reflection_B",
+				"TRINKET_hedge_comet_DMGRECV_D",
+				"TRINKET_hedge_comet_clear_riposte_TT"
+			],
+			"hero_class_requirements":
+			[
+				"hedgeknight"
+			],
+			"rarity" : "comet",
+         	"shard" : 25,
+			"limit" : 1,
+			"origin_dungeon" : "",
+			"riposte_skill_additional_effects":
+			[
+				"hedgeknight_trinket_comet_HEALHP",
+				"hedgeknight_trinket_comet_removeriposte",
+				"hedgeknight_trinket_comet_HEALRECV_D"
+			]
+		},
+		{
+			"id" : "hedgeknight_collector_trinket",
+			"buffs" : 
+			[
+				"TRINKET_hedge_collector_DMGRECV_D",
+				"STRESSDMG20"
+			],
+			"hero_class_requirements":
+			[
+				"hedgeknight"
+			],
+			"rarity" : "collector",
+         	"price" : 15000,
+         	"limit" : 1,
+         	"origin_dungeon" : "",
+			"was_hit_additional_effects":
+			[
+				"hedgeknight_trinket_collector_self_dmg_buff"
+			]
 		}
 	]
 }

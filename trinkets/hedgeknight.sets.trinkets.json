@@ -1,0 +1,13 @@
+{
+   "sets":
+   [
+      {
+         "id" : "hedgeknight_CC_set",
+         "buffs" : 
+         [
+            "SET_HEDGE_PERMA_RIPOSTE",
+            "SET_HEDGE_PERMA_RIPOSTE_TT"
+         ]
+      }
+   ]
+}

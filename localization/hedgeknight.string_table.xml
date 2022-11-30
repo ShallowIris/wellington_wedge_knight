@@ -76,16 +76,25 @@
     <entry id="str_inventory_title_trinkethedgeknight_armor_trinket"><![CDATA[Dented Plackart]]></entry>
     <entry id="str_inventory_title_trinkethedgeknight_pole_axe_trinket_1"><![CDATA[Pollaxe]]></entry>
     <entry id="str_inventory_title_trinkethedgeknight_chaos_axe_trinket_1"><![CDATA[Chaos Axe]]></entry>
-    <entry id="str_inventory_title_trinkethedgeknight_cc_trinket_1"><![CDATA[‎Old Company Standard]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_cc_trinket_1"><![CDATA[Old Company Standard]]></entry>
     <entry id="str_inventory_title_trinkethedgeknight_cc_trinket_2"><![CDATA[Bloodied Gauntlet]]></entry>
     <entry id="str_inventory_title_trinkethedgeknight_com_trinket"><![CDATA[Shattered Skull-Splitter]]></entry>
 	<entry id="str_inventory_set_title_hedgeknight_cc_set"><![CDATA["Bloodshed. My only ally."]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_sunward_trinket"><![CDATA[Oversized Ono]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_crystal_trinket"><![CDATA[Spatial Splitter]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_collector_trinket"><![CDATA[Duncan's Head]]></entry>
 
     <!-- Tooltips -->
     
     <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?buff}%s vs HP below {?hpthreshold}%d%%]]></entry>
     <entry id="buff_rule_tooltip_target_is_guarding"><![CDATA[%s vs {colour_start|guard}Guarding{colour_end}]]></entry>
-    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On Attack: Random target %d%%.]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[Chance to Aim a Random Target on Attack %+d%%]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Monster Kill:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Heal from CRIT]]></entry>
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflection]]></entry>
+    <entry id="buff_rule_data_tooltip_hedge_wild_swing"><![CDATA[Wild Swing]]></entry>
+
     <entry id="str_skill_mode_info_hedge_splitshield_tt_1"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
     <entry id="str_skill_mode_info_hedge_splitshield_tt_2"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
     <entry id="str_skill_mode_info_hedge_splitshield_tt_3"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
@@ -130,6 +139,14 @@
    +25%% DMG Taken while {colour_start|bleed}Bleeding{colour_end} {colour_start|skill_unselectable}(135%% base){colour_end}  {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_indomitable_dodge_tt"><![CDATA[-25 DODGE
     {colour_start|skill_unselectable}(Debuff Lasts Until Combat End){colour_end} {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_TRINKET_very_rare_riposte_TT"><![CDATA[{colour_start|riposte}RIPOSTE:{colour_end} ACC 85 / CRIT +5%%]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_TRINKET_hedge_CC_self_bleed_TT"><![CDATA[On Indomitable: Self: {colour_start|bleed}Bleed{colour_end} 1pt, Until Combat End]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_TRINKET_hedge_ship_DMGH_TT"><![CDATA[+35%% Max DMG]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_TRINKET_hedge_ship_DMGL_TT"><![CDATA[-35%% Min DMG]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_SET_HEDGE_PERMA_RIPOSTE_TT"><![CDATA[Permanent Riposte]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_TRINKET_hedge_comet_clear_riposte_TT"><![CDATA[On Riposte Hit: Self: Clear {colour_start|riposte}Riposte{colour_end}]]></entry>
+
+    <entry id="str_inventory_set_title_hedgeknight_CC_set"><![CDATA["Bloodshed, my only ally."]]></entry>
 
     <!-- Party names -->
 

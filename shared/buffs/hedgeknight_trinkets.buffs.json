@@ -2,17 +2,279 @@
    "buffs":
    [
       {
-         "id" : "hedgeknight_charge_stun_large",
-         "stat_type" : "stun_chance",
-		 "stat_sub_type" : "",
-         "amount" : 0.6,
+         "id" : "TRINKET_hedge_common_CRIT_RECEIVED_B",
+         "stat_type" : "crit_received_chance",
+		   "stat_sub_type" : "",
+         "amount" : -0.12,
          "remove_if_not_active" : false,
-         "rule_type" : "monsterSize",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 2,
+            "float" : 0,
             "string" : ""
          }
-	  }
+	  },
+     {
+         "id" : "TRINKET_hedge_rare_wildswing_random_B",
+         "stat_type" : "random_target_attack_chance",
+         "stat_sub_type" : "",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "hedge_wild_swing"
+         }
+      },
+      {
+         "id" : "TRINKET_hedge_rare_ACC_B",
+         "stat_type" : "combat_stat_add",
+		   "stat_sub_type" : "attack_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+     {
+        "id" : "TRINKET_hedge_rare_DMGH_D",
+        "stat_type" : "combat_stat_multiply",
+        "stat_sub_type" : "damage_high",
+        "amount" : -0.15,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+      },
+      {
+         "id" : "TRINKET_hedge_rare_DMGL_D",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TRINKET_hedge_very_rare_afflicted_DMGH_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TRINKET_hedge_very_rare_afflicted_DMGL_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TRINKET_hedge_very_rare_STRESSHEAL_D",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TRINKET_hedge_CC_STRESSHEAL_ONCRIT_D",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "hero_crit",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TRINKET_hedge_CC_STRESSDMG_D",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TRINKET_hedge_CC_melee_DMGH_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "meleeonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TRINKET_hedge_CC_melee_DMGL_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "meleeonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TRINKET_hedge_CC_random_D",
+         "stat_type" : "random_target_attack_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+            }
+       },
+       {
+         "id" : "TRINKET_hedge_ship_DMGH_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+            }
+      },
+      {
+         "id" : "TRINKET_hedge_ship_DMGL_D",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.35,
+         "remove_if_not_active" : false,
+         "has_description": false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+            }
+      },
+      {
+         "id" : "TRINKET_hedge_ship_CRIT_D",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+            }
+      },
+      {
+         "id" : "TRINKET_hedge_comet_HPabove_reflection_B",
+         "stat_type" : "damage_reflect_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : ""
+            }
+      },
+      {
+         "id" : "TRINKET_hedge_comet_DMGRECV_D",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+            }
+      },
+      {
+         "id" : "hedgeknight_trinket_comet_HEALRECV_D",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+            }
+      },
+      {
+         "id" : "TRINKET_hedge_collector_DMGRECV_D",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+            }
+      },
+      {
+         "id" : "SET_HEDGE_PERMA_RIPOSTE",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "hedgeknight_TRINKET_very_rare_riposte",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "has_description": false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+            }
+      }
    ]
 }

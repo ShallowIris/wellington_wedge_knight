@@ -177,7 +177,7 @@ combat_skill: .id "hedge_indomitable" .level 3 .type "melee" .atk 0% .dmg 0% .cr
 combat_skill: .id "hedge_indomitable" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 21 .target  .is_crit_valid True  .is_stall_invalidating false .valid_modes hedge_normal hedge_indom  .effect "hedgeknight_switch_mode_indomitable" "hedgeknight_indomitable_stun_res_5" "hedgeknight_indomitable_debuff_res_5" "hedgeknight_indomitable_dodge_1" "hedgeknight_indomitable_heal_5" hedgeknight_indomitable_dodge_tt
 
 
-combat_move_skill: .id "hedge_wild_swing" .level 0 .type "melee" .atk 75% .dmg -15% .move 0 1 .launch 4321 .target 123 .ignore_guard .ignore_stealth .valid_modes hedge_normal hedge_indom .effect "hedgeknight_wildswing_randomtarget"
+combat_move_skill: .id "hedge_wild_swing" .level 0 .type "melee" .atk 75% .dmg -15% .move 0 1 .launch 4321 .target 123 .ignore_guard true .ignore_stealth true .valid_modes hedge_normal hedge_indom .effect "hedgeknight_wildswing_randomtarget"
 
 
 riposte_skill: .id "hedgeknight_riposte" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 1234 .target 1234 .is_crit_valid true

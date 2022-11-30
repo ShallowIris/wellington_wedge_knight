@@ -135,5 +135,16 @@ effect: .name "hedgeknight_on_crit" .target "performer" .buff_source_type bsrc_c
 effect: .name "hedgeknight_wounded_riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -50% .damage_high_multiply -50% .crit_chance_add 5%
 effect: .name "hedgeknight_clear_riposte" .target "performer" .chance 100% .clear_riposte 1 .on_hit true .on_miss true
 
-
+//overstress
 effect: .name "hedgeknight_barbaric_party_buff" .target "target" .chance 100% .combat_stat_buff 1 .damage_low_multiply 15%	.damage_high_multiply 15% .stress 3	.on_hit true .on_miss true .queue true
+
+//trinkets
+effect: .name "hedgeknight_TRINKET_common_bleed" .target "target" .chance 130% .dotBleed 1 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "hedgeknight_TRINKET_very_rare_riposte" .target "performer" .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true
+effect: .name "hedgeknight_TRINKET_very_rare_riposte_TT" .target "performer" .buff_ids "hedgeknight_TRINKET_very_rare_riposte_TT" .on_hit true .on_miss true .buff_source_type bsrc_riposte .has_description false
+effect: .name "hedgeknight_TRINKET_CC_party_buff" .target "performer_group" .duration 3 .combat_stat_buff 1 .crit_chance_add 6% .speed_rating_add 2 .on_hit true .on_miss false
+effect: .name "hedgeknight_TRINKET_CC_self_bleed" .target "target" .chance 500% .dotBleed 1 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .can_apply_on_death true .has_description false
+effect: .name "hedgeknight_trinket_comet_HEALHP" .target "performer" .heal_percent 0.25 .on_hit true .on_miss false
+effect: .name "hedgeknight_trinket_comet_removeriposte" .target "performer" .clear_riposte 1 .on_hit true .on_miss false
+effect: .name "hedgeknight_trinket_comet_HEALRECV_D" .target "performer" .buff_ids "hedgeknight_trinket_comet_HEALRECV_D" .on_hit true .on_miss false
+effect: .name "hedgeknight_trinket_collector_self_dmg_buff" .target "performer" .duration 3 .combat_stat_buff 1 .damage_high_multiply 15% .damage_low_multiply 15% .on_hit true .on_miss false
