@@ -171,6 +171,19 @@
             }
        },
        {
+          "id" : "hedgeknight_TRINKET_CC_dotbleed",
+          "stat_type" : "hp_dot_bleed",
+          "stat_sub_type" : "",
+          "amount" : 1,
+          "remove_if_not_active" : true,
+          "rule_type" : "monster_type_count_min",
+          "is_false_rule" : false,
+          "rule_data" : {
+             "float" : 10,
+             "string" : "pinkypromise"
+             }
+        },
+       {
          "id" : "TRINKET_hedge_ship_DMGH_B",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
