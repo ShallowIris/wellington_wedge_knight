@@ -54,6 +54,19 @@ effect: .name "hedgeknight_dismember_dmg_4" .target "target" .chance 125%  .buff
 effect: .name "hedgeknight_dismember_dmg_5" .target "target" .chance 135%  .buff_ids "hedgeknight_dismember_dmg_5" .duration 3	.on_hit true .on_miss false .can_apply_on_death true .has_description false
 
 //indomitable
+
+effect: .name "hedge_indomitable_tt_1_1" .target "performer" .skill_instant true .buff_ids "hedge_indomitable_tt_1_1" .on_hit true .on_miss true
+effect: .name "hedge_indomitable_tt_1_2" .target "performer" .skill_instant true .buff_ids "hedge_indomitable_tt_1_2" .on_hit true .on_miss true
+effect: .name "hedge_indomitable_tt_1_3" .target "performer" .skill_instant true .buff_ids "hedge_indomitable_tt_1_3" .on_hit true .on_miss true
+effect: .name "hedge_indomitable_tt_1_4" .target "performer" .skill_instant true .buff_ids "hedge_indomitable_tt_1_4" .on_hit true .on_miss true
+effect: .name "hedge_indomitable_tt_1_5" .target "performer" .skill_instant true .buff_ids "hedge_indomitable_tt_1_5" .on_hit true .on_miss true
+effect: .name "hedge_indomitable_tt_2_1" .target "performer" .skill_instant true .buff_ids "hedge_indomitable_tt_2_1" .on_hit true .on_miss true
+effect: .name "hedge_indomitable_tt_2_2" .target "performer" .skill_instant true .buff_ids "hedge_indomitable_tt_2_2" .on_hit true .on_miss true
+effect: .name "hedge_indomitable_tt_2_3" .target "performer" .skill_instant true .buff_ids "hedge_indomitable_tt_2_3" .on_hit true .on_miss true
+effect: .name "hedge_indomitable_tt_2_4" .target "performer" .skill_instant true .buff_ids "hedge_indomitable_tt_2_4" .on_hit true .on_miss true
+effect: .name "hedge_indomitable_tt_2_5" .target "performer" .skill_instant true .buff_ids "hedge_indomitable_tt_2_5" .on_hit true .on_miss true
+effect: .name "hedge_indomitable_tt_3" .target "performer" .skill_instant true .buff_ids "hedge_indomitable_tt_3" .on_hit true .on_miss true
+
 effect: .name "hedgeknight_indomitable_dmg" .target "performer" .buff_ids "hedgeknight_indomitable_dmgh" "hedgeknight_indomitable_dmgl" .on_hit true .on_miss true
 effect: .name "hedgeknight_indomitable_dmg_lowhp" .target "performer" .buff_ids "hedgeknight_indomitable_dmgh_lowhp" "hedgeknight_indomitable_dmgl_lowhp" .on_hit true .on_miss true
 
@@ -73,11 +86,10 @@ effect: .name "hedgeknight_indomitable_stun_res_3" .target "performer" .buff_ids
 effect: .name "hedgeknight_indomitable_stun_res_4" .target "performer" .buff_ids "hedgeknight_indomitable_stun_res_4" .on_hit true .on_miss true 
 effect: .name "hedgeknight_indomitable_stun_res_5" .target "performer" .buff_ids "hedgeknight_indomitable_stun_res_5" .on_hit true .on_miss true 
 
-effect: .name "hedgeknight_indomitable_dodge_1" .target "performer" .combat_stat_buff 1 .defense_rating_add -0.25 .on_hit true .on_miss true .duration 1 .buff_duration_type combat_end .has_description false
-effect: .name "hedgeknight_indomitable_dodge_tt" .target "performer" .buff_ids "hedgeknight_indomitable_dodge_tt" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
+effect: .name "hedgeknight_indomitable_dodge_1" .target "performer" .combat_stat_buff 1 .defense_rating_add -0.25 .on_hit true .on_miss true .duration 1 .buff_duration_type combat_end
 
 effect: .name "hedgeknight_switch_mode_indomitable" .target "performer" .set_mode hedge_indom .chance 100% .on_hit true .on_miss false .queue false
-effect: .name "hedgeknight_switch_mode_normal" .target "performer" .set_mode hedge_normal .chance 100% .on_hit true .on_miss false .queue false
+effect: .name "hedgeknight_switch_mode_normal" .target "performer" .set_mode hedge_normal .chance 100% .on_hit true .on_miss false .queue false .has_description false
 
 effect: .name "hedgeknight_indom_stress_self" .target "performer" .on_hit true .on_miss true .stress 3 .chance 100% .queue true //needs in mode
 
@@ -92,7 +104,8 @@ effect: .name "hedgeknight_charge_shuffle_2" .target "target" .push 1 .chance 95
 effect: .name "hedgeknight_charge_shuffle_3" .target "target" .push 1 .chance 105% 	.on_hit true .on_miss false .can_apply_on_death true 
 effect: .name "hedgeknight_charge_shuffle_4" .target "target" .push 1 .chance 115% 	.on_hit true .on_miss false .can_apply_on_death true 
 effect: .name "hedgeknight_charge_shuffle_5" .target "target" .push 1 .chance 125% 	.on_hit true .on_miss false .can_apply_on_death true 
-effect: .name "hedgeknight_charge_stun_large_effect" .target "performer" .buff_ids "hedgeknight_charge_stun_large" .skill_instant true .apply_once true .on_hit true .on_miss false
+effect: .name "hedgeknight_charge_stun_large_effect" .target "performer" .buff_ids "hedgeknight_charge_stun_large" .skill_instant true .apply_once true .on_hit true .on_miss false .has_description false
+effect: .name "hedgeknight_charge_stun_large_TT" .target "performer" .buff_ids "hedgeknight_charge_stun_large_TT" .skill_instant true .apply_once true .on_hit true .on_miss true
 effect: .name "hedgeknight_charge_spd_1" .target "performer" .combat_stat_buff 1 .speed_rating 1.0 .on_hit true .on_miss true
 effect: .name "hedgeknight_charge_spd_2" .target "performer" .combat_stat_buff 1 .speed_rating 1.0 .on_hit true .on_miss true
 effect: .name "hedgeknight_charge_spd_3" .target "performer" .combat_stat_buff 1 .speed_rating 2.0 .on_hit true .on_miss true

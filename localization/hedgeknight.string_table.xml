@@ -99,6 +99,9 @@
     <entry id="str_skill_mode_info_hedge_splitshield_tt_2"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
     <entry id="str_skill_mode_info_hedge_splitshield_tt_3"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
     <entry id="str_skill_mode_info_hedge_splitshield_tt_4"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_hedge_indomitable_tt_1"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_hedge_indomitable_tt_2"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_hedge_indomitable_tt_3"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
 
     <entry id="str_skill_mode_info_hedge_normal"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
     <entry id="str_skill_mode_info_hedge_indom"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
@@ -138,8 +141,29 @@
   +22.5%% DMG Taken while {colour_start|bleed}Bleeding{colour_end} {colour_start|skill_unselectable}(125%% base){colour_end} {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_2_5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} 
    +25%% DMG Taken while {colour_start|bleed}Bleeding{colour_end} {colour_start|skill_unselectable}(135%% base){colour_end}  {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
-    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_indomitable_dodge_tt"><![CDATA[-25 DODGE
-    {colour_start|skill_unselectable}(Debuff Lasts Until Combat End){colour_end} {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_charge_stun_large_TT"><![CDATA[   +60%% {colour_start|stun}Stun{colour_end} Skill Chance vs Size 2 or above{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_quirk_tag_evolution_duration_hedge_indomitable_tt_1"><![CDATA[Self:
+{colour_start|healhp}Heal{colour_end} 1pt/rd for %d rds
+Change to mode: Indomitable
+(Gets +15%% DMG Upon Taking Damage)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedge_indomitable_tt_2_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++20%% {colour_start|stun}Stun{colour_end} Resist
++20%% {colour_start|debuff}Debuff{colour_end} Resist]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedge_indomitable_tt_2_2"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++22.5%% {colour_start|stun}Stun{colour_end} Resist
++22.5%% {colour_start|debuff}Debuff{colour_end} Resist]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedge_indomitable_tt_2_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++25%% {colour_start|stun}Stun{colour_end} Resist
++25%% {colour_start|debuff}Debuff{colour_end} Resist]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedge_indomitable_tt_2_4"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++27.5%% {colour_start|stun}Stun{colour_end} Resist
++27.5%% {colour_start|debuff}Debuff{colour_end} Resist]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedge_indomitable_tt_2_5"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
++30%% {colour_start|stun}Stun{colour_end} Resist
++30%% {colour_start|debuff}Debuff{colour_end} Resist]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedge_indomitable_tt_3"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
+-25 DODGE {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+
     <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_TRINKET_very_rare_riposte_TT"><![CDATA[{colour_start|riposte}RIPOSTE:{colour_end} ACC 85 / CRIT +5%%]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_TRINKET_hedge_CC_self_bleed_TT"><![CDATA[On Indomitable: Self: {colour_start|bleed}Bleed{colour_end} 1pt, Until Combat End]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_TRINKET_hedge_ship_DMGH_TT"><![CDATA[+35%% Max DMG]]></entry>

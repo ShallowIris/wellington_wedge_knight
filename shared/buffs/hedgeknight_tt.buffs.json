@@ -341,10 +341,153 @@
         }
     },
     {
-        "id" : "hedgeknight_indomitable_dodge_tt",
+        "id" : "hedgeknight_charge_stun_large_TT",
         "stat_type" : "upgrade_discount",
-        "stat_sub_type" : "hedgeknight_indomitable_dodge_tt",
-        "amount" : -1,
+        "stat_sub_type" : "hedgeknight_charge_stun_large_TT",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedge_indomitable_tt_1_1",
+        "stat_type" : "quirk_tag_evolution_duration",
+        "stat_sub_type" : "hedge_indomitable_tt_1",
+        "amount" : 3,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedge_indomitable_tt_1_2",
+        "stat_type" : "quirk_tag_evolution_duration",
+        "stat_sub_type" : "hedge_indomitable_tt_1",
+        "amount" : 3,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedge_indomitable_tt_1_3",
+        "stat_type" : "quirk_tag_evolution_duration",
+        "stat_sub_type" : "hedge_indomitable_tt_1",
+        "amount" : 4,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedge_indomitable_tt_1_4",
+        "stat_type" : "quirk_tag_evolution_duration",
+        "stat_sub_type" : "hedge_indomitable_tt_1",
+        "amount" : 4,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedge_indomitable_tt_1_5",
+        "stat_type" : "quirk_tag_evolution_duration",
+        "stat_sub_type" : "hedge_indomitable_tt_1",
+        "amount" : 5,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedge_indomitable_tt_2_1",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedge_indomitable_tt_2_1",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedge_indomitable_tt_2_2",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedge_indomitable_tt_2_2",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedge_indomitable_tt_2_3",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedge_indomitable_tt_2_3",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedge_indomitable_tt_2_4",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedge_indomitable_tt_2_4",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedge_indomitable_tt_2_5",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedge_indomitable_tt_2_5",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+            "float" : 0,
+            "string" : ""
+        }
+    },
+    {
+        "id" : "hedge_indomitable_tt_3",
+        "stat_type" : "upgrade_discount",
+        "stat_sub_type" : "hedge_indomitable_tt_3",
+        "amount" : 1,
         "remove_if_not_active" : false,
         "rule_type" : "always",
         "is_false_rule" : false,

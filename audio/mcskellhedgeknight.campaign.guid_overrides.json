@@ -21,8 +21,6 @@
 		{"event_id": "event:/char/ally/hedgeknight_hedge_make_way_hedge_normal",                   "guid_override":"{02e7f131-ef06-496a-b75e-a08b431b0bfa}"},
 		{"event_id": "event:/char/ally/hedgeknight_hedge_make_way_miss_hedge_normal",                   "guid_override":"{d9530ec4-458e-49cc-bfcc-014d797fbaac}"},
 		{"event_id": "event:/char/ally/hedgeknight_hedge_indomitable_hedge_normal",                   "guid_override":"{5bbced79-2ecc-4c11-82d3-2e6bda91b436}"},
-		{"event_id": "event:/char/ally/hedge_wild_swing_hedge_normal",                   "guid_override":"{9cda1562-6b64-488b-aa2d-feb624e07dec}"},
-		{"event_id": "event:/char/ally/hedge_wild_swing_miss_hedge_normal",                   "guid_override":"{5e77fd09-7701-48f8-a3db-00ccad256516}"},
 		
         {"event_id": "event:/char/ally/hedgeknight_hedge_splitman_hedge_indom",                   "guid_override":"{883b391a-2e22-4445-95ac-8f8fe040560c}"},
 		{"event_id": "event:/char/ally/hedgeknight_hedge_splitman_miss_hedge_indom",                   "guid_override":"{2f0c226b-9282-428b-bfd3-c93588756734}"},
