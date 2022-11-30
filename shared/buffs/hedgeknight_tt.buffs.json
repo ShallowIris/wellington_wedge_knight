@@ -500,7 +500,7 @@
         "id" : "hedgeknight_TRINKET_very_rare_riposte_TT",
         "stat_type" : "upgrade_discount",
         "stat_sub_type" : "hedgeknight_TRINKET_very_rare_riposte_TT",
-        "amount" : -1,
+        "amount" : 1,
         "remove_if_not_active" : false,
         "rule_type" : "always",
         "is_false_rule" : false,

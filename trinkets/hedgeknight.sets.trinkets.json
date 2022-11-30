@@ -6,6 +6,8 @@
          "buffs" : 
          [
             "SET_HEDGE_PERMA_RIPOSTE",
+            "SET_HEDGE_PERMA_RIPOSTE_HIT",
+            "SET_HEDGE_PERMA_RIPOSTE_MISS",
             "SET_HEDGE_PERMA_RIPOSTE_TT"
          ]
       }
