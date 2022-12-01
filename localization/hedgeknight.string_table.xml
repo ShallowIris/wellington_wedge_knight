@@ -109,6 +109,7 @@
     <entry id="actor_mode_name_hedge_indom"><![CDATA[Indomitable]]></entry>
     <entry id="buff_rule_data_tooltip_hedge_indom"><![CDATA[Indomitable]]></entry>
     
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_riposte_TT"><![CDATA[{colour_start|riposte}Riposte:{colour_end} ACC 85 / DMG mod -50%% / CRIT 5%%]]></entry>
     <entry id="buff_stat_tooltip_quirk_tag_evolution_duration_hedgeknight_splitman_tt3"><![CDATA[   %+d%% CRIT vs HP below 40%%{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_roundswing_tt_1"><![CDATA[    Armor Piercing vs HP below 40%%  {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_1"><![CDATA[Breaks Guard]]></entry>
@@ -164,7 +165,8 @@ Change to mode: Indomitable
     <entry id="buff_stat_tooltip_upgrade_discount_hedge_indomitable_tt_3"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
 -25 DODGE {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 
-    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_TRINKET_very_rare_riposte_TT"><![CDATA[{colour_start|riposte}RIPOSTE:{colour_end} ACC 85 / CRIT +5%%]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_TRINKET_very_rare_riposte_TT"><![CDATA[{colour_start|riposte}Riposte Activated{colour_end}
+{colour_start|riposte}Riposte:{colour_end} {colour_start|neutral}ACC 85 / DMG mod -50%% / CRIT 5%%{colour_end}]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_TRINKET_hedge_CC_self_bleed_TT"><![CDATA[On Indomitable: Self: {colour_start|bleed}Bleed{colour_end} 1pt, Until Combat End]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_TRINKET_hedge_ship_DMGH_TT"><![CDATA[+35%% Max DMG]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_TRINKET_hedge_ship_DMGL_TT"><![CDATA[-35%% Min DMG]]></entry>
