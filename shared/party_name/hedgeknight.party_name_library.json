@@ -1,0 +1,84 @@
+{
+    "party_names":
+    [
+      {
+        "id": "hedgeparty1",
+        "required_hero_class": [
+          "hedgeknight",
+		  "vestal",
+		  "highwayman",
+		  "crusader"
+        ]
+      },
+	  {
+        "id": "hedgeparty2",
+        "required_hero_class": [
+          "bounty_hunter",
+		  "bounty_hunter",
+		  "hedgeknight",
+		  "hellion"
+        ]
+      },
+	  {
+        "id": "hedgeparty3",
+        "required_hero_class": [
+          "houndmaster",
+		  "houndmaster",
+		  "houndmaster",
+		  "hedgeknight"
+        ]
+      },
+	  {
+        "id": "hedgeparty4",
+        "required_hero_class": [
+		  "abomination",
+		  "hedgeknight"
+        ]
+      },
+	  {
+        "id": "hedgeparty5",
+        "required_hero_class": [
+          "hedgeknight",
+		  "hedgeknight",
+		  "hedgeknight",
+		  "hedgeknight"
+        ]
+      },
+	  {
+        "id": "hedgeparty6",
+        "required_hero_class": [
+          "crusader",
+		  "crusader",
+		  "hedgeknight",
+		  "leper"
+        ]
+      },
+	  {
+        "id": "hedgeparty7",
+        "required_hero_class": [
+          "arbalest",
+		  "crusader",
+		  "hedgeknight",
+		  "man_at_arms"
+        ]
+      },
+	  {
+        "id": "hedgeparty8",
+        "required_hero_class": [
+          "grave_robber",
+		  "jester",
+		  "crusader",
+		  "hedgeknight"
+        ]
+      },
+	  {
+        "id": "hedgeparty9",
+        "required_hero_class": [
+          "grave_robber",
+		  "highwayman",
+		  "abomination",
+		  "hedgeknight"
+        ]
+      }
+    ]
+}

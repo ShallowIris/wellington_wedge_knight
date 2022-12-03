@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="koreana">
+
+    <!-- Quirks -->
+
+    <!-- Town Events -->
+
+    <!-- Estate Trainer Descriptions (Guild/Blacksmith/Camping) -->
+    <entry id="action_verbose_body_guild_hedgeknight"><![CDATA[명예. 영광. 번원기사는 그따위 망상에 시달리지 않습니다. 기사를 기사답게 만드는 것은 살육이며, 칼날을 피로 물들였던 시간들은 그를 전장의 전문가로 만들었습니다. 기사도의 구속에서 벗어나, 번원기사는 그의 군왕이 '불명예스럽다'고 생각할만한 임무를 받았습니다. 번원기사는 강력한 일격으로 적의 전선을 흐뜨려, 아군들이 어떤 잔당이라도 쉽게 쓰러뜨릴 충분한 기회를 제공합니다. 그의 주의를 살만큼 큰 상처를 입힌 자에게는 공포 있기를.]]></entry>
+    <entry id="action_verbose_body_blacksmith_hedgeknight"><![CDATA[강철과 근육의 산맥인 번원기사는 전장에서 마주하기 두려운 적이며, 많은 이들에게는 그들의 마지막 적이었습니다. 그는 머리부터 발끝까지 철갑을 둘렀으며, 그가 쓰러지기 전에 밟고 있는 땅이 먼저 스러질 것입니다. 그는 헛되게 장검을 휘두르는 걸 꺼리며, 실용적인 전투도끼를 쓰는 편을 선호합니다.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_hedgeknight"><![CDATA[많은 세월을 피바다에서 보내면서, 번원기사의 군왕은 그를 충성스럽고 의지할만한 살육의 도구로 벼려냈지만, 그럼에도 불구하고 그는 궁정에서 살기에는 적합치 않았습니다. 장벽을 지키는 외로운 늑대로서의 삶에 익숙한 그에게, 대화는 어울리지 않습니다. 그럼에도 불구하고, 싸우는 자들에게 사기를 북돋울 수단은 필요한 법이며, 공포 또한 그에 적합한 도구입니다.]]></entry>
+
+    <!-- Blacksmith Equipment -->
+    <entry id="hedgeknight_weapon_0"><![CDATA[쪼개진 손도끼]]></entry>
+    <entry id="hedgeknight_weapon_1"><![CDATA[나무꾼의 도끼]]></entry>
+    <entry id="hedgeknight_weapon_2"><![CDATA[전투의 도끼]]></entry>
+    <entry id="hedgeknight_weapon_3"><![CDATA[도적의 도끼]]></entry>
+    <entry id="hedgeknight_weapon_4"><![CDATA["인간 도살자"]]></entry>
+    <entry id="upgrade_tree_name_hedgeknight.weapon"><![CDATA[전투의 도끼]]></entry>
+    <entry id="hedgeknight_armour_0"><![CDATA[부서진 사슬갑옷]]></entry>
+    <entry id="hedgeknight_armour_1"><![CDATA[견고한 사슬갑옷]]></entry>
+    <entry id="hedgeknight_armour_2"><![CDATA[튼튼한 사슬갑옷]]></entry>
+    <entry id="hedgeknight_armour_3"><![CDATA[불굴의 사슬갑옷]]></entry>
+    <entry id="hedgeknight_armour_4"><![CDATA["산맥"]]></entry>
+    <entry id="upgrade_tree_name_hedgeknight.armour"><![CDATA[사슬갑옷]]></entry>
+
+    <!-- Skills -->
+    <entry id="hero_class_name_hedgeknight"><![CDATA[번원기사]]></entry>
+    <entry id="combat_skill_name_hedgeknight_hedge_splitman"><![CDATA[인간 쪼개기]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.hedge_splitman"><![CDATA[인간 쪼개기]]></entry>
+	<entry id="combat_skill_name_hedgeknight_hedge_roundswing"><![CDATA[휘두르기]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.hedge_roundswing"><![CDATA[휘두르기]]></entry>
+	<entry id="combat_skill_name_hedgeknight_hedge_make_way"><![CDATA[길을 내어라!]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.hedge_make_way"><![CDATA[길을 내어라!]]></entry>
+	<entry id="combat_skill_name_hedgeknight_hedge_indomitable"><![CDATA[불굴]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.hedge_indomitable"><![CDATA[불굴]]></entry>
+	<entry id="combat_skill_name_hedgeknight_hedge_pummel"><![CDATA[구타]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.hedge_pummel"><![CDATA[구타]]></entry>
+	<entry id="combat_skill_name_hedgeknight_hedge_splitshield"><![CDATA[방패 쪼개기]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.hedge_splitshield"><![CDATA[방패 쪼개기]]></entry>
+	<entry id="combat_skill_name_hedgeknight_hedge_dismember"><![CDATA[대학살]]></entry>
+	<entry id="upgrade_tree_name_hedgeknight.hedge_dismember"><![CDATA[대학살]]></entry>
+	<entry id="combat_skill_name_hedgeknight_hedge_wild_swing"><![CDATA[거친 휘두르기]]></entry>
+
+    <!-- Camp Skills -->
+    <entry id="camping_skill_name_hedgeknight_lesson"><![CDATA[혹독한 교훈]]></entry>
+    <entry id="camping_skill_name_hedgeknight_executioner"><![CDATA[처형자]]></entry>
+    <entry id="camping_skill_name_hedgeknight_fray"><![CDATA[전장으로]]></entry>
+    <entry id="camping_skill_name_hedgeknight_revel_slaughter"><![CDATA[학살을 즐겨라!]]></entry>
+    <entry id="hedgeknight+str_bark_encourage"><![CDATA[힘내라고! 아니면.. 알지?]]></entry>
+    <entry id="hedgeknight+str_bark_encourage"><![CDATA[으음, 침대보다 울타리에서 훨씬 더 많이 자봤지. 비웃고 싶다면 비웃도록.]]></entry>
+    <entry id="hedgeknight+str_bark_first_aid"><![CDATA[그만 궁시렁대. 금방 치료해줄테니.]]></entry>
+    <entry id="hedgeknight+str_bark_first_aid"><![CDATA[입 좀 닥쳐, 살 수 있을테니.]]></entry>
+    <entry id="hedgeknight+str_bark_pep_talk"><![CDATA[전장을 같이한 동료들 중 너희가 그래도 낫다.]]></entry>
+    <entry id="hedgeknight+str_bark_pep_talk"><![CDATA[종자로 삼아주지. 그건 어때?]]></entry>
+    <entry id="str_bark_hedgeknight_lesson"><![CDATA[제대로 맞아보면 방어를 어떻게 할지 알게 되겠지.]]></entry>
+    <entry id="str_bark_hedgeknight_lesson"><![CDATA[아니, 그렇게 하는 게 아니라고, 이 머저리야!]]></entry>
+    <entry id="str_bark_hedgeknight_lesson"><![CDATA[남자답게 굴지 않으면 밤새 이러고 있어주마!]]></entry>
+    <entry id="str_bark_hedgeknight_executioner"><![CDATA[먼저 무릎에 한 방 먹이면, 그 다음부터는 쉬워지지.]]></entry>
+    <entry id="str_bark_hedgeknight_executioner"><![CDATA[피가 많이 나는 곳을 제대로 베면 좋다고.]]></entry>
+    <entry id="str_bark_hedgeknight_executioner"><![CDATA[두개골이 쪼개지면 끝장이야.]]></entry>
+    <entry id="str_bark_hedgeknight_fray"><![CDATA[낮은 곳을 살펴, 내가 높은 곳을 바라볼테니.]]></entry>
+    <entry id="str_bark_hedgeknight_fray"><![CDATA[뭐에 당한지도 모를걸.]]></entry>
+    <entry id="str_bark_hedgeknight_fray"><![CDATA[놈들의 전선이 빠르게 무너질수록, 잔당들도 빠르게 처리할 수 있지! 하하!]]></entry>
+    <entry id="str_bark_hedgeknight_revel_slaughter"><![CDATA[이 귀 보이나? 첩자놈에게서 떼낸 거라고!]]></entry>
+    <entry id="str_bark_hedgeknight_revel_slaughter"><![CDATA[전리품 수집하는 사람 있나?]]></entry>
+    <entry id="str_bark_hedgeknight_revel_slaughter"><![CDATA[보기엔 끔찍하지만, 이 전리품들이 깊은 인상을 준다고.]]></entry>
+
+    <!-- Trinkets -->
+    <entry id="str_inventory_title_trinkethedgeknight_helmet_trinket"><![CDATA[사이먼 스트랩]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_handaxe_trinket"><![CDATA[손도끼]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_armor_trinket"><![CDATA[흠이 난 플라카트]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_pole_axe_trinket_1"><![CDATA[폴액스]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_chaos_axe_trinket_1"><![CDATA[혼돈의 도끼]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_cc_trinket_1"><![CDATA[낡은 중대 군기]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_cc_trinket_2"><![CDATA[피로 물든 건틀렛]]></entry>
+    <entry id="str_inventory_set_title_hedgeknight_CC_set"><![CDATA["피바다, 내 유일한 벗."]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_com_trinket"><![CDATA[조각난 두개골 박살도끼]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_sunward_trinket"><![CDATA[지나치게 큰 오노]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_crystal_trinket"><![CDATA[공간 파괴자]]></entry>
+    <entry id="str_inventory_title_trinkethedgeknight_collector_trinket"><![CDATA[던컨의 머리]]></entry>
+
+    <!-- Tooltips -->
+    
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[체력이 {?hpthreshold}%d% 미만인 적에게 {?buff}%s]]></entry>
+    <entry id="buff_rule_tooltip_target_is_guarding"><![CDATA[{colour_start|guard}보호{colour_end}중인 적 상대로 %s]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[임의의 대상을 공격할 확률 %+d%%]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[명중했을 때]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[괴물을 처치하면]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[아군 기술에]]></entry>
+    <entry id="trinket_was_hit_additional_effects"><![CDATA[영웅 피격시]]></entry>
+    <entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[치명타로부터 받는 {colour_start|stress}스트레스{colour_end} 치유 %+d%%]]></entry>
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[피해 반사 %d%%]]></entry>
+    <entry id="buff_rule_data_tooltip_hedge_wild_swing"><![CDATA[거친 휘두르기]]></entry>
+
+    <entry id="str_skill_mode_info_hedge_splitshield_tt_1"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_hedge_splitshield_tt_2"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_hedge_splitshield_tt_3"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_hedge_splitshield_tt_4"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_hedge_indomitable_tt_1"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_hedge_indomitable_tt_2"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_hedge_indomitable_tt_3"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+
+    <entry id="str_skill_mode_info_hedge_normal"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_hedge_indom"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+
+    <entry id="actor_mode_name_hedge_indom"><![CDATA[불굴]]></entry>
+    <entry id="buff_rule_data_tooltip_hedge_indom"><![CDATA[불굴]]></entry>
+    
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_riposte_TT"><![CDATA[{colour_start|riposte}반격:{colour_end} 명중 85 / 피해 보정 -50%% / 치명타 5%%]]></entry>
+    <entry id="buff_stat_tooltip_quirk_tag_evolution_duration_hedgeknight_splitman_tt3"><![CDATA[   체력이 40%% 미만인 적에게 치명타 %+d%% {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_roundswing_tt_1"><![CDATA[체력이 40%% 미만인 적에게 방어 관통 {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_1"><![CDATA[보호 해제]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_2"><![CDATA[{colour_start|guard}보호{colour_end}중인 적 상대로 치명타 +200%%]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_3"><![CDATA[{colour_start|debuff}대상 약화:{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_4_1"><![CDATA[방어 -20%% {colour_start|skill_unselectable}(기본 100%%){colour_end}{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_4_2"><![CDATA[방어 -22.5%% {colour_start|skill_unselectable}(기본 110%%){colour_end}{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_4_3"><![CDATA[방어 -25%% {colour_start|skill_unselectable}(기본 120%%){colour_end}{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_4_4"><![CDATA[방어 -27.5%% {colour_start|skill_unselectable}(기본 130%%){colour_end}{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_tt_4_5"><![CDATA[방어 -30%% {colour_start|skill_unselectable}(기본 140%%){colour_end}{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_splitshield_skillselection_tt_1"><![CDATA[보호 해제]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_pummel_ignore_riposte_tt"><![CDATA[    반격받지 않음 {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_1_1"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 95%%){colour_end}
+턴당 1 피해, 3턴 지속]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_1_2"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 105%%){colour_end}
+턴당 1 피해, 3턴 지속]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_1_3"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 115%%){colour_end}
+턴당 2 피해, 3턴 지속]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_1_4"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 125%%){colour_end}
+턴당 2 피해, 3턴 지속]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_1_5"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 135%%){colour_end}
+턴당 3 피해, 3턴 지속]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_2_1"><![CDATA[{colour_start|debuff}대상 약화:{colour_end} 
+   입는 피해 +15%% ({colour_start|bleed}출혈{colour_end} 중일 때) {colour_start|skill_unselectable}(기본 95%%){colour_end} {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_2_2"><![CDATA[{colour_start|debuff}대상 약화:{colour_end} 
+   입는 피해 +17.5%% ({colour_start|bleed}출혈{colour_end} 중일 때) {colour_start|skill_unselectable}(기본 105%%){colour_end} {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_2_3"><![CDATA[{colour_start|debuff}대상 약화:{colour_end} 
+   입는 피해 +20%% ({colour_start|bleed}출혈{colour_end} 중일 때) {colour_start|skill_unselectable}(기본 115%%){colour_end}{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_2_4"><![CDATA[{colour_start|debuff}대상 약화:{colour_end} 
+   입는 피해 +22.5%% ({colour_start|bleed}출혈{colour_end} 중일 때) {colour_start|skill_unselectable}(기본 125%%){colour_end} {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_dismember_tt_2_5"><![CDATA[{colour_start|debuff}대상 약화:{colour_end} 
+   입는 피해 +25%% ({colour_start|bleed}출혈{colour_end} 중일 때) {colour_start|skill_unselectable}(기본 135%%){colour_end}{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_charge_stun_large_TT"><![CDATA[ {colour_start|stun}기절{colour_end} 기술 확률 +60%% (2크기 이상의 상대){colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_quirk_tag_evolution_duration_hedge_indomitable_tt_1"><![CDATA[자신에게:
+턴당 회복 1, %d턴 지속
+불굴 상태로 변경
+(피해를 받을 때마다 피해 +15%%)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedge_indomitable_tt_2_1"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+{colour_start|stun}기절{colour_end} 저항 +20%%
+{colour_start|debuff}약화{colour_end} 저항 +20%%]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedge_indomitable_tt_2_2"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+{colour_start|stun}기절{colour_end} 저항 +22.5%%
+{colour_start|debuff}약화{colour_end} 저항 +22.5%%]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedge_indomitable_tt_2_3"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+{colour_start|stun}기절{colour_end} 저항 +25%%
+{colour_start|debuff}약화{colour_end} 저항 +25%%]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedge_indomitable_tt_2_4"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+{colour_start|stun}기절{colour_end} 저항 +27.5%%
+{colour_start|debuff}약화{colour_end} 저항 +27.5%%]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedge_indomitable_tt_2_5"><![CDATA[{colour_start|buff}자신 강화:{colour_end}
+{colour_start|stun}기절{colour_end} 저항 +30%%
+{colour_start|debuff}약화{colour_end} 저항 +30%%]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_hedge_indomitable_tt_3"><![CDATA[{colour_start|debuff}자신 약화:{colour_end}
+회피 -25 {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_TRINKET_very_rare_riposte_TT"><![CDATA[{colour_start|riposte}반격 활성화{colour_end}
+{colour_start|riposte}반격:{colour_end} {colour_start|neutral}명중 85 / 피해 보정 -50%% / 치명타 5%%{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_TRINKET_hedge_CC_self_bleed_TT"><![CDATA[불굴 사용시 자신에게: {colour_start|bleed}출혈{colour_end} 턴당 1, 전투 종료까지 지속]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_TRINKET_hedge_ship_DMGH_TT"><![CDATA[최대 피해 +35%%]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_TRINKET_hedge_ship_DMGL_TT"><![CDATA[최소 피해 -35%%]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_SET_HEDGE_PERMA_RIPOSTE_TT"><![CDATA[영구 반격]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_TRINKET_hedge_comet_clear_riposte_TT"><![CDATA[반격 명중시 자신에게: {colour_start|riposte}반격{colour_end} 해제]]></entry>
+
+    <!-- Party names -->
+    <entry id="party_name_hedgeparty1"><![CDATA[용맹한 원정대]]></entry>
+    <entry id="party_name_hedgeparty2"><![CDATA[머리 쪼개기]]></entry>
+    <entry id="party_name_hedgeparty3"><![CDATA[클리게인 가문]]></entry>
+    <entry id="party_name_hedgeparty4"><![CDATA[덩크와 에그]]></entry>
+    <entry id="party_name_hedgeparty5"><![CDATA[뷰허트]]></entry>
+    <entry id="party_name_hedgeparty6"><![CDATA[왕의 근위대]]></entry>
+    <entry id="party_name_hedgeparty7"><![CDATA[배틀 브라더스]]></entry>
+    <entry id="party_name_hedgeparty8"><![CDATA[방랑자들의 마상시합]]></entry>
+    <entry id="party_name_hedgeparty9"><![CDATA[울타리를 밟는 자들]]></entry>
+
+    <!-- Fan Favourite Barks -->
+    <entry id="hedgeknight+React_To_Kill_By_Fan_Favourite"><![CDATA[하! 땔감처럼 둘로 쪼개졌군!]]></entry>
+	<entry id="hedgeknight+React_To_Kill_By_Fan_Favourite"><![CDATA[크으하하하!]]></entry>
+	<entry id="hedgeknight+React_To_Kill_By_Fan_Favourite"><![CDATA[그래! 죽여버리라고!]]></entry>
+	<entry id="hedgeknight+React_To_Kill_By_Fan_Favourite"><![CDATA[근육 좀 봐, 죽이는군!]]></entry>
+	<entry id="hedgeknight+React_To_Kill_By_Fan_Favourite"><![CDATA[날 위해 남겨뒀으면 좋겠다고 생각했는데, 하!]]></entry>
+	<entry id="hedgeknight+React_To_Kill_By_Fan_Favourite"><![CDATA[우리의 힘 앞에서 버틸 자 누구냐?!]]></entry>
+
+
+    <!-- Apostate's Apocryphal Texts -->
+    <entry id="hedgeknight+Apo_Apoc_Texts"><![CDATA[좋은 책이지, 안 그래?]]></entry>
+	<entry id="hedgeknight+Apo_Apoc_Texts"><![CDATA[평범치 않은 설교로군?]]></entry>
+	<entry id="hedgeknight+Apo_Apoc_Texts"><![CDATA[아주 맘에 드는군.]]></entry>
+
+    <!-- Town Barks -->
+    <entry id="hedgeknight+str_bar_committed"><![CDATA[나만큼 술 마실 수 있는 자 누구냐?]]></entry>
+    <entry id="hedgeknight+str_bar_committed"><![CDATA[아아... 이제 누구 안면을 짓뭉개줄까?]]></entry>
+    <entry id="hedgeknight+str_gambling_committed"><![CDATA[한 번만 더 사기치면 손가락 뼈를 뽑아서 주사위로 써주마!]]></entry>
+    <entry id="hedgeknight+str_gambling_committed"><![CDATA[푸헤, 한 판 싸우는 게 더 좋은데!]]></entry>
+    <entry id="hedgeknight+str_brothel_committed"><![CDATA["안전 단어"? 그건 뭐지?]]></entry>
+    <entry id="hedgeknight+str_brothel_committed"><![CDATA[보통은 이렇게 쉽게 무릎 꿇진 않는데 말이지.]]></entry>
+    <entry id="hedgeknight+str_treatment_committed"><![CDATA[날 묶어놓으려면 이것보단 더 강한 끈이 필요할 거다.]]></entry>
+    <entry id="hedgeknight+str_treatment_committed"><![CDATA[내 인내심을 시험하지 마라, 너도 병원에 보내버릴테니.]]></entry>
+    <entry id="hedgeknight+str_disease_treatment_committed"><![CDATA[긁힌 상처일 뿐이야, 나 혼자서도 꿰맬 수 있다고.]]></entry>
+    <entry id="hedgeknight+str_disease_treatment_committed"><![CDATA[완전히 회복되겠지. 실패한다면 알아서 해라.]]></entry>
+    <entry id="hedgeknight+str_meditation_committed"><![CDATA[(조용한 코골음)]]></entry>
+    <entry id="hedgeknight+str_meditation_committed"><![CDATA[조금 지루한 것도 나쁘지 않지.]]></entry>
+    <entry id="hedgeknight+str_prayer_committed"><![CDATA[우리에게는 건강을, 적에겐 뼈 시리는 병해를.]]></entry>
+    <entry id="hedgeknight+str_prayer_committed"><![CDATA[그 단어가 뭐였지?]]></entry>
+    <entry id="hedgeknight+str_flagellation_committed"><![CDATA[나를 피로 물들이면서 안정을 찾아야겠어.]]></entry>
+    <entry id="hedgeknight+str_flagellation_committed"><![CDATA[몸에 상처가 있어야 건강한 몸이지!]]></entry>
+    <entry id="hedgeknight+str_flagellation_committed"><![CDATA[상처 하나 더 쯤이야!]]></entry>
+    <entry id="hedgeknight+str_roster_list_low_stress_bark"><![CDATA[전장으로!]]></entry>
+    <entry id="hedgeknight+str_roster_list_medium_stress_bark"><![CDATA[그 마지막 전투는 짜릿했어!]]></entry>
+    <entry id="hedgeknight+str_roster_list_high_stress_bark"><![CDATA[아... 솔직히, 한 잔 할 수 있으면 좋으련만.]]></entry>
+
+    <!-- Crit Barks -->
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[시체 수레에 한 명 더!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[자비는 없다!]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[턱에 제대로 한 방!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[학살하기 좋은 날이군!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[운을 시험해보고 싶은 놈, 있나?]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[선 자리에서 그대로 천국으로 보내라고!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[진흙으로 갈아주마!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[둘로 쪼개졌다!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[참 쉬운 목표로군!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[죽어 땅에 묻혀라!]]></entry>
+    <entry id="hedgeknight+str_critbyhero"><![CDATA[하! 수레가 가득 차겠군!]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[하! 이 정도 대가를 받을 줄은 몰랐지?]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[주제를 알아라, 잡종아!]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[멱이라도 따였나보군!]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[하하하하!]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[피 흘려라, 개새끼야!]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[(퉤엣)]]></entry>
+	<entry id="hedgeknight+str_critbyhero"><![CDATA[피로 이 땅을 칠하겠다!]]></entry>
+
+    <!-- Death's Door Barks -->
+    <entry id="hedgeknight+str_bark_deathsdoor"><![CDATA[벼룩에 물린 것 같군!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoor"><![CDATA[와라! 용기가 있다면 날 끝장내라!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoor"><![CDATA[으윽, 좋아, 한 방 더 먹여보라고!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoor"><![CDATA[아무것도 못 느꼈는걸. *허억*]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoor"><![CDATA[긁힌 상처일뿐! *커억*]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoor"><![CDATA[들어와라, 제대로 한 대 쳐보라고!]]></entry>
+	<entry id="hedgeknight+str_bark_deathsdoor"><![CDATA[때려봐! 때리라고!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive"><![CDATA[아직 서있잖나! 제대로 쳐보라고!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive"><![CDATA[그것보단 더 세게 쳐야 할거다!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive"><![CDATA[벼룩에 물린 것 같군!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive"><![CDATA[하! 이제 내 차례다!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive"><![CDATA[기회 한 번 더? 그럴 일은 없을걸!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoor_ally"><![CDATA[눈 똑바로 치켜뜨라고, 아직 과업이 남아있다.]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoor_ally"><![CDATA[아직 투지가 남아있지 않나!]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive_ally"><![CDATA[막 유품을 챙기려던 참인데]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive_ally"><![CDATA[하하, 몫은 모두가 챙기게 되려나보군.]]></entry>
+    <entry id="hedgeknight+str_bark_deathsdoorsurvive_ally"><![CDATA[뭐야, 아직도 서있다고?]]></entry>
+	<entry id="hedgeknight+str_bark_deathsdoorsurvive_ally"><![CDATA[돌아올 수 있었다니 다행이군.]]></entry>
+
+    <!-- Misc Barks -->
+    <entry id="hedgeknight+str_combat_knockback"><![CDATA[그게 최선이냐?]]></entry>
+    <entry id="hedgeknight+str_combat_knockback"><![CDATA[네놈 내장을 발라내는 걸 멈추진 못할 거다!]]></entry>
+    <entry id="hedgeknight+str_combat_knockback"><![CDATA[거리를 두려 하다니. 현명하군.]]></entry>
+    <entry id="hedgeknight+str_combat_wastingtime"><![CDATA[이 놈들을 상대하는 게 지치는군.]]></entry>
+    <entry id="hedgeknight+str_combat_wastingtime"><![CDATA[목을 치고, 몫을 챙기고 다음 적을 상대하자고.]]></entry>
+    <entry id="hedgeknight+str_bark_startmoving"><![CDATA[다음 희생자들을 찾아보자고.]]></entry>
+    <entry id="hedgeknight+str_bark_startmoving"><![CDATA[좋아, 움직이자고.]]></entry>
+    <entry id="hedgeknight+str_bark_startmoving"><![CDATA[앞으로.]]></entry>
+    <entry id="hedgeknight+str_bark_stopmoving"><![CDATA[멈춰, 이 새끼들아!]]></entry>
+    <entry id="hedgeknight+str_bark_stopmoving"><![CDATA[잠깐, 갑옷이 살에 쓸리는군.]]></entry>
+    <entry id="hedgeknight+str_bark_backingup"><![CDATA[내 발 다시 밟았다간 그 발걸음이 마지막이 될거다.]]></entry>
+    <entry id="hedgeknight+str_bark_backingup"><![CDATA[다시 손 대면 그대로 손모가지를 잘라주지.]]></entry>
+    <entry id="hedgeknight+str_bark_poisondot"><![CDATA[느린 죽음? 기껏해봐야 성가실 뿐이다.]]></entry>
+    <entry id="hedgeknight+str_bark_poisondot"><![CDATA[야비한 수법을 쓰면 흙에 묻힐 뿐이지!]]></entry>
+    <entry id="hedgeknight+str_bark_poisondot"><![CDATA[독? 아랫것들이나 쓰는 거지.]]></entry>
+    <entry id="hedgeknight+str_bark_poisondot"><![CDATA[그 독이 너도 집어삼킬 것이다!]]></entry>
+    <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[그래, 이제 살아있는 기분이 드는군!]]></entry>
+    <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[피? 내 피라고?]]></entry>
+    <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[으윽, 긁힌 상처일 뿐이다!]]></entry>
+    <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[이 흐르는 피가 내 마지막은 아닐터!]]></entry>
+    <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[곧 네놈의 피로 바닥을 적셔주마!]]></entry>
+    <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[흘릴 피가 아직 남아있다고!]]></entry>
+
+    <!-- Receiving Damage Barks -->
+    <entry id="hedgeknight+str_bark_bigwound"><![CDATA[와라, 날 쓰러뜨릴 수 있다면 쳐봐라!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound"><![CDATA[세게 칠 수 있는 만큼 쳐봐라!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound"><![CDATA[(그르렁대며) 개새끼처럼 내장을 뽑아내주마!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound"><![CDATA[이보다 더한 부상도 당해봤다!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound"><![CDATA[긁힌 상처일뿐!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound"><![CDATA[고통? 네게 고통을 안겨주마!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound"><![CDATA[여기서 끝이 아니다!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound_ally"><![CDATA[정신 차리라고!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound_ally"><![CDATA[도와줄까?]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound_ally"><![CDATA[쓰라리게 아프나? 좋아.]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound_ally"><![CDATA[다리를 봉합해줄 사람이 필요하나?]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound_ally"><![CDATA[안돼!]]></entry>
+    <entry id="hedgeknight+str_bark_bigwound_ally"><![CDATA[정신 차려, 너 없이는 지루하단 말이다!]]></entry>
+
+    <!-- Stress Barks -->
+    <entry id="hedgeknight+str_bark_increasingstress"><![CDATA[내가 뭘 하고 있는 거지...]]></entry>
+    <entry id="hedgeknight+str_bark_increasingstress"><![CDATA[수-숨을 쉴 수 없어.]]></entry>
+    <entry id="hedgeknight+str_bark_increasingstress"><![CDATA[(거칠게 숨을 몰아쉰다)]]></entry>
+    <entry id="hedgeknight+str_bark_increasingstress"><![CDATA[주-죽을 때까지!]]></entry>
+    <entry id="hedgeknight+str_bark_increasingstress"><![CDATA[망할 놈들!]]></entry>
+    <entry id="hedgeknight+str_bark_increasingstress"><![CDATA[젠장, 우린 망했어!]]></entry>
+    <entry id="hedgeknight+str_bark_increasingstress"><![CDATA[아-안돼... 아직은...]]></entry>
+
+    <!-- Enemy Attack Barks -->
+    <entry id="hedgeknight+str_monster_user_selected_targets_kill_pill"><![CDATA[다른 결말과 다를 바가 없지. (퉤엣)]]></entry>
+    <entry id="hedgeknight+str_monster_attack_unholy_curse"><![CDATA[전장에서 내 자신에게 짓밟히다니!]]></entry>
+    <entry id="hedgeknight+str_monster_attack_unholy_curse"><![CDATA[연약하게 죽어가진 않겠다!]]></entry>
+    <entry id="hedgeknight+str_monster_attack_prophet_mark"><![CDATA[뭐하게, 노인장? 나한테 피 흘리기라도 하려고?]]></entry>
+    <entry id="hedgeknight+str_monster_attack_prophet_mark"><![CDATA[그럼 와라, 이 늙은 개새끼야!]]></entry>
+
+
+    <!-- Affliction -->
+    <entry id="str_affliction_name_hedgeknight_barbaric"><![CDATA[야만성]]></entry>
+    <entry id="str_afflicted_hedgeknight_barbaric"><![CDATA[누구에게도 굴하지 않겠다!]]></entry>
+    <entry id="str_afflicted_hedgeknight_barbaric"><![CDATA[그롸아아아아아!]]></entry>
+    <entry id="str_roster_list_hedgeknight_barbaric_bark"><![CDATA[놈들을 분쇄해버리겠다!]]></entry>
+    <entry id="str_roster_list_hedgeknight_barbaric_bark"><![CDATA[사지를 분해해주마!]]></entry>
+    <entry id="str_heart_attack_hedgeknight_barbaric"><![CDATA[네 두개골을 쪼개버리겠다고, 들려?! 네 두ㄱ...]]></entry>
+
+    <entry id="str_bark_stress_hedgeknight_barbaric"><![CDATA[네놈은 달구지에 실려 집으로 돌아가게 되겠지.]]></entry>
+    <entry id="str_bark_stress_hedgeknight_barbaric"><![CDATA[멍청한 농노들이 길을 막고 있잖아!]]></entry>
+    <entry id="str_bark_stress_hedgeknight_barbaric"><![CDATA[이 머저리같은 놈들, 임신한 소처럼 싸우는구만!]]></entry>
+    <entry id="str_bark_stress_hedgeknight_barbaric"><![CDATA[하! 마지막까지 싸워보자고!]]></entry>
+
+    <entry id="str_bark_stress_camp_hedgeknight_barbaric"><![CDATA[네놈은 달구지에 실려 집으로 돌아가게 되겠지.]]></entry>
+    <entry id="str_bark_stress_camp_hedgeknight_barbaric"><![CDATA[멍청한 농노들이 길을 막고 있잖아!]]></entry>
+    <entry id="str_bark_stress_camp_hedgeknight_barbaric"><![CDATA[이 머저리같은 놈들, 임신한 소처럼 싸우는구만!]]></entry>
+    <entry id="str_bark_stress_camp_hedgeknight_barbaric"><![CDATA[하! 마지막까지 싸워보자고!]]></entry>
+
+    <entry id="str_random_command_hedgeknight_barbaric"><![CDATA[난 내가 하고 싶은 걸 한다!]]></entry>
+    <entry id="str_random_command_hedgeknight_barbaric"><![CDATA[군주의 명령은 듣지 않는다!]]></entry>
+    <entry id="str_random_command_hedgeknight_barbaric"><![CDATA[물론이죠, 전하! 조롱도 함께 받아보시렵니까?]]></entry>
+    <entry id="str_random_command_hedgeknight_barbaric"><![CDATA[집어치워.]]></entry>
+    <entry id="str_random_command_hedgeknight_barbaric"><![CDATA[여기서 싸울 줄 아는 놈은 나뿐인가?!]]></entry>
+
+    <entry id="str_attack_friendly_hedgeknight_barbaric"><![CDATA[비켜라!]]></entry>
+    <entry id="str_attack_friendly_hedgeknight_barbaric"><![CDATA[할 일은 제 각자 알아서!]]></entry>
+    <entry id="str_attack_friendly_hedgeknight_barbaric"><![CDATA[쫄면 한 대 더 맞을 줄 알아라!]]></entry>
+    <entry id="str_attack_friendly_hedgeknight_barbaric"><![CDATA[네 다리를 물어서 잘라내주마!]]></entry>
+	
+	<entry id="str_mark_self_hedgeknight_barbaric"><![CDATA[쳐보라고! 들어와!]]></entry>
+	<entry id="str_mark_self_hedgeknight_barbaric"><![CDATA[하하하! 최선을 다 해봐라!]]></entry>
+	
+	<entry id="str_heal_self_hedgeknight_barbaric"><![CDATA[의지도 없는 놈들, 어떻게 하는 건지 보여주마!]]></entry>
+	<entry id="str_heal_self_hedgeknight_barbaric"><![CDATA[네놈들은 내 목을 취하지 못할 것이다!]]></entry>
+
+    <entry id="str_buff_random_party_member_hedgeknight_barbaric"><![CDATA[놈들을 쪼개버려!]]></entry>
+	<entry id="str_buff_random_party_member_hedgeknight_barbaric"><![CDATA[놈들을 박살내버려!]]></entry>
+	<entry id="str_buff_random_party_member_hedgeknight_barbaric"><![CDATA[놈들을 죽이지 못하면 내가 죽여주마!]]></entry>
+	<entry id="str_buff_random_party_member_hedgeknight_barbaric"><![CDATA[놈들이 서있는 자리에서 그대로 죽여버려!]]></entry>
+
+    <entry id="str_block_move_hedgeknight_barbaric"><![CDATA[한 번만 더 손 대면 네 손모가지를 분질러주마!]]></entry>
+    <entry id="str_block_move_hedgeknight_barbaric"><![CDATA[일어나서 싸워라, 잡졸아!]]></entry>
+    <entry id="str_block_move_hedgeknight_barbaric"><![CDATA[버티거나 죽거나다!]]></entry>
+
+    <entry id="str_block_combat_retreat_hedgeknight_barbaric"><![CDATA[승리가 아니면 죽음을!]]></entry>
+    <entry id="str_block_combat_retreat_hedgeknight_barbaric"><![CDATA[전선을 사수하거나, 버티다 죽거나!]]></entry>
+    <entry id="str_block_combat_retreat_hedgeknight_barbaric"><![CDATA[후퇴에 영광따윈 없다!]]></entry>
+
+    <entry id="str_comment_self_hit_hedgeknight_barbaric"><![CDATA[한 번 더! 한 번 더!]]></entry>
+    <entry id="str_comment_self_hit_hedgeknight_barbaric"><![CDATA[고통? 내게 고통을 안겨주마!]]></entry>
+    <entry id="str_comment_self_hit_hedgeknight_barbaric"><![CDATA[마침내, 제대로 된 한방이군]]></entry>
+    <entry id="str_comment_self_hit_hedgeknight_barbaric"><![CDATA[사지를 분해해주마!]]></entry>
+    <entry id="str_comment_self_hit_hedgeknight_barbaric"><![CDATA[네놈 코에 한 방 먹이고, 나머지도 마찬가지로 뭉개주마!]]></entry>
+
+    <entry id="str_comment_ally_attack_missed_hedgeknight_barbaric"><![CDATA[멍청한 건 알았지만, 눈까지 멀었나?!]]></entry>
+	<entry id="str_comment_ally_attack_missed_hedgeknight_barbaric"><![CDATA[기초 훈련에서 이기는 방법도 안 알려주나?]]></entry>
+	<entry id="str_comment_ally_attack_missed_hedgeknight_barbaric"><![CDATA[네놈보다 무기를 더 잘 다루는 농노들도 봤다!]]></entry>
+	<entry id="str_comment_ally_attack_missed_hedgeknight_barbaric"><![CDATA[진짜 사나이가 어떻게 하는지 보여주지.]]></entry>
+
+  </language>
+</root>

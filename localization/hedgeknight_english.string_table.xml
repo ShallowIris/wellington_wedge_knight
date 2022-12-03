@@ -3,9 +3,6 @@
   <language id="english">
 
     <!-- Quirks -->
-	
-    <!-- Narration Subtitles -->
-    <entry id="str_vo_town_recruit_hedgeknight_0"><![CDATA[A blundering mountain of hatred and rage.]]></entry>
 
     <!-- Town Events -->
 
@@ -79,7 +76,7 @@
     <entry id="str_inventory_title_trinkethedgeknight_cc_trinket_1"><![CDATA[Old Company Standard]]></entry>
     <entry id="str_inventory_title_trinkethedgeknight_cc_trinket_2"><![CDATA[Bloodied Gauntlet]]></entry>
     <entry id="str_inventory_title_trinkethedgeknight_com_trinket"><![CDATA[Shattered Skull-Splitter]]></entry>
-	<entry id="str_inventory_set_title_hedgeknight_cc_set"><![CDATA["Bloodshed. My only ally."]]></entry>
+    <entry id="str_inventory_set_title_hedgeknight_CC_set"><![CDATA["Bloodshed, my only ally."]]></entry>
     <entry id="str_inventory_title_trinkethedgeknight_sunward_trinket"><![CDATA[Oversized Ono]]></entry>
     <entry id="str_inventory_title_trinkethedgeknight_crystal_trinket"><![CDATA[Spatial Splitter]]></entry>
     <entry id="str_inventory_title_trinkethedgeknight_collector_trinket"><![CDATA[Duncan's Head]]></entry>
@@ -89,8 +86,10 @@
     <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?buff}%s vs HP below {?hpthreshold}%d%%]]></entry>
     <entry id="buff_rule_tooltip_target_is_guarding"><![CDATA[%s vs {colour_start|guard}Guarding{colour_end}]]></entry>
     <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[Chance to Aim a Random Target on Attack %+d%%]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Attack Hit:]]></entry>
     <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Monster Kill:]]></entry>
     <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="trinket_was_hit_additional_effects"><![CDATA[On Hero Being Hit:]]></entry>
     <entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Heal from CRIT]]></entry>
     <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflection]]></entry>
     <entry id="buff_rule_data_tooltip_hedge_wild_swing"><![CDATA[Wild Swing]]></entry>
@@ -144,9 +143,9 @@
    +25%% DMG Taken while {colour_start|bleed}Bleeding{colour_end} {colour_start|skill_unselectable}(135%% base){colour_end}  {colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_hedgeknight_charge_stun_large_TT"><![CDATA[   +60%% {colour_start|stun}Stun{colour_end} Skill Chance vs Size 2 or above{colour_start|hedge_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
     <entry id="buff_stat_tooltip_quirk_tag_evolution_duration_hedge_indomitable_tt_1"><![CDATA[Self:
-{colour_start|healhp}Heal{colour_end} 1pt/rd for %d rds
+Heal 1pt/rd for %d rds
 Change to mode: Indomitable
-(Gets +15%% DMG Upon Taking Damage)]]></entry>
+(Gets +15%% DMG Buff Upon Taking Damage)]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_hedge_indomitable_tt_2_1"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 +20%% {colour_start|stun}Stun{colour_end} Resist
 +20%% {colour_start|debuff}Debuff{colour_end} Resist]]></entry>
@@ -173,9 +172,16 @@ Change to mode: Indomitable
     <entry id="buff_stat_tooltip_upgrade_discount_SET_HEDGE_PERMA_RIPOSTE_TT"><![CDATA[Permanent Riposte]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_TRINKET_hedge_comet_clear_riposte_TT"><![CDATA[On Riposte Hit: Self: Clear {colour_start|riposte}Riposte{colour_end}]]></entry>
 
-    <entry id="str_inventory_set_title_hedgeknight_CC_set"><![CDATA["Bloodshed, my only ally."]]></entry>
-
     <!-- Party names -->
+    <entry id="party_name_hedgeparty1"><![CDATA[Brave Companions]]></entry>
+    <entry id="party_name_hedgeparty2"><![CDATA[Headsplitters]]></entry>
+    <entry id="party_name_hedgeparty3"><![CDATA[House Clegane]]></entry>
+    <entry id="party_name_hedgeparty4"><![CDATA[Dunk & Egg]]></entry>
+    <entry id="party_name_hedgeparty5"><![CDATA[Buhurt]]></entry>
+    <entry id="party_name_hedgeparty6"><![CDATA[King's Guard]]></entry>
+    <entry id="party_name_hedgeparty7"><![CDATA[Battle Brothers]]></entry>
+    <entry id="party_name_hedgeparty8"><![CDATA[Wandering Tourney]]></entry>
+    <entry id="party_name_hedgeparty9"><![CDATA[Hedge Treaders]]></entry>
 
     <!-- Fan Favourite Barks -->
     <entry id="hedgeknight+React_To_Kill_By_Fan_Favourite"><![CDATA[Hah! Split in twain like a log!]]></entry>
@@ -199,14 +205,14 @@ Change to mode: Indomitable
     <entry id="hedgeknight+str_brothel_committed"><![CDATA[A "safe word"? What's that?]]></entry>
     <entry id="hedgeknight+str_brothel_committed"><![CDATA[I don't usually get wrestled to the ground this easily.]]></entry>
     <entry id="hedgeknight+str_treatment_committed"><![CDATA[You'll need something stronger than those straps to hold me.]]></entry>
-    <entry id="hedgeknight+str_treatment_committed"><![CDATA[Do not try my patience, or you'll be needing a doctor yourself]]></entry>
+    <entry id="hedgeknight+str_treatment_committed"><![CDATA[Do not try my patience, or you'll be needing a doctor yourself.]]></entry>
     <entry id="hedgeknight+str_disease_treatment_committed"><![CDATA[Just a fleshwound, I can patch it up myself.]]></entry>
     <entry id="hedgeknight+str_disease_treatment_committed"><![CDATA[I expect a return to form, woe to you if you fail me.]]></entry>
     <entry id="hedgeknight+str_meditation_committed"><![CDATA[(gentle snoring)]]></entry>
     <entry id="hedgeknight+str_meditation_committed"><![CDATA[A bit of boredom never hurts.]]></entry>
     <entry id="hedgeknight+str_prayer_committed"><![CDATA[Health to us, and crippling sickness to our foes.]]></entry>
     <entry id="hedgeknight+str_prayer_committed"><![CDATA[What were the words again?]]></entry>
-    <entry id="hedgeknight+str_flagellation_committed"><![CDATA[I shall calm myself in carnage]]></entry>
+    <entry id="hedgeknight+str_flagellation_committed"><![CDATA[I shall calm myself in carnage.]]></entry>
     <entry id="hedgeknight+str_flagellation_committed"><![CDATA[A scarred body is a healthy body!]]></entry>
     <entry id="hedgeknight+str_flagellation_committed"><![CDATA[What's one more wound?]]></entry>
     <entry id="hedgeknight+str_roster_list_low_stress_bark"><![CDATA[Into the fray!]]></entry>
@@ -275,7 +281,7 @@ Change to mode: Indomitable
     <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[Argh, a mere fleshwound!]]></entry>
     <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[This blood shall not be the last!]]></entry>
     <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[I'll bleed you dry in turn!]]></entry>
-    <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[I got more than a few drops to spar.!]]></entry>
+    <entry id="hedgeknight+str_bark_bleeddot"><![CDATA[I got more than a few drops to spare!]]></entry>
 
     <!-- Receiving Damage Barks -->
     <entry id="hedgeknight+str_bark_bigwound"><![CDATA[Come, strike me down if you can!]]></entry>
