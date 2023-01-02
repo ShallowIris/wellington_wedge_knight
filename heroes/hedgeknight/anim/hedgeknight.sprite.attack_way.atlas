@@ -1,20 +1,20 @@
 
-hedgeknight.sprite.defend.png
-size: 753,852
+hedgeknight.sprite.attack_way.png
+size: 647,753
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 Shadow
-  rotate: false
-  xy: 2, 2
+  rotate: true
+  xy: 511, 2
   size: 749, 134
   orig: 749, 134
   offset: 0, 0
   index: -1
-defend
+make_way
   rotate: false
-  xy: 2, 138
-  size: 682, 712
-  orig: 682, 712
+  xy: 2, 111
+  size: 507, 640
+  orig: 507, 640
   offset: 0, 0
   index: -1

@@ -1,83 +1,83 @@
 
 hedgeknight.sprite.attack_yell.png
-size: 2048,1024
+size: 2011,940
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-shadow
-  rotate: false
-  xy: 1, 939
-  size: 357, 63
-  orig: 357, 63
-  offset: 0, 0
-  index: -1
-HedgeKnightBuffFinished/Ebene_46
-  rotate: false
-  xy: 780, 1
-  size: 588, 603
-  orig: 588, 603
-  offset: 0, 0
-  index: -1
-HedgeKnightBuffFinished/Ebene_59
-  rotate: false
-  xy: 1, 1
-  size: 777, 936
-  orig: 777, 936
-  offset: 0, 0
-  index: -1
 HedgeKnightBuffFinished/Ebene_10
   rotate: false
-  xy: 1370, 1
+  xy: 781, 39
   size: 366, 294
   orig: 366, 294
   offset: 0, 0
   index: -1
 HedgeKnightBuffFinished/Ebene_11
   rotate: false
-  xy: 1738, 216
+  xy: 1149, 90
   size: 153, 243
   orig: 153, 243
   offset: 0, 0
   index: -1
 HedgeKnightBuffFinished/Ebene_21
   rotate: false
-  xy: 1420, 606
+  xy: 1371, 184
   size: 411, 358
   orig: 411, 358
   offset: 0, 0
   index: -1
 HedgeKnightBuffFinished/Ebene_22
   rotate: false
-  xy: 1370, 297
+  xy: 1784, 165
   size: 195, 162
   orig: 195, 162
   offset: 0, 0
   index: -1
 HedgeKnightBuffFinished/Ebene_23
   rotate: false
-  xy: 1738, 1
+  xy: 1784, 329
   size: 212, 213
   orig: 212, 213
   offset: 0, 0
   index: -1
-HedgeKnightBuffFinished/Ebene_35
-  rotate: false
-  xy: 780, 606
-  size: 638, 394
-  orig: 638, 394
-  offset: 0, 0
-  index: -1
 HedgeKnightBuffFinished/Ebene_24
-  rotate: false
-  xy: 1567, 426
+  rotate: true
+  xy: 781, 2
   size: 35, 120
   orig: 35, 120
   offset: 0, 0
   index: -1
 HedgeKnightBuffFinished/Ebene_27
-  rotate: false
-  xy: 1567, 297
+  rotate: true
+  xy: 1149, 43
   size: 45, 127
   orig: 45, 127
+  offset: 0, 0
+  index: -1
+HedgeKnightBuffFinished/Ebene_35
+  rotate: false
+  xy: 1371, 544
+  size: 638, 394
+  orig: 638, 394
+  offset: 0, 0
+  index: -1
+HedgeKnightBuffFinished/Ebene_46
+  rotate: false
+  xy: 781, 335
+  size: 588, 603
+  orig: 588, 603
+  offset: 0, 0
+  index: -1
+HedgeKnightBuffFinished/Ebene_59
+  rotate: false
+  xy: 2, 2
+  size: 777, 936
+  orig: 777, 936
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1304, 119
+  size: 357, 63
+  orig: 357, 63
   offset: 0, 0
   index: -1

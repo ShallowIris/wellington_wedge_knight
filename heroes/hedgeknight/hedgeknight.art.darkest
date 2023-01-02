@@ -17,7 +17,7 @@ combat_skill: .id "hedge_roundswing" .icon "two" .anim "attack_round_swing" .fx 
 combat_skill: .id "hedge_splitshield" .icon "three" .anim "attack_split_shield" .targchestfx "split_shield_target" .can_display_performer_selection_after_turn false
 combat_skill: .id "hedge_pummel" .icon "four" .anim "attack_bash"
 combat_skill: .id "hedge_dismember" .icon "five" .anim "attack_round_swing" .fx "round_swing" .targchestfx "massacre_target"
-combat_skill: .id "hedge_make_way" .icon "six" .anim "attack_bash" .fx "bash" 
+combat_skill: .id "hedge_make_way" .icon "six" .anim "attack_way" .fx "fx_make_way" .area_pos_offset 0 25
 combat_skill: .id "hedge_indomitable" .icon "seven" .anim "attack_yell" .fx "yell"
 				
 combat_move_skill: .id "hedge_wild_swing" .icon "move" .anim "attack_wild_s" .fx "wild_swing"
