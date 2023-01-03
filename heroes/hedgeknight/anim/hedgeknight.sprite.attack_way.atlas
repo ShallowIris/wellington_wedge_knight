@@ -1,20 +1,55 @@
 
 hedgeknight.sprite.attack_way.png
-size: 647,753
+size: 1199,785
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Shadow
-  rotate: true
-  xy: 511, 2
-  size: 749, 134
-  orig: 749, 134
+Ebene 23
+  rotate: false
+  xy: 988, 336
+  size: 166, 110
+  orig: 166, 110
   offset: 0, 0
   index: -1
-make_way
+Ebene 24
   rotate: false
-  xy: 2, 111
-  size: 507, 640
-  orig: 507, 640
+  xy: 988, 448
+  size: 175, 121
+  orig: 175, 121
+  offset: 0, 0
+  index: -1
+Ebene 25
+  rotate: false
+  xy: 988, 210
+  size: 75, 124
+  orig: 75, 124
+  offset: 0, 0
+  index: -1
+Ebene 26
+  rotate: false
+  xy: 988, 153
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: -1
+Ebene 27
+  rotate: false
+  xy: 988, 571
+  size: 209, 212
+  orig: 209, 212
+  offset: 0, 0
+  index: -1
+Ebene 31 Kopie 3
+  rotate: false
+  xy: 2, 2
+  size: 848, 781
+  orig: 848, 781
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: true
+  xy: 852, 34
+  size: 749, 134
+  orig: 749, 134
   offset: 0, 0
   index: -1

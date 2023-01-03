@@ -1,20 +1,55 @@
 
 hedgeknight.sprite.defend.png
-size: 753,852
+size: 1082,753
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Shadow
+Ebene 15
   rotate: false
-  xy: 2, 2
-  size: 749, 134
-  orig: 749, 134
+  xy: 2, 28
+  size: 753, 723
+  orig: 753, 723
   offset: 0, 0
   index: -1
-defend
+Ebene 16
+  rotate: true
+  xy: 893, 544
+  size: 207, 187
+  orig: 207, 187
+  offset: 0, 0
+  index: -1
+Ebene 17
   rotate: false
-  xy: 2, 138
-  size: 682, 712
-  orig: 682, 712
+  xy: 893, 297
+  size: 148, 245
+  orig: 148, 245
+  offset: 0, 0
+  index: -1
+Ebene 18
+  rotate: true
+  xy: 893, 56
+  size: 46, 132
+  orig: 46, 132
+  offset: 0, 0
+  index: -1
+Ebene 19
+  rotate: false
+  xy: 1043, 422
+  size: 36, 120
+  orig: 36, 120
+  offset: 0, 0
+  index: -1
+Ebene 20
+  rotate: true
+  xy: 893, 104
+  size: 191, 150
+  orig: 191, 150
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: true
+  xy: 757, 2
+  size: 749, 134
+  orig: 749, 134
   offset: 0, 0
   index: -1
