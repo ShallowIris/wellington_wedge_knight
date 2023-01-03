@@ -35,9 +35,9 @@
 		{"event_id": "event:/char/ally/hedgeknight_hedge_make_way_hedge_indom",                   "guid_override":"{02e7f131-ef06-496a-b75e-a08b431b0bfa}"},
 		{"event_id": "event:/char/ally/hedgeknight_hedge_make_way_miss_hedge_indom",                   "guid_override":"{d9530ec4-458e-49cc-bfcc-014d797fbaac}"},
 		{"event_id": "event:/char/ally/hedgeknight_hedge_indomitable_hedge_indom",                   "guid_override":"{5bbced79-2ecc-4c11-82d3-2e6bda91b436}"},
-		{"event_id": "event:/_hedge_normal",                   "guid_override":"{9cda1562-6b64-488b-aa2d-feb624e07dec}"},
+		{"event_id": "event:/_hedge_normal",                   "guid_override":"{5e77fd09-7701-48f8-a3db-00ccad256516}"},
 		{"event_id": "event:/_hedge_normal_miss",                   "guid_override":"{5e77fd09-7701-48f8-a3db-00ccad256516}"},
-		{"event_id": "event:/_hedge_indom",                   "guid_override":"{9cda1562-6b64-488b-aa2d-feb624e07dec}"},
+		{"event_id": "event:/_hedge_indom",                   "guid_override":"{5e77fd09-7701-48f8-a3db-00ccad256516}"},
 		{"event_id": "event:/_hedge_indom_miss",                   "guid_override":"{5e77fd09-7701-48f8-a3db-00ccad256516}"},
 
 		{"event_id": "event:/camp/skill/hedgeknight_lesson",                   "guid_override":"{44d6bf62-58ac-4511-aa65-85088b59a3c9}"},
