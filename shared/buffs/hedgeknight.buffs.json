@@ -787,6 +787,32 @@
             "float" : 0,
             "string" : ""
          }
+      },
+      {
+         "id" : "hedgeknight_riposte_hit_chance",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_hit_chance",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+     {
+         "id" : "hedgeknight_riposte_miss_chance",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_miss_chance",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       }
    ]
 }
